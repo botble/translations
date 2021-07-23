@@ -1,0 +1,76 @@
+<?php
+
+return [
+    'menu' => 'Contacto',
+    'edit' => 'Ver contacto',
+    'tables' => [
+        'phone' => 'Teléfono',
+        'email' => 'Correo',
+        'full_name' => 'ombre completo',
+        'time' => 'Tiempo',
+        'address' => 'Dirección',
+        'subject' => 'Asunto',
+        'content' => 'Contenido',
+    ],
+    'contact_information' => 'Información del contacto',
+    'replies' => 'Respuestas',
+    'email' => [
+        'header' => 'Correo',
+        'title' => 'Mensaje nuevo!',
+        'success' => 'Mensaje enviado!',
+        'failed' => 'No se puede enviar el mensaje en este momento. Vuelve a intentarlo más tarde.',
+    ],
+    'form' => [
+        'name' => [
+            'required' => 'El nombre no se puede dejar en blanco',
+        ],
+        'email' => [
+            'required' => 'Necesitamos un correo electrónico!',
+            'email' => 'The email address is not valid',
+        ],
+        'content' => [
+            'required' => 'Es necesario el contenido de su mensaje.',
+        ],
+    ],
+    'contact_sent_from' => 'Información de contacto enviada desde',
+    'sender' => 'Remitente',
+    'sender_email' => 'Correo',
+    'sender_address' => 'Dirección',
+    'sender_phone' => 'Teléfono',
+    'message_content' => 'Contenido del mensaje',
+    'sent_from' => 'Correo electrónico enviado desde',
+    'form_name' => 'Nombre',
+    'form_email' => 'Correo',
+    'form_address' => 'Dirección',
+    'form_subject' => 'Asunto',
+    'form_phone' => 'Teléfono',
+    'form_message' => 'Mensaje',
+    'required_field' => 'Los campos marcados con (<span style="color: red">*</span>) son obligatorios.',
+    'send_btn' => 'Enviar mensaje',
+    'new_msg_notice' => 'Tienes <span class="bold">:count</span> Mensajes nuevos',
+    'view_all' => 'Ver todo',
+    'statuses' => [
+        'read' => 'Leer',
+        'unread' => 'No leído',
+    ],
+    'phone' => 'Teléfono',
+    'address' => 'Direción',
+    'message' => 'Mensaje',
+    'settings' => [
+        'email' => [
+            'title' => 'Contacto',
+            'description' => 'Configuración de correo electrónico de contacto',
+            'templates' => [
+                'notice_title' => 'Enviar aviso al administrador',
+                'notice_description' => 'Plantilla de correo electrónico para enviar un aviso al administrador cuando el sistema obtenga un nuevo contacto',
+            ],
+        ],
+    ],
+    'no_reply' => '¡Aún no hay respuesta!',
+    'reply' => 'Responder',
+    'send' => 'Enviar',
+    'shortcode_name' => 'Formulario de contacto',
+    'shortcode_description' => 'Agregar un formulario de contacto',
+    'shortcode_content_description' => 'Agregar código [contact-form][/contact-form] al editor?',
+    'message_sent_success' => 'Mensaje enviado!',
+];
