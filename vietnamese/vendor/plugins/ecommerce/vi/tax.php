@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'name'       => 'Thuế',
-    'create'     => 'Create a tax',
-    'edit'       => 'Edit tax :title',
-    'title'      => 'Title',
-    'percentage' => 'Percentage %',
-    'priority'   => 'Priority',
-    'select_tax' => '-- select --',
+    'name' => 'Thuế',
+    'create' => 'Tạo thuế',
+    'edit' => 'Chỉnh sửa thuế :title',
+    'title' => 'Tiêu đề',
+    'percentage' => 'Tỉ lệ phần trăm %',
+    'priority' => 'Thứ tự ưu tiên',
+    'select_tax' => '-- lựa chọn --',
 ];
