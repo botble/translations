@@ -19,4 +19,10 @@ return [
     'menu_name' => 'Trang',
     'edit_this_page' => 'Sửa trang này',
     'pages' => 'Trang',
+    'front_page' => 'Trang chủ',
+    'settings' => [
+        'select' => '-- Lựa chọn --',
+        'show_on_front' => 'Lựa chọn trang chủ',
+    ],
+    'total_pages' => 'Tổng số trang',
 ];

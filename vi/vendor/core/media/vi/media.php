@@ -134,4 +134,9 @@ return [
     ],
     'empty_trash_success' => 'Dọn sạch thùng rác thành công',
     'name_invalid' => 'Tên thư mục chứa ký tự không hợp lệ',
+    'path_invalid' => 'Vui lòng cung cấp 1 đường dẫn hợp lệ',
+    'url_invalid' => 'Vui lòng cung cấp 1 đường dẫn hợp lệ',
+    'download_explain' => 'Mỗi URL trên 1 dòng',
+    'download_link' => 'Tải xuống',
+    'downloading' => 'Đang tải xuống',
 ];

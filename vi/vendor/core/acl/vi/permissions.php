@@ -48,4 +48,5 @@ return [
     'role_permission' => 'Nhóm và phân quyền',
     'user_management' => 'Quản lý người dùng hệ thống',
     'super_user_management' => 'Quản lý người dùng cấp cao',
+    'action_unauthorized' => 'Hành động này không được phép',
 ];

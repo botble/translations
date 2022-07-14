@@ -57,4 +57,8 @@ return [
     'shortcode' => 'Shortcode',
     'slug' => 'Slug',
     'title' => 'Tiêu đề',
+    'bulk_changes' => 'Thay đổi hàng loạt',
+    'confirm_delete_many_msg' => 'Bạn có chắc chắn muốn xóa những bản ghi này?',
+    'submit' => 'Hoàn tất',
+    'please_select_record' => 'Vui lòng chọn ít nhất 1 bản ghi để thực hiện hành động này!',
 ];

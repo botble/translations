@@ -2,7 +2,7 @@
 
 return [
     'login' => [
-        'username' => 'Tên truy cập',
+        'username' => 'Email/Tên truy cập',
         'password' => 'Mật khẩu',
         'title' => 'Đăng nhập vào quản trị',
         'remember' => 'Nhớ mật khẩu?',
@@ -41,6 +41,7 @@ return [
         ],
         'new-password' => 'Mật khẩu mới',
         'email' => 'Email',
+        'password_confirmation' => 'Xác nhận mật khẩu mới',
     ],
     'email' => [
         'reminder' => [
@@ -55,4 +56,8 @@ return [
     'lost_your_password' => 'Quên mật khẩu?',
     'not_member' => 'Chưa là thành viên?',
     'register_now' => 'Đăng ký ngay',
+    'languages' => 'Ngôn ngữ',
+    'password_confirmation' => 'Xác nhận mật khẩu',
+    'reset_password' => 'Khôi phục mật khẩu',
+    'sign_in_below' => 'Đăng nhập',
 ];

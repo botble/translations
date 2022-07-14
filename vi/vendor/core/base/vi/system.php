@@ -70,4 +70,9 @@ return [
     'tokenizer_ext' => 'Tokenizer Ext',
     'version' => 'Phiên bản',
     'cms_version' => 'Phiên bản CMS',
+    'queue_connection' => 'Queue Connection',
+    'disabled_in_demo_mode' => 'Bạn không thể thực hiện hành động này ở chế độ demo!',
+    'imagick_or_gd_ext' => 'Imagick/GD Ext',
+    'php_version_error' => 'Phiên bản PHP phải >= :version',
+    'updater' => 'Nâng cấp hệ thống',
 ];

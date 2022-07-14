@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Menu',
+    'name' => 'Trình đơn',
     'cancel' => 'Hủy bỏ',
     'add_link' => 'Thêm liên kết',
     'add_to_menu' => 'Thêm vào trình đơn',
@@ -19,4 +19,6 @@ return [
     'url' => 'URL',
     'create' => 'Tạo trình đơn',
     'edit' => 'Sửa trình đơn',
+    'display_location' => 'Vị trí hiển thị',
+    'menu_settings' => 'Cấu hình menu',
 ];

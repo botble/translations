@@ -11,4 +11,7 @@ return [
     'error' => 'Lỗi!',
     'success' => 'Thành công!',
     'info' => 'Thông tin!',
+    'enum' => [
+        'validate_message' => 'Giá trị của :attribute không hợp lệ',
+    ],
 ];
