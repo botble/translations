@@ -17,6 +17,18 @@ return [
         'title' => 'Thông tin liên hệ mới',
         'header' => 'Email',
     ],
+    'form' => [
+        'name' => [
+            'required' => 'Tên là bắt buộc',
+        ],
+        'email' => [
+            'required' => 'Email là bắt buộc',
+            'email' => 'Địa chỉ email không hợp lệ',
+        ],
+        'content' => [
+            'required' => 'Nội dung là bắt buộc',
+        ],
+    ],
     'contact_sent_from' => 'Liên hệ này được gửi từ',
     'form_address' => 'Địa chỉ',
     'form_email' => 'Thư điện tử',
@@ -50,4 +62,6 @@ return [
             ],
         ],
     ],
+    'replies' => 'Trả lời',
+    'form_subject' => 'Tiêu đề',
 ];

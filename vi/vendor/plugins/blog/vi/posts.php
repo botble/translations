@@ -12,6 +12,7 @@ return [
         'tags' => 'Từ khóa',
         'tags_placeholder' => 'Thêm từ khóa',
         'content' => 'Nội dung',
+        'is_featured' => 'Bài viết nổi bật?',
         'note' => 'Nội dung ghi chú',
         'format_type' => 'Định dạng',
     ],
@@ -21,6 +22,9 @@ return [
     'edit_this_post' => 'Sửa bài viết này',
     'no_new_post_now' => 'Hiện tại không có bài viết mới!',
     'posts' => 'Bài viết',
+    'post' => 'Bài viết',
     'widget_posts_recent' => 'Bài viết gần đây',
     'author' => 'Tác giả',
+    'categories' => 'Danh mục',
+    'category' => 'Danh mục',
 ];
