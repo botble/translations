@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'sessions' => 'Сессии',
+    'visitors' => 'Посетители',
+    'pageviews' => 'Просмотры страниц',
+    'bounce_rate' => 'Показатель отказов',
+    'page_session' => 'Страницы/сессии',
+    'avg_duration' => 'Avg. Продолжительность',
+    'percent_new_session' => 'Процент новой сессии',
+    'new_users' => 'Новые посетители',
+    'visits' => 'посещает',
+    'views' => 'просмотров',
+    'view_id_not_specified' => 'Вы должны указать действительный идентификатор представления. Документ здесь: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics</a>',
+    'credential_is_not_valid' => 'Учетные данные аналитика не действительны. Документ здесь: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics</a>',
+    'start_date_can_not_before_end_date' => 'Дата начала :start_date не может быть после даты окончания :end_date',
+    'wrong_configuration' => 'Для просмотра аналитики вам нужно получить идентификатор клиента google analytics и добавить его в настройки. <br /> Вам также понадобятся учетные данные в формате JSON. <br /> Документ здесь: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics</a>',
+    'settings' => [
+        'title' => 'Google Analytics',
+        'description' => 'Настройка учетных данных для Google Analytics',
+        'tracking_code' => 'Tracking ID',
+        'tracking_code_placeholder' => 'Example: GA-12586526-8',
+        'view_id' => 'View ID',
+        'view_id_description' => 'Google Analytics View ID',
+        'json_credential' => 'Учетные данные сервисной учетной записи',
+        'json_credential_description' => 'Учетные данные сервисной учетной записи',
+    ],
+    'widget_analytics_page' => 'Самые посещаемые страницы',
+    'widget_analytics_browser' => 'Лучшие браузеры',
+    'widget_analytics_referrer' => 'Лучшие рефералы',
+    'widget_analytics_general' => 'Аналитика сайта',
+];
