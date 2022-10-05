@@ -1,0 +1,75 @@
+<?php
+
+return [
+    'address' => 'Endereço',
+    'contact_information' => 'Informações para contato',
+    'contact_sent_from' => 'As informações para contato foram enviadas para',
+    'form_address' => 'Endereço',
+    'form_email' => 'Email',
+    'form_message' => 'Mensagem',
+    'form_name' => 'Nome',
+    'form_phone' => 'Telefone',
+    'form_subject' => 'Assunto',
+    'form' => [
+        'email' => [
+            'required' => 'Email obrigatório',
+            'email' => 'Email inválido',
+        ],
+        'name' => [
+            'required' => 'Nome obrigatório',
+        ],
+        'content' => [
+            'required' => 'Conteúdo necessário',
+        ],
+    ],
+    'menu' => 'Contato',
+    'message_content' => 'Conteúdo da mensagem',
+    'message' => 'Mensagem',
+    'message_sent_success' => 'Mensagem enviada com sucesso!',
+    'phone' => 'Telefone',
+    'reply' => 'Responder',
+    'replies' => 'Respostas',
+    'no_reply' => 'Ainda sem resposta!',
+    'send' => 'Enviar',
+    'send_btn' => 'Enviar mensagem',
+    'sender_address' => 'Endereço',
+    'sender_email' => 'Email',
+    'sender_phone' => 'Telefone',
+    'sent_from' => 'Email enviado de',
+    'statuses' => [
+        'read' => 'Lido',
+        'unread' => 'Não lido',
+    ],
+    'shortcode_description' => 'Adicionar contato de',
+    'settings' => [
+        'email' => [
+            'title' => 'Contato',
+            'templates' => [
+                'notice_title' => 'Enviar informação ao administrador',
+            ],
+            'description' => 'Configuração de email de contato',
+        ],
+        'title' => 'Contato',
+        'blacklist_keywords_placeholder' => 'palavra chave...',
+        'blacklist_keywords' => 'palavra chave para Blacklist',
+        'blacklist_email_domains_placeholder' => 'dominios...',
+    ],
+    'tables' => [
+        'address' => 'Endereço',
+        'content' => 'Conteúdo',
+        'email' => 'Email',
+        'full_name' => 'Nome completo',
+        'phone' => 'Telefone',
+        'subject' => 'Assunto',
+        'time' => 'Horário',
+    ],
+    'view_all' => 'Ver todos',
+    'edit' => 'Visualizar contato',
+    'email' => [
+        'title' => 'Novo contato pelo seu site',
+    ],
+    'sender' => 'Remetente',
+    'new_msg_notice' => 'Voçê tem <span class="bold">:count</span> Novas menságens',
+    'required_field' => 'O campo com (<span style="color: red">*</span>) é necessário.',
+    'shortcode_name' => 'Formulário de contato',
+];

@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'count' => [
+        'customers' => 'Total de clientes',
+        'orders' => 'Total de pedidos',
+        'products' => 'Total de produtos',
+        'revenue' => 'Valor de vendas de hoje',
+    ],
+    'customers' => 'Clientes',
+    'earnings' => 'Ganhos',
+    'orders' => 'Pedidos',
+    'order_completed_this_month' => 'pedido(s) finalizados neste mês',
+    'order_processing_this_month' => 'pedido(s) processados neste mês',
+    'product_name' => 'Nome do produto',
+    'quantity' => 'Quantidade',
+    'products' => 'Produtos',
+    'product_out_of_stock' => 'produto(s) sem estoque',
+    'product_will_be_out_of_stock' => 'produto(s) ficará logo sem estoque',
+    'ranges' => [
+        'last_30_days' => 'Últimos 30 dias',
+        'last_7_days' => 'Últimos 7 dias',
+        'this_month' => 'Este mês',
+        'this_week' => 'Esta semana',
+        'this_year' => 'Este ano',
+        'today' => 'Hoje',
+    ],
+    'recent_orders' => 'Pedidos recentes',
+    'revenue' => 'Ganhos',
+    'revenue_this_month' => 'Ganhos neste mês',
+    'statistics' => 'Estatistica',
+    'top_selling_products' => 'Produtos mais vendidos',
+    'widget' => [
+        'order' => [
+            'title' => 'Pedidos',
+        ],
+    ],
+    'total_earnings' => 'Total de ganhos',
+    'select_range' => 'Selecionar raio',
+    'name' => 'Relatórios',
+    'date_range_format_value' => 'De :from para :to',
+    'items_earning_sales' => 'Valor ganho com vendas: :value',
+    'revenue_statistics' => 'Estatistica de ganhos',
+    'sales_reports' => 'Relatório de Vendas',
+];

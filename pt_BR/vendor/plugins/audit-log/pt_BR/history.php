@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'action' => 'Ação',
+    'attached' => 'Em anexo',
+    'category' => 'categoria',
+    'changed password' => 'alterar senha',
+    'contact' => 'contato',
+    'created' => 'criado',
+    'delete_all' => 'Apagar todos os registros',
+    'deleted' => 'apagado',
+    'logged in' => 'Entrou em',
+    'logged out' => 'Saiu em',
+    'page' => 'página',
+    'system' => 'Sistema',
+    'updated' => 'atualizado',
+    'updated profile' => 'perfil atualizado',
+    'widget_audit_logs' => 'Logs de atividades',
+    'shared' => 'compartilhado',
+    'to the system' => 'ir para sistema',
+    'user' => 'usuário',
+    'custom-field' => 'campo customizado',
+    'name' => 'Log de atividades',
+    'menu' => 'menu',
+    'post' => 'post',
+    'tag' => 'tag',
+    'of the system' => 'do sistema',
+];
