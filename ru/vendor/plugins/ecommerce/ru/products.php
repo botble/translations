@@ -5,7 +5,7 @@ return [
     'create' => 'Новый товар',
     'edit' => 'Редактировать товар - :name',
     'form' => [
-        'name' => 'Name',
+        'name' => 'Название',
         'name_placeholder' => 'Название продукта (максимум 120 символов)',
         'description' => 'Описание',
         'description_placeholder' => 'Краткое описание продукта (не более 400 символов)',
@@ -70,7 +70,7 @@ return [
         'create_product_variations' => ':link для создания вариантов товара!',
         'tags' => 'Теги',
         'write_some_tags' => 'Напишите несколько тегов',
-        'variation_existed' => 'This variation is existed.',
+        'variation_existed' => 'Этот вариант существует.',
         'no_attributes_selected' => 'Атрибуты не выбраны!',
         'added_variation_success' => 'Вариант добавлен!',
         'updated_variation_success' => 'Обновление варианта прошло успешно!',
@@ -145,4 +145,21 @@ return [
     'category' => 'Категория',
     'product_price_flash_sale_warning' => 'Этот товар находится в срочной продаже <strong>:name</strong> поэтому его цена составляет <strong>:price</strong>.',
     'product_price_discount_warning' => 'Этот товар со скидкой <strong>:name</strong> поэтому его цена составляет <strong>:price</strong>.',
+    'create_product_type' => [
+        'digital' => 'Новый цифровой продукт',
+        'physical' => 'Новый физический продукт',
+    ],
+    'digital_attachments' => [
+        'add' => 'Добавить приложение',
+        'file_name' => 'Имя файла',
+        'file_size' => 'Размер файла',
+        'title' => 'Цифровые вложения',
+        'unsaved' => 'Не сохранено',
+    ],
+    'product_image' => 'Изображение продукта',
+    'product_name' => 'Наименование товара',
+    'types' => [
+        'digital' => 'Цифровой',
+        'physical' => 'Физический',
+    ],
 ];

@@ -49,7 +49,7 @@ return [
     'comparable' => 'Сравнимый',
     'use_in_product_listing' => 'Используется в листинге товаров',
     'attributes_list' => 'Список атрибутов',
-    'is_default' => 'Default',
+    'is_default' => 'По умолчанию',
     'title' => 'Атрибут',
     'slug' => 'Slug',
     'color' => 'Цвет',

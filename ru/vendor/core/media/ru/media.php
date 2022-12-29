@@ -144,4 +144,5 @@ return [
     'url' => 'URL',
     'download_explain' => 'Введите один URL-адрес в каждой строке.',
     'downloading' => 'Загрузка...',
+    'file_too_big_readable_size' => 'Файл слишком большой. Максимальная загрузка файла :size.',
 ];

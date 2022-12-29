@@ -51,9 +51,10 @@ return [
         'select' => '— Выбирать —',
         'show_site_name' => 'Показывать название сайта после заголовка страницы, разделяя "-"?',
         'locale' => 'Язык сайта',
-        'locale_direction' => 'Front site language direction',
-        'admin_locale_direction' => 'Admin language direction',
+        'locale_direction' => 'Языковое направление передней части сайта',
+        'admin_locale_direction' => 'Языковое направление администратора',
         'admin_login_screen_backgrounds' => 'Фон экрана входа в систему (~1366x768)',
+        'minutes' => 'минуты',
     ],
     'email' => [
         'subject' => 'Тема',
@@ -161,6 +162,9 @@ return [
         'default_size_value' => 'По умолчанию: :size',
         'all' => 'Все',
         'media_folders_can_add_watermark' => 'Добавление водяных знаков для изображений в папках:',
+        'max_upload_filesize' => 'Максимальный размер загружаемого файла (МБ)',
+        'max_upload_filesize_helper' => 'Ваш сервер позволяет загружать файлы максимального размера :size вы можете изменить это значение, чтобы ограничить размер загружаемого файла.',
+        'max_upload_filesize_placeholder' => 'По умолчанию: :size, должен быть меньше :size.',
     ],
     'license' => [
         'purchase_code' => 'Код покупки',

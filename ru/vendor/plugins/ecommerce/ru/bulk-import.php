@@ -18,7 +18,7 @@ return [
     'rules' => 'Правила',
     'choose_file_with_mime' => 'Выберите файл с типом: (:types)',
     'choose_file' => 'Выберите файл',
-    'menu' => 'Импортная продукция',
+    'menu' => 'Импорт товаров',
     'download-csv-file' => 'Скачать шаблон CSV',
     'download-excel-file' => 'Скачать шаблон Excel',
     'downloading' => 'Загрузка...',

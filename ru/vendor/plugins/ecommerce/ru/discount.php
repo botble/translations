@@ -71,4 +71,5 @@ return [
     'cancel' => 'Отмена',
     'is' => 'Это',
     'when_shipping_fee_less_than' => 'если стоимость доставки менее',
+    'minimum_order_amount_error' => 'Вы не достигли :minimum_amount, чтобы применить купон, вы должны добавить :add_more товаров в корзину',
 ];

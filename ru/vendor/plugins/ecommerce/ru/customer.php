@@ -14,8 +14,8 @@ return [
         'description' => 'Когда клиент покупает ваш продукт (продукты), вы будете знать историю его заказов.',
         'button_text' => 'Создать клиента',
     ],
-    'phone' => 'Phone',
-    'phone_placeholder' => 'Phone',
+    'phone' => 'Телефон',
+    'phone_placeholder' => 'Телефон',
     'avatar' => 'Avatar',
     'dob' => 'Дата рождения',
     'statuses' => [

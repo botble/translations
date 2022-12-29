@@ -19,4 +19,6 @@ return [
     'link_go_to_our_shop' => 'или <a href=":link">Посетите наш магазин</a>',
     'order_number' => 'Номер заказа: <strong>:order_id</strong>',
     'order_information' => 'Информация о заказе:',
+    'order_return_request_description' => 'Отправить клиенту, когда он вернет заказ',
+    'order_return_request_title' => 'Заявление на возврат заказа',
 ];
