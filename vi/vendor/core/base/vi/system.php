@@ -45,6 +45,7 @@ return [
     'curl_ext' => 'CURL Ext',
     'database' => 'Hệ thống dữ liệu',
     'debug_mode' => 'Chế độ sửa lỗi',
+    'debug_mode_off' => 'Tắt chế độ sửa lỗi',
     'dependency_name' => 'Tên gói',
     'exif_ext' => 'Exif Ext',
     'extra_information' => 'Thông tin mở rộng',

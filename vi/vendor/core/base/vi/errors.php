@@ -18,6 +18,6 @@ return [
         .'	                <li>Có thể có lỗi xảy ra.</li>'."\n"
         .'	                <li>Bạn không được cấp quyền để có thể truy cập trang này</li>',
     'reasons' => 'Điều này có thể xảy ra vì nhiều lý do.',
-    'try_again' => 'Vui lòng thử lại trong vài phút, hoặc quay trở lại trang chủ bằng cách <a href="http://cms.local/admin"> nhấn vào đây </a>.',
+    'try_again' => 'Vui lòng thử lại trong vài phút, hoặc quay trở lại trang chủ bằng cách <a href=":link"> nhấn vào đây </a>.',
     'not_found' => 'Không tìm thấy',
 ];
