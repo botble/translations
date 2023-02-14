@@ -14,4 +14,5 @@ return [
     'save_settings' => 'Guardar',
     'before_number' => 'Antes del número',
     'after_number' => 'Después del número',
+    'require_at_least_one_currency' => 'El sistema requiere al menos una moneda!',
 ];

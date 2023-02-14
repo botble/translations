@@ -103,4 +103,5 @@ return [
     'error_when_adding_new_region' => 'Ha habido un error al agregar la región!',
     'delivery' => 'Proceso de entrega',
     'adjustment_price_of' => 'Ajuste precio de :key',
+    'updated_at' => 'Última actualización',
 ];

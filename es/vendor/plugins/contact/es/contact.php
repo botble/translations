@@ -6,7 +6,7 @@ return [
     'tables' => [
         'phone' => 'Teléfono',
         'email' => 'Correo',
-        'full_name' => 'ombre completo',
+        'full_name' => 'Nombre completo',
         'time' => 'Tiempo',
         'address' => 'Dirección',
         'subject' => 'Asunto',

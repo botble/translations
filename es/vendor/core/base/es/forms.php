@@ -22,7 +22,7 @@ return [
     'slug' => 'Slug',
     'title' => 'Título',
     'value' => 'Valor',
-    'name_placeholder' => 'Nombre de la página',
+    'name_placeholder' => 'Nombre del producto',
     'alias_placeholder' => 'Alias',
     'description_placeholder' => 'Descripción corta',
     'parent' => 'Pardre',
@@ -45,4 +45,7 @@ return [
     'link' => 'Link',
     'show_hide_editor' => 'Mostrar/Ocultar Editor',
     'basic_info_title' => 'Información básica',
+    'collapse_all' => 'Desplegar todo',
+    'expand_all' => 'Expandir todo',
+    'view_new_tab' => 'Abrir en una pestaña nueva',
 ];

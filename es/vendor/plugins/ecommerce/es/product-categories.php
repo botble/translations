@@ -12,4 +12,5 @@ return [
         'description' => 'Como: Casa y Jardín, Bolsos, Playa, etc..',
         'button_text' => 'Crear categoría',
     ],
+    'total_products' => 'Total de productos :total',
 ];

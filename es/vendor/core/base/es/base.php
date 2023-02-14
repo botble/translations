@@ -24,4 +24,5 @@ return [
     'select_image' => 'Seleccionar imagen',
     'to_add_more_image' => 'para agregar más imágenes',
     'add_image' => 'Agregar imagen',
+    'tools' => 'Herramienta',
 ];

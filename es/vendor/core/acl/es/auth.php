@@ -21,7 +21,7 @@ return [
         'dont_have_account' => 'No tiene una cuenta en este sistema, comuníquese con el administrador para obtener más información.',
         'email' => 'Correo electrónico',
         'fail' => 'Nombre de usuario o contraseña incorrectos.',
-        'login' => 'Registrarse',
+        'login' => 'ACCESO',
         'logout_success' => 'Sesión Cerrada!',
         'not_active' => '¡Tu cuenta no ha sido activada todavía!',
         'password' => 'Contraseña',
@@ -60,4 +60,10 @@ return [
     ],
     'sign_in_below' => 'Iniciar sesión',
     'throttle' => 'La tortola!',
+    'settings' => [
+        'email' => [
+            'description' => 'Configuración de correo ACL',
+            'title' => 'ACL',
+        ],
+    ],
 ];

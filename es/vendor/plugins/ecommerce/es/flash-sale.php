@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Ventas',
+    'name' => 'Promociones flash',
     'create' => 'Nueva venta',
     'edit' => 'Editar',
     'products' => 'Productos',

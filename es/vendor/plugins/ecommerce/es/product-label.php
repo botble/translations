@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Etiquetas',
+    'name' => 'Etiquetado',
     'create' => 'Nueva etiqueta',
     'edit' => 'Editar etiqueta',
     'color' => 'Color',

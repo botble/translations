@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'filter' => 'Filtrar',
+    'filter' => 'Fil',
     'everything' => 'Todo',
     'image' => 'Imagen',
     'video' => 'Vídeo',
@@ -11,9 +11,9 @@ return [
     'trash' => 'Basura',
     'recent' => 'Reciente',
     'favorites' => 'Favoritos',
-    'upload' => 'Subir',
-    'create_folder' => 'Crear Carpeta',
-    'refresh' => 'Actualizar',
+    'upload' => 'UP',
+    'create_folder' => 'Crea',
+    'refresh' => 'Fresh',
     'empty_trash' => 'Papelera vacía',
     'search_file_and_folder' => 'Buscar archivo y arpeta',
     'sort' => 'Clasificar',
@@ -137,4 +137,7 @@ return [
     'name_invalid' => 'El nombre de la carpeta tiene caracteres no válidos.',
     'url_invalid' => 'Proporcione una URL válida.',
     'path_invalid' => 'Proporcione una ruta válida',
+    'download_link' => 'Flash',
+    'downloading' => 'Flashing...',
+    'download_explain' => 'Una URL por línea',
 ];
