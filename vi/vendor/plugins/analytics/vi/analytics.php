@@ -18,8 +18,8 @@ return [
     'settings' => [
         'title' => 'Google Analytics',
         'description' => 'Config Credentials for Google Analytics',
-        'tracking_code' => 'Tracking Code',
-        'tracking_code_placeholder' => 'Example: GA-12586526-8',
+        'tracking_code' => 'Measurement ID / Tracking ID',
+        'tracking_code_placeholder' => 'Example: G-76NX8HY29D',
         'view_id' => 'View ID',
         'view_id_description' => 'Google Analytics View ID',
         'json_credential' => 'Service Account Credentials',
