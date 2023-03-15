@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'name' => 'Report',
+    'widget' => [
+        'order' => [
+            'title' => 'Commandes',
+        ],
+    ],
+    'count' => [
+        'revenue' => 'Revenus d\'aujourd\'hui',
+        'orders' => 'Commandes d\'aujourd\'hui',
+        'products' => 'Total des produits',
+        'customers' => 'Total des clients',
+    ],
+    'product_name' => 'Nom du produit',
+    'quantity' => 'Quantité',
+    'revenue_statistics' => 'Statistiques sur les recettes',
+    'top_selling_products' => 'Produits les plus vendus',
+    'ranges' => [
+        'today' => 'Aujourd\'hui',
+        'this_week' => 'Cette semaine',
+        'last_7_days' => '7 derniers jours',
+        'last_30_days' => '30 derniers jours',
+        'this_month' => 'Ce mois-ci',
+        'this_year' => 'Cette année',
+    ],
+    'revenue_this_month' => 'Revenus ce mois-ci',
+    'order_processing_this_month' => 'commande(s) traitée(s) ce mois-ci',
+    'order_completed_this_month' => 'commande(s) réalisée(s) ce mois-ci',
+    'product_will_be_out_of_stock' => 'le(s) produit(s) seront bientôt épuisé(s)',
+    'product_out_of_stock' => 'produit(s) en rupture de stock',
+    'sales_reports' => 'Rapports de vente',
+    'total_earnings' => 'Total des bénéfices',
+    'recent_orders' => 'Commandes récentes',
+    'statistics' => 'Statistique',
+    'items_earning_sales' => 'Articles générant des ventes: :value',
+    'revenue' => 'Revenue',
+    'orders' => 'Commandes',
+    'products' => 'Produits',
+    'customers' => 'Clients',
+    'earnings' => 'Les revenus',
+    'date_range_format_value' => 'De :from à :to',
+    'select_range' => 'Sélectionner la plage',
+];
