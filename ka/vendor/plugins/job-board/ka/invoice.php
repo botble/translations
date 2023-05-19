@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'download' => 'გადმოწერა',
+    'create' => 'ახალი ინვოისი',
+    'print' => 'ბეჭდვა',
+    'table' => [
+        'amount' => 'ჯამი',
+        'code' => 'კოდი',
+    ],
+    'total_amount' => 'ჯამი',
+    'payment_status' => 'სტატუსი',
+    'payment_method' => 'გადახდის მეთოდი',
+    'payment_info' => 'საგადასახადო ინფორმაცია',
+    'name' => 'ინვოისები',
+    'heading' => 'ინვოისი',
+    'edit' => 'ინვოისის რედაქტირება',
+    'detail' => [
+        'total' => 'ჯამი',
+        'tax_id' => 'დღგ',
+        'tax' => 'დღგ',
+        'sub_total' => 'ქვეჯამი',
+        'shipping_fee' => 'მიწოდება',
+        'qty' => 'რაოდენობა',
+        'issue_at' => 'გატარების თარიღი',
+        'invoice_to' => 'გადამხდელი',
+        'invoice_for' => 'ინვოისი',
+        'grand_total' => 'ჯამი',
+        'discount' => 'ფასდაკლება',
+        'description' => 'აღწერა',
+        'code' => 'ინვოისის ნომერი',
+        'amount' => 'რაოდენობა',
+    ],
+    'invoice_for_job' => '11',
+];
