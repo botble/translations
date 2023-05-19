@@ -1,18 +1,23 @@
 <?php
 
 return [
-    'name' => 'Unverified vendors',
-    'verify' => 'Verify vendor ":name"',
+    'name' => 'Onaylanmayan bayiler',
+    'verify' => 'Bayiyi onayla ":name"',
     'forms' => [
-        'email' => 'Email',
-        'store_name' => 'Store name',
-        'store_phone' => 'Store phone',
-        'vendor_phone' => 'Phone',
-        'verify_vendor' => 'Verify vendor',
-        'registered_at' => 'Registered At',
+        'email' => 'E-posta',
+        'store_name' => 'Mağaza adı',
+        'store_phone' => 'Mağaza telefonu',
+        'vendor_phone' => 'Telefon',
+        'verify_vendor' => 'Bayi onay durumu',
+        'registered_at' => 'Kayıt oldu',
     ],
-    'approve' => 'Approve',
-    'approve_vendor_confirmation' => 'Approve vendor confirmation',
-    'approve_vendor_confirmation_description' => 'Are you sure you really want to approve :vendor for selling on this site?',
-    'vendor_approval_notification' => 'Do you want to approve this vendor for selling on this site? Approve here :approve_link',
+    'approve' => 'Onayla',
+    'approve_vendor_confirmation' => 'Bayi bilgilerini onayla',
+    'approve_vendor_confirmation_description' => ':vendor \'nin bu sitede satış yapmasını gerçekten onaylamak istediğinizden emin misiniz?',
+    'vendor_approval_notification' => 'Bu satıcının bu sitede satış yapmasını onaylamak istiyor musunuz? :approve_link',
+    'new_vendor_notifications' => [
+        'new_vendor' => 'Yeni bayi',
+        'view' => 'Gör',
+        'description' => ':customer kaydoldu ancak onaylanmadı.',
+    ],
 ];

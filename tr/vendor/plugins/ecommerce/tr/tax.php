@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'name' => 'Taxes',
-    'create' => 'Create a tax',
-    'edit' => 'Edit tax :title',
-    'title' => 'Title',
-    'percentage' => 'Percentage %',
-    'priority' => 'Priority',
-    'select_tax' => '-- select --',
+    'name' => 'Vergiler',
+    'create' => 'Vergi Oluştur',
+    'edit' => 'Vergiyi Düzenle :title',
+    'title' => 'Başlık',
+    'percentage' => 'Yüzde (%)',
+    'priority' => 'Öncelik',
+    'select_tax' => '-- Seç --',
 ];

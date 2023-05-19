@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'password' => 'Passwords must be at least six characters and match the confirmation.',
-    'user' => 'We can\'t find a user with that e-mail address.',
-    'token' => 'This password reset token is invalid.',
-    'sent' => 'Password reminder sent!',
-    'reset' => 'Password has been reset!',
+    'password' => 'Şifreniz en az altı karakterden oluşmalı ve eşleşmelidir',
+    'user' => 'Bu e-posta adresine sahip bir kullanıcı bulamıyoruz.',
+    'token' => 'Bu parola sıfırlama belirteci geçersiz.',
+    'sent' => 'Şifre hatırlatıcı gönderildi!',
+    'reset' => 'Şifreniz sıfırlandı.',
 ];
