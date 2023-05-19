@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Categories',
-    'create' => 'New category',
-    'edit' => 'Edit category',
+    'name' => 'Kategoriler',
+    'create' => 'Yeni Kategori',
+    'edit' => 'Kategoriyi Düzenle',
 ];

@@ -1,11 +1,15 @@
 <?php
 
 return [
-    'shipping_method_required' => 'Shipping method for ":name" store order is required.',
-    'shipping_method_in' => 'Shipping method for ":name" store order is invalid.',
-    'shipping_option_required' => 'Shipping option for ":name" store order is required.',
+    'shipping_method_required' => '":name" mağaza siparişi için gönderim yöntemi gerekiyor.',
+    'shipping_method_in' => '":name" mağaza siparişi için gönderim yöntemi geçersiz.',
+    'shipping_option_required' => '":name" mağaza siparişi için gönderim seçeneği gereklidir.',
     'refund' => [
-        'insufficient_balance' => 'Balance of vendor is not enough to refund order, balance: :balance',
-        'description' => 'Refunded from the order #:order',
+        'insufficient_balance' => 'Satıcı bakiyesi siparişi iade etmek için yeterli değil, bakiye: :bakiye',
+        'description' => '#:order siparişinden geri ödeme yapıldı.',
+    ],
+    'products_are_from_different_vendors' => 'Sipariş oluşturulamıyor! Ürünler farklı satıcılardan.',
+    'return' => [
+        'description' => '#:order siparişinden iade edildi',
     ],
 ];

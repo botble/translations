@@ -1,33 +1,33 @@
 <?php
 
 return [
-    'name' => 'Newsletters',
+    'name' => 'Bültenler',
     'settings' => [
         'email' => [
             'templates' => [
-                'title' => 'Newsletter',
-                'description' => 'Config newsletter email templates',
+                'title' => 'Bülten',
+                'description' => 'Bülten E-Posta şablonlarını yapılandırın',
                 'to_admin' => [
-                    'title' => 'Email send to admin',
-                    'description' => 'Template for sending email to admin',
+                    'title' => 'Yöneticiye e-posta gönder',
+                    'description' => 'Yöneticiye e-posta göndermek için şablon',
                 ],
                 'to_user' => [
-                    'title' => 'Email send to user',
-                    'description' => 'Template for sending email to subscriber',
+                    'title' => 'Kullanıcıya e-posta gönder',
+                    'description' => 'Aboneye e-posta göndermek için şablon',
                 ],
             ],
         ],
-        'title' => 'Newsletter',
-        'description' => 'Settings for newsletter',
-        'mailchimp_api_key' => 'Mailchimp API Key',
-        'mailchimp_list_id' => 'Mailchimp List ID',
-        'mailchimp_list' => 'Mailchimp List',
-        'sendgrid_api_key' => 'Sendgrid API Key',
-        'sendgrid_list_id' => 'Sendgrid List ID',
-        'sendgrid_list' => 'Sendgrid List',
+        'title' => 'Bülten',
+        'description' => 'Bülten Ayarları',
+        'mailchimp_api_key' => 'Mailchimp API Anahtarı',
+        'mailchimp_list_id' => 'Mailchimp Listesi Kimliği',
+        'mailchimp_list' => 'Mailchimp Listesi',
+        'sendgrid_api_key' => 'Sendgrid API Anahtarı',
+        'sendgrid_list_id' => 'Sendgrid Liste Kimliği',
+        'sendgrid_list' => 'SendGrid Listesi',
     ],
     'statuses' => [
-        'subscribed' => 'Subscribed',
-        'unsubscribed' => 'Unsubscribed',
+        'subscribed' => 'Abone Olundu',
+        'unsubscribed' => 'Abonelikten Çıkıldı',
     ],
 ];

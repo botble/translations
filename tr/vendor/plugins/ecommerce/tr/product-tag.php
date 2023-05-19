@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Product tags',
-    'create' => 'New product tag',
-    'edit' => 'Edit product tag',
+    'name' => 'Ürün adı',
+    'create' => 'Yeni ürün adı',
+    'edit' => 'Ürün adını düzenle',
 ];

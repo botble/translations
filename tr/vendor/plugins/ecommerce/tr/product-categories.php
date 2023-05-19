@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'name' => 'Product categories',
-    'create' => 'Create new product category',
-    'edit' => 'Edit product category',
-    'list' => 'List product categories',
-    'none' => 'None',
-    'menu' => 'Product categories',
+    'name' => 'Ürün Kategorileri',
+    'create' => 'Yeni ürün kategorisi oluştur',
+    'edit' => 'Ürün kategorisini düzenle',
+    'list' => 'Ürün kategorilerini listeleyin',
+    'none' => 'Hiçbiri',
+    'menu' => 'Ürün Kategorileri',
     'intro' => [
-        'title' => 'Manage product categories',
-        'description' => 'Such as clothes, shoes, bags, jewelry ...',
-        'button_text' => 'Create product category',
+        'title' => 'Ürün kategorilerini yönetin',
+        'description' => 'Kıyafet, ayakkabı, çanta, takı gibi...',
+        'button_text' => 'Ürün kategorisi oluştur',
     ],
-    'total_products' => 'Total products: :total',
+    'total_products' => 'Toplam ürün: :total',
 ];
