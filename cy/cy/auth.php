@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 return [
-    'failed'   => 'Nid yw\'r manylion hyn yn cyfateb i\'n cofnodion.',
-    'password' => 'Mae\'r cyfrinair yn anghywir.',
-    'throttle' => 'Gormod o ymdrechion mewngofnodi. Ceisiwch eto mewn :seconds eiliad.',
+    'failed'   => 'These credentials do not match our records.',
+    'password' => 'The provided password is incorrect.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 ];

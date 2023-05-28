@@ -4,6 +4,6 @@ declare(strict_types=1);
 
 return [
     'failed'   => 'ಈ ರುಜುವಾತುಗಳು ನಮ್ಮ ದಾಖಲೆಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.',
-    'password' => 'ಪಾಸ್ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ.',
+    'password' => 'The provided password is incorrect.',
     'throttle' => 'ಹಲವಾರು ಲಾಗಿನ್ ಪ್ರಯತ್ನಗಳು. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ :seconds	 ಸೆಕೆಂಡುಗಳಲ್ಲಿ',
 ];

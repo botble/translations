@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 return [
-    'failed'   => 'Bu şahsyýetnamalar, ýazgylarymyza gabat gelmeýär.',
-    'password' => 'Parol nädogry',
-    'throttle' => 'Giriş synanyşyklary gaty köp. :seconds sekuntda gaýtadan synanyşmagyňyzy haýyş edýäris.',
+    'failed'   => 'These credentials do not match our records.',
+    'password' => 'The provided password is incorrect.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 ];

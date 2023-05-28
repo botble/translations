@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 return [
-    'reset'     => 'Lozinka je ponovno postavljena!',
-    'sent'      => 'E-mail sa poveznicom za ponovno postavljanje lozinke je poslan!',
+    'reset'     => 'Lozinka je postavljena!',
+    'sent'      => 'Poveznica za ponovono postavljanje lozinke je poslana!',
     'throttled' => 'Molimo pričekajte prije ponovnog pokušaja!',
     'token'     => 'Oznaka za ponovno postavljanje lozinke više nije važeća.',
-    'user'      => 'Korisnik s navedenom e-mail adresom nije pronađen.',
+    'user'      => 'Korisnik nije pronađen.',
 ];
