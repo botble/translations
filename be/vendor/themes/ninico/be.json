@@ -1,0 +1,15 @@
+{
+    "Home": "дадому",
+    "Page could not be found": "Старонку не знайсці",
+    "This may have occurred because of several reasons": "Гэта магло адбыцца па некалькіх прычынах",
+    "The page you requested does not exist.": "Запытаная вамі старонка не існуе.",
+    "The link you clicked is no longer.": "Спасылка, якую вы націснулі, больш не існуе.",
+    "The page may have moved to a new location.": "Магчыма, старонка пераехала ў новае месца.",
+    "An error may have occurred.": "Магчыма, адбылася памылка.",
+    "You are not authorized to view the requested resource.": "Вы не маеце права праглядаць запытаны рэсурс.",
+    "Page could not be loaded": "Не ўдалося загрузіць старонку",
+    "Service Unavailable": "Паслуга недаступная",
+    "Sorry, we are doing some maintenance. Please check back soon.": "На жаль, мы праводзім тэхнічнае абслугоўванне. Калі ласка, праверце пазней.",
+    "Oh no": "о не",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Паўтарыце спробу праз некалькі хвілін або вярніцеся на галоўную старонку, <a href=\":link\">націснуўшы тут</a>."
+}
