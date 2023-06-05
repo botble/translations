@@ -1,0 +1,15 @@
+{
+    "Home": "Ana səhifə",
+    "Page could not be found": "Səhifə tapılmadı",
+    "This may have occurred because of several reasons": "Bu bir neçə səbəbə görə baş verə bilər",
+    "The page you requested does not exist.": "İstədiyiniz səhifə mövcud deyil.",
+    "The link you clicked is no longer.": "Tıkladığınız link artıq deyil.",
+    "The page may have moved to a new location.": "Səhifə yeni bir yerə köçmüş ola bilər.",
+    "An error may have occurred.": "Səhv baş vermiş ola bilər.",
+    "You are not authorized to view the requested resource.": "Tələb olunan mənbəyə baxmaq səlahiyyətiniz yoxdur.",
+    "Page could not be loaded": "Səhifə yüklənə bilmədi",
+    "Service Unavailable": "Xidmət mövcud deyil",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Bağışlayın, biz bir az texniki xidmət göstəririk. Zəhmət olmasa tezliklə yenidən yoxlayın.",
+    "Oh no": "Oh yox",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Zəhmət olmasa bir neçə dəqiqədən sonra yenidən cəhd edin və ya alternativ olaraq buraya <a href=\":link\">klikləməklə</a> ana səhifəyə qayıdın."
+}
