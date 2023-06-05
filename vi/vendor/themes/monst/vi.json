@@ -148,6 +148,7 @@
     "Our Blog": "Blog của chúng tôi",
     "Password": "Mật khẩu",
     "Phone": "Điện thoại",
+    "Please accept agree terms and conditions to continue to next step": "Vui lòng chấp nhận đồng ý các điều khoản và điều kiện để tiếp tục bước tiếp theo",
     "Please solve the following math function: :label = ?": "Vui lòng giải hàm toán sau: :label =?",
     "Popular tags": "Thẻ phổ biến",
     "Popup": "Popup",
@@ -256,6 +257,5 @@
     "here": "ở đây",
     "sub title": "tiêu đề phụ",
     "title": "chức vụ",
-    "title color": "màu tiêu đề",
-    "Please accept agree terms and conditions to continue to next step": "Vui lòng chấp nhận đồng ý các điều khoản và điều kiện để tiếp tục bước tiếp theo"
+    "title color": "màu tiêu đề"
 }
