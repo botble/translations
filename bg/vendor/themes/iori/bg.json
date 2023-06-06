@@ -1,0 +1,15 @@
+{
+    "Home": "У дома",
+    "Page could not be found": "Страницата не може да бъде намерена",
+    "This may have occurred because of several reasons": "Това може да се е случило поради няколко причини",
+    "The page you requested does not exist.": "Страницата, която поискахте, не съществува.",
+    "The link you clicked is no longer.": "Връзката, върху която сте кликнали, вече не е.",
+    "The page may have moved to a new location.": "Страницата може да се е преместила на ново място.",
+    "An error may have occurred.": "Възможно е да е възникнала грешка.",
+    "You are not authorized to view the requested resource.": "Нямате право да видите заявения ресурс.",
+    "Page could not be loaded": "Страницата не можа да бъде заредена",
+    "Service Unavailable": "Услугата не е достъпна",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Съжаляваме, извършваме поддръжка. Моля, проверете отново скоро.",
+    "Oh no": "о, не",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Моля, опитайте отново след няколко минути или се върнете към началната страница, като <a href=\":link\">щракнете тук</a>."
+}
