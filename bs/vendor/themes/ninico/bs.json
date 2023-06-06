@@ -1,0 +1,15 @@
+{
+    "Home": "Dom",
+    "Page could not be found": "Stranica nije pronađena",
+    "This may have occurred because of several reasons": "Ovo se moglo dogoditi iz nekoliko razloga",
+    "The page you requested does not exist.": "Stranica koju ste tražili ne postoji.",
+    "The link you clicked is no longer.": "Veza na koju ste kliknuli više nije.",
+    "The page may have moved to a new location.": "Stranica je možda premještena na novu lokaciju.",
+    "An error may have occurred.": "Možda je došlo do greške.",
+    "You are not authorized to view the requested resource.": "Niste ovlašteni za pregled traženog resursa.",
+    "Page could not be loaded": "Stranica nije mogla biti učitana",
+    "Service Unavailable": "usluga nedostupna",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Žao nam je, radimo na održavanju. Provjerite ponovo uskoro.",
+    "Oh no": "o ne",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Pokušajte ponovo za nekoliko minuta ili se vratite na početnu stranicu tako što ćete <a href=\":link\">kliknuti ovdje</a>."
+}
