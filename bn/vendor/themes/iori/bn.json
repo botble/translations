@@ -1,0 +1,15 @@
+{
+    "An error may have occurred.": "একটি ত্রুটি ঘটেছে হতে পারে.",
+    "Home": "বাড়ি",
+    "Oh no": "ওহ না",
+    "Page could not be found": "পাতা খুঁজে পাওয়া যায়নি",
+    "Page could not be loaded": "পৃষ্ঠা লোড করা যায়নি",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "অনুগ্রহ করে কয়েক মিনিটের মধ্যে আবার চেষ্টা করুন, অথবা বিকল্পভাবে <a href=\":link\">এখানে ক্লিক করে</a> হোমপেজে ফিরে যান।",
+    "Service Unavailable": "সার্ভিস উপলব্ধ নয়",
+    "Sorry, we are doing some maintenance. Please check back soon.": "দুঃখিত, আমরা কিছু রক্ষণাবেক্ষণ করছি. শীঘ্রই আবার চেক করুন.",
+    "The link you clicked is no longer.": "আপনি যে লিঙ্কটি ক্লিক করেছেন সেটি আর নেই।",
+    "The page may have moved to a new location.": "পৃষ্ঠাটি একটি নতুন অবস্থানে স্থানান্তরিত হতে পারে৷",
+    "The page you requested does not exist.": "আপনার অনুরোধ করা পৃষ্ঠাটি বিদ্যমান নেই।",
+    "This may have occurred because of several reasons": "এটি বিভিন্ন কারণে ঘটেছে হতে পারে",
+    "You are not authorized to view the requested resource.": "আপনি অনুরোধ করা সম্পদ দেখার জন্য অনুমোদিত নন."
+}
