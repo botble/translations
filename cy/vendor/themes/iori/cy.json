@@ -1,0 +1,15 @@
+{
+    "Home": "Cartref",
+    "Page could not be found": "Nid oedd modd dod o hyd i'r dudalen",
+    "This may have occurred because of several reasons": "Gall hyn fod wedi digwydd oherwydd sawl rheswm",
+    "The page you requested does not exist.": "Nid yw'r dudalen y gofynnoch amdani yn bodoli.",
+    "The link you clicked is no longer.": "Nid yw'r ddolen a gliciwyd gennych bellach.",
+    "The page may have moved to a new location.": "Mae'n bosib bod y dudalen wedi symud i leoliad newydd.",
+    "An error may have occurred.": "Mae'n bosibl bod gwall wedi digwydd.",
+    "You are not authorized to view the requested resource.": "Nid ydych wedi'ch awdurdodi i weld yr adnodd y gofynnwyd amdano.",
+    "Page could not be loaded": "Nid oedd modd llwytho'r dudalen",
+    "Service Unavailable": "Gwasanaeth ddim ar gael",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Mae'n ddrwg gennym, rydym yn gwneud rhywfaint o waith cynnal a chadw. Gwiriwch yn ôl yn fuan.",
+    "Oh no": "o na",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Ceisiwch eto ymhen ychydig funudau, neu fel arall dychwelwch i'r hafan drwy <a href=\":link\">glicio yma</a>."
+}

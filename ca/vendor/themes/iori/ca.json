@@ -1,0 +1,15 @@
+{
+    "Home": "a casa",
+    "Page could not be found": "No s'ha pogut trobar la pàgina",
+    "This may have occurred because of several reasons": "Això pot haver passat per diversos motius",
+    "The page you requested does not exist.": "La pàgina que has sol·licitat no existeix.",
+    "The link you clicked is no longer.": "L'enllaç que heu fet clic ja no és.",
+    "The page may have moved to a new location.": "És possible que la pàgina s'hagi mogut a una ubicació nova.",
+    "An error may have occurred.": "És possible que s'hagi produït un error.",
+    "You are not authorized to view the requested resource.": "No teniu autorització per veure el recurs sol·licitat.",
+    "Page could not be loaded": "No s'ha pogut carregar la pàgina",
+    "Service Unavailable": "Servei no disponible",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Ho sentim, estem fent una mica de manteniment. Torneu a comprovar aviat.",
+    "Oh no": "Oh no",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Si us plau, torneu-ho a provar d'aquí a uns minuts o, alternativament, torneu a la pàgina d'inici <a href=\":link\">fent clic aquí</a>."
+}

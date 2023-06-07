@@ -1,0 +1,15 @@
+{
+    "Home": "Domov",
+    "Page could not be found": "Stránka nebyla nalezena",
+    "This may have occurred because of several reasons": "K tomu mohlo dojít z několika důvodů",
+    "The page you requested does not exist.": "Požadovaná stránka neexistuje.",
+    "The link you clicked is no longer.": "Odkaz, na který jste klikli, již není.",
+    "The page may have moved to a new location.": "Stránka se možná přesunula na nové místo.",
+    "An error may have occurred.": "Mohlo dojít k chybě.",
+    "You are not authorized to view the requested resource.": "Nemáte oprávnění k zobrazení požadovaného zdroje.",
+    "Page could not be loaded": "Stránku nelze načíst",
+    "Service Unavailable": "služba je nedostupná",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Omlouváme se, provádíme údržbu. Vraťte se prosím brzy.",
+    "Oh no": "Ach ne",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Zkuste to prosím znovu za několik minut, nebo se vraťte na domovskou stránku <a href=\":link\">kliknutím sem</a>."
+}
