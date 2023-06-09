@@ -1,0 +1,15 @@
+{
+    "Home": "Hjem",
+    "Page could not be found": "Siden kunne ikke findes",
+    "This may have occurred because of several reasons": "Dette kan være sket på grund af flere årsager",
+    "The page you requested does not exist.": "Den side, du anmodede om, findes ikke.",
+    "The link you clicked is no longer.": "Det link, du klikkede på, er ikke længere.",
+    "The page may have moved to a new location.": "Siden kan være flyttet til en ny placering.",
+    "An error may have occurred.": "Der kan være opstået en fejl.",
+    "You are not authorized to view the requested resource.": "Du er ikke autoriseret til at se den anmodede ressource.",
+    "Page could not be loaded": "Siden kunne ikke indlæses",
+    "Service Unavailable": "Service ikke tilgængelig",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Beklager, vi udfører noget vedligeholdelse. Kom venligst snart tilbage.",
+    "Oh no": "Åh nej",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Prøv venligst igen om et par minutter, eller vend alternativt tilbage til startsiden ved at <a href=\":link\">klikke her</a>."
+}
