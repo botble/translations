@@ -1,0 +1,15 @@
+{
+    "Home": "Rumah",
+    "Page could not be found": "Halaman tidak dapat ditemukan",
+    "This may have occurred because of several reasons": "Hal ini mungkin terjadi karena beberapa alasan",
+    "The page you requested does not exist.": "Halaman yang Anda minta tidak ada.",
+    "The link you clicked is no longer.": "Tautan yang Anda klik tidak lagi.",
+    "The page may have moved to a new location.": "Laman mungkin telah dipindahkan ke lokasi baru.",
+    "An error may have occurred.": "Kesalahan mungkin telah terjadi.",
+    "You are not authorized to view the requested resource.": "Anda tidak diizinkan untuk melihat sumber daya yang diminta.",
+    "Page could not be loaded": "Halaman tidak dapat dimuat",
+    "Service Unavailable": "Layanan tidak tersedia",
+    "Sorry, we are doing some maintenance. Please check back soon.": "Maaf, kami sedang melakukan beberapa pemeliharaan. Silakan periksa kembali nanti.",
+    "Oh no": "Oh tidak",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "Coba lagi dalam beberapa menit, atau kembali ke beranda dengan <a href=\":link\">mengklik di sini</a>."
+}
