@@ -1,15 +1,15 @@
 {
+    "Home": "بيت",
+    "Page could not be found": "لا يمكن العثور على الصفحة",
+    "This may have occurred because of several reasons": "ربما حدث هذا لعدة أسباب",
+    "The page you requested does not exist.": "الصفحة المطلوبة غير موجودة.",
+    "The link you clicked is no longer.": "الارتباط الذي نقرت عليه لم يعد.",
+    "The page may have moved to a new location.": "ربما انتقلت الصفحة إلى مكان جديد.",
     "An error may have occurred.": "ربما حدث خطأ.",
-    "Home": "الصفحة الرئيسية",
-    "Oh no": "أوه، لا.",
-    "Page could not be found": "تعذر العثور على الصفحة",
-    "Page could not be loaded": "تعذر تحميل الصفحة",
-    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "يرجى المحاولة مرة أخرى في غضون بضع دقائق، أو بدلاً من ذلك العودة إلى الصفحة الرئيسية <a href=\":link\">بالنقر هنا</a>.",
+    "You are not authorized to view the requested resource.": "أنت غير مصرح لك لعرض الموارد المطلوبة.",
+    "Page could not be loaded": "لا يمكن تحميل الصفحة",
     "Service Unavailable": "الخدمة غير متوفرة",
     "Sorry, we are doing some maintenance. Please check back soon.": "عذرا ، نحن نقوم ببعض الصيانة. الرجاء التحقق مرة اخرى قريبا.",
-    "The link you clicked is no longer.": "لم يعد الرابط الذي نقرت عليه موجودًا.",
-    "The page may have moved to a new location.": "ربما تم نقل الصفحة إلى موقع جديد.",
-    "The page you requested does not exist.": "الصفحة التي طلبتها غير موجودة.",
-    "This may have occurred because of several reasons": "ربما حدث هذا بسبب عدة أسباب",
-    "You are not authorized to view the requested resource.": "لا يحق لك عرض المورد المطلوب."
+    "Oh no": "أوه لا",
+    "Please try again in a few minutes, or alternatively return to the homepage by <a href=\":link\">clicking here</a>.": "يرجى المحاولة مرة أخرى في غضون بضع دقائق ، أو بدلاً من ذلك العودة إلى الصفحة الرئيسية عن طريق <a href=\":link\"> النقر هنا </a>."
 }
