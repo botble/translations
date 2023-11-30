@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => 'Le champ :attribute doit être accepté.',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => 'Le fichier du champ :attribute n\'a pu être téléversé.',
     'url'                  => 'Le format de l\'URL de :attribute n\'est pas valide.',
     'uuid'                 => 'Le champ :attribute doit être un UUID valide',
-    'attributes'           => [
-        'address'                  => 'adresse',
-        'age'                      => 'âge',
-        'amount'                   => 'Amount',
-        'area'                     => 'Area',
-        'available'                => 'disponible',
-        'birthday'                 => 'Birthday',
-        'body'                     => 'Body',
-        'city'                     => 'ville',
-        'content'                  => 'contenu',
-        'country'                  => 'pays',
-        'created_at'               => 'Created At',
-        'creator'                  => 'Creator',
-        'current_password'         => 'mot de passe actuel',
-        'date'                     => 'date',
-        'date_of_birth'            => 'Date Of Birth',
-        'day'                      => 'jour',
-        'deleted_at'               => 'Deleted At',
-        'description'              => 'description',
-        'district'                 => 'District',
-        'duration'                 => 'Duration',
-        'email'                    => 'adresse e-mail',
-        'excerpt'                  => 'extrait',
-        'filter'                   => 'Filter',
-        'first_name'               => 'prénom',
-        'gender'                   => 'genre',
-        'group'                    => 'Group',
-        'hour'                     => 'heure',
-        'image'                    => 'Image',
-        'last_name'                => 'nom',
-        'lesson'                   => 'Lesson',
-        'line_address_1'           => 'Line Address 1',
-        'line_address_2'           => 'Line Address 2',
-        'message'                  => 'Message',
-        'middle_name'              => 'Middle Name',
-        'minute'                   => 'minute',
-        'mobile'                   => 'portable',
-        'month'                    => 'mois',
-        'name'                     => 'nom',
-        'national_code'            => 'National Code',
-        'number'                   => 'Number',
-        'password'                 => 'mot de passe',
-        'password_confirmation'    => 'confirmation du mot de passe',
-        'phone'                    => 'téléphone',
-        'photo'                    => 'Photo',
-        'postal_code'              => 'Postal Code',
-        'price'                    => 'Price',
-        'province'                 => 'Province',
-        'recaptcha_response_field' => 'Recaptcha Response Field',
-        'remember'                 => 'Remember',
-        'restored_at'              => 'Restored At',
-        'result_text_under_image'  => 'Result Text Under Image',
-        'role'                     => 'Role',
-        'second'                   => 'seconde',
-        'sex'                      => 'sexe',
-        'short_text'               => 'Short Text',
-        'size'                     => 'taille',
-        'state'                    => 'State',
-        'street'                   => 'Street',
-        'student'                  => 'Student',
-        'subject'                  => 'Subject',
-        'teacher'                  => 'Teacher',
-        'terms'                    => 'Terms',
-        'test_description'         => 'Test Description',
-        'test_locale'              => 'Test Locale',
-        'test_name'                => 'Test Name',
-        'text'                     => 'Text',
-        'time'                     => 'heure',
-        'title'                    => 'titre',
-        'updated_at'               => 'Updated At',
-        'username'                 => 'nom d\'utilisateur',
-        'year'                     => 'année',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',

@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => ':attribute গ্রহণ করা আবশ্যক।',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => ':attribute আপলোড করতে ব্যর্থ হয়েছে।',
     'url'                  => ':attribute বিন্যাস অবৈধ।',
     'uuid'                 => 'দী :attribute একটি বৈধ ইউইউআইডি হতে হবে.',
-    'attributes'           => [
-        'address'                  => 'ঠিকানা',
-        'age'                      => 'বয়স',
-        'amount'                   => 'Amount',
-        'area'                     => 'Area',
-        'available'                => 'Available',
-        'birthday'                 => 'Birthday',
-        'body'                     => 'বডি',
-        'city'                     => 'জেলা',
-        'content'                  => 'কনটেন্ট',
-        'country'                  => 'দেশ',
-        'created_at'               => 'Created At',
-        'creator'                  => 'Creator',
-        'current_password'         => 'Current Password',
-        'date'                     => 'তারিখ',
-        'date_of_birth'            => 'Date Of Birth',
-        'day'                      => 'দিন',
-        'deleted_at'               => 'Deleted At',
-        'description'              => 'বর্ণনা',
-        'district'                 => 'District',
-        'duration'                 => 'Duration',
-        'email'                    => 'ই-মেইল',
-        'excerpt'                  => 'উদ্ধৃতি',
-        'filter'                   => 'Filter',
-        'first_name'               => 'নাম (প্রথম অংশ)',
-        'gender'                   => 'লিঙ্গ',
-        'group'                    => 'Group',
-        'hour'                     => 'ঘন্টা',
-        'image'                    => 'Image',
-        'last_name'                => 'নাম (শেষ অংশ)',
-        'lesson'                   => 'Lesson',
-        'line_address_1'           => 'Line Address 1',
-        'line_address_2'           => 'Line Address 2',
-        'message'                  => 'বার্তা',
-        'middle_name'              => 'Middle Name',
-        'minute'                   => 'মিনিট',
-        'mobile'                   => 'মোবাইল',
-        'month'                    => 'মাস',
-        'name'                     => 'নাম',
-        'national_code'            => 'National Code',
-        'number'                   => 'Number',
-        'password'                 => 'পাসওয়ার্ড',
-        'password_confirmation'    => 'পাসওয়ার্ড যাচাইকরণ',
-        'phone'                    => 'ফোন',
-        'photo'                    => 'ছবি',
-        'postal_code'              => 'Postal Code',
-        'price'                    => 'মূল্য',
-        'province'                 => 'Province',
-        'recaptcha_response_field' => 'Recaptcha Response Field',
-        'remember'                 => 'Remember',
-        'restored_at'              => 'Restored At',
-        'result_text_under_image'  => 'Result Text Under Image',
-        'role'                     => 'ভূমিকা',
-        'second'                   => 'দ্বিতীয়',
-        'sex'                      => 'লিঙ্গ',
-        'short_text'               => 'Short Text',
-        'size'                     => 'Size',
-        'state'                    => 'State',
-        'street'                   => 'Street',
-        'student'                  => 'Student',
-        'subject'                  => 'বিষয়',
-        'teacher'                  => 'Teacher',
-        'terms'                    => 'শর্তসমূহ',
-        'test_description'         => 'Test Description',
-        'test_locale'              => 'Test Locale',
-        'test_name'                => 'Test Name',
-        'text'                     => 'Text',
-        'time'                     => 'সময়',
-        'title'                    => 'টাইটেল',
-        'updated_at'               => 'Updated At',
-        'username'                 => 'ইউজারনেম',
-        'year'                     => 'বছর',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',

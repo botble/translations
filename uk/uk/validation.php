@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => 'Ви повинні прийняти :attribute.',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => 'Завантаження :attribute не вдалося.',
     'url'                  => 'Формат поля :attribute хибний.',
     'uuid'                 => 'Поле :attribute має бути коректним UUID ідентифікатором.',
-    'attributes'           => [
-        'address'                  => 'Адреса',
-        'age'                      => 'Вік',
-        'amount'                   => 'Amount',
-        'area'                     => 'Area',
-        'available'                => 'Доступно',
-        'birthday'                 => 'Birthday',
-        'body'                     => 'Body',
-        'city'                     => 'Місто',
-        'content'                  => 'Контент',
-        'country'                  => 'Країна',
-        'created_at'               => 'Created At',
-        'creator'                  => 'Creator',
-        'current_password'         => 'Current Password',
-        'date'                     => 'Дата',
-        'date_of_birth'            => 'Date Of Birth',
-        'day'                      => 'День',
-        'deleted_at'               => 'Deleted At',
-        'description'              => 'Опис',
-        'district'                 => 'District',
-        'duration'                 => 'Duration',
-        'email'                    => 'E-mail адреса',
-        'excerpt'                  => 'Уривок',
-        'filter'                   => 'Filter',
-        'first_name'               => 'Ім\'я',
-        'gender'                   => 'Стать',
-        'group'                    => 'Group',
-        'hour'                     => 'Година',
-        'image'                    => 'Image',
-        'last_name'                => 'Прізвище',
-        'lesson'                   => 'Lesson',
-        'line_address_1'           => 'Line Address 1',
-        'line_address_2'           => 'Line Address 2',
-        'message'                  => 'Message',
-        'middle_name'              => 'Middle Name',
-        'minute'                   => 'Хвилина',
-        'mobile'                   => 'Моб. номер',
-        'month'                    => 'Місяць',
-        'name'                     => 'Ім\'я',
-        'national_code'            => 'National Code',
-        'number'                   => 'Number',
-        'password'                 => 'Пароль',
-        'password_confirmation'    => 'Підтвердження пароля',
-        'phone'                    => 'Телефон',
-        'photo'                    => 'Photo',
-        'postal_code'              => 'Postal Code',
-        'price'                    => 'Price',
-        'province'                 => 'Province',
-        'recaptcha_response_field' => 'Recaptcha Response Field',
-        'remember'                 => 'Remember',
-        'restored_at'              => 'Restored At',
-        'result_text_under_image'  => 'Result Text Under Image',
-        'role'                     => 'Role',
-        'second'                   => 'Секунда',
-        'sex'                      => 'Стать',
-        'short_text'               => 'Short Text',
-        'size'                     => 'Розмір',
-        'state'                    => 'State',
-        'street'                   => 'Street',
-        'student'                  => 'Student',
-        'subject'                  => 'Subject',
-        'teacher'                  => 'Teacher',
-        'terms'                    => 'Terms',
-        'test_description'         => 'Test Description',
-        'test_locale'              => 'Test Locale',
-        'test_name'                => 'Test Name',
-        'text'                     => 'Text',
-        'time'                     => 'Час',
-        'title'                    => 'Назва',
-        'updated_at'               => 'Updated At',
-        'username'                 => 'Нікнейм',
-        'year'                     => 'Рік',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',

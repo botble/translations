@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => ':attribute ha de ser acceptat.',
@@ -119,78 +128,12 @@ return [
     'uploaded'             => ':attribute ha fallat al pujar.',
     'url'                  => ':attribute no és una adreça web vàlida.',
     'uuid'                 => 'El :attribute ha de ser un indentificador únic universal (UUID) vàlid.',
-    'attributes'           => [
-        'address'                  => 'adreça',
-        'age'                      => 'edat',
-        'amount'                   => 'Amount',
-        'area'                     => 'Area',
-        'available'                => 'Available',
-        'birthday'                 => 'Birthday',
-        'body'                     => 'cos',
-        'city'                     => 'ciutat',
-        'content'                  => 'contingut',
-        'country'                  => 'país',
-        'created_at'               => 'Created At',
-        'creator'                  => 'Creator',
-        'current_password'         => 'Current Password',
-        'date'                     => 'data',
-        'date_of_birth'            => 'Date Of Birth',
-        'day'                      => 'dia',
-        'deleted_at'               => 'Deleted At',
-        'description'              => 'descripció',
-        'district'                 => 'District',
-        'duration'                 => 'Duration',
-        'email'                    => 'adreça electrònica',
-        'excerpt'                  => 'extracte',
-        'filter'                   => 'Filter',
-        'first_name'               => 'nom',
-        'gender'                   => 'gènere',
-        'group'                    => 'Group',
-        'hour'                     => 'hora',
-        'image'                    => 'Image',
-        'last_name'                => 'cognom',
-        'lesson'                   => 'Lesson',
-        'line_address_1'           => 'Line Address 1',
-        'line_address_2'           => 'Line Address 2',
-        'message'                  => 'missatge',
-        'middle_name'              => 'Middle Name',
-        'minute'                   => 'minut',
-        'mobile'                   => 'mòbil',
-        'month'                    => 'mes',
-        'name'                     => 'nom',
-        'national_code'            => 'National Code',
-        'number'                   => 'Number',
-        'password'                 => 'contrasenya',
-        'password_confirmation'    => 'confirmació de la contrasenya',
-        'phone'                    => 'telèfon',
-        'photo'                    => 'Photo',
-        'postal_code'              => 'Postal Code',
-        'price'                    => 'preu',
-        'province'                 => 'Province',
-        'recaptcha_response_field' => 'Recaptcha Response Field',
-        'remember'                 => 'Remember',
-        'restored_at'              => 'Restored At',
-        'result_text_under_image'  => 'Result Text Under Image',
-        'role'                     => 'Role',
-        'second'                   => 'segon',
-        'sex'                      => 'sexe',
-        'short_text'               => 'Short Text',
-        'size'                     => 'Size',
-        'state'                    => 'State',
-        'street'                   => 'Street',
-        'student'                  => 'Student',
-        'subject'                  => 'assumpte',
-        'teacher'                  => 'Teacher',
-        'terms'                    => 'termes',
-        'test_description'         => 'Test Description',
-        'test_locale'              => 'Test Locale',
-        'test_name'                => 'Test Name',
-        'text'                     => 'Text',
-        'time'                     => 'hora',
-        'title'                    => 'títol',
-        'updated_at'               => 'Updated At',
-        'username'                 => 'usuari',
-        'year'                     => 'any',
+    'custom'               => [
+        'email'    => [
+            'unique' => 'L\':attribute ja ha sigut registrada.',
+        ],
+        'password' => [
+            'min' => 'La :attribute ha de contenir més de :min caràcters',
+        ],
     ],
-    'custom'               => [],
 ];

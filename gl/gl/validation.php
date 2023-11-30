@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => ':attribute debe ser aceptado.',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => ':attribute fallou na subida.',
     'url'                  => 'O formato de :attribute non é válido.',
     'uuid'                 => ':attribute debe ser un UUID válido.',
-    'attributes'           => [
-        'address'                  => 'Dirección',
-        'age'                      => 'Idade',
-        'amount'                   => 'Cantidade',
-        'area'                     => 'Área',
-        'available'                => 'Dispoñible',
-        'birthday'                 => 'Aniversario',
-        'body'                     => 'Corpo',
-        'city'                     => 'Cidade',
-        'content'                  => 'Contido',
-        'country'                  => 'País',
-        'created_at'               => 'Creado o',
-        'creator'                  => 'Creador',
-        'current_password'         => 'Contrasinal actual',
-        'date'                     => 'Data',
-        'date_of_birth'            => 'Data de nacemento',
-        'day'                      => 'Día',
-        'deleted_at'               => 'Eliminado o',
-        'description'              => 'Descrición',
-        'district'                 => 'Distrito',
-        'duration'                 => 'Duración',
-        'email'                    => 'Email',
-        'excerpt'                  => 'Extracto',
-        'filter'                   => 'Filtro',
-        'first_name'               => 'Nome',
-        'gender'                   => 'Xénero',
-        'group'                    => 'Grupo',
-        'hour'                     => 'Hora',
-        'image'                    => 'Imaxe',
-        'last_name'                => 'Apelido',
-        'lesson'                   => 'Lección',
-        'line_address_1'           => 'Enderezo liña 1',
-        'line_address_2'           => 'Enderezo liña 2',
-        'message'                  => 'Mensaxe',
-        'middle_name'              => 'Segundo nome',
-        'minute'                   => 'Minuto',
-        'mobile'                   => 'Móbil',
-        'month'                    => 'Mes',
-        'name'                     => 'Nome',
-        'national_code'            => 'Código nacional',
-        'number'                   => 'Número',
-        'password'                 => 'Contrasinal',
-        'password_confirmation'    => 'Confirmar contrasinal',
-        'phone'                    => 'Teléfono',
-        'photo'                    => 'Foto',
-        'postal_code'              => 'Código Postal',
-        'price'                    => 'Prezo',
-        'province'                 => 'Provincia',
-        'recaptcha_response_field' => 'Eido de resposta Recaptcha',
-        'remember'                 => 'Lembar',
-        'restored_at'              => 'Restaurado ás',
-        'result_text_under_image'  => 'Texto do resultado baixo a imaxe',
-        'role'                     => 'Rol',
-        'second'                   => 'Segundo',
-        'sex'                      => 'Sexo',
-        'short_text'               => 'Texto corto',
-        'size'                     => 'Tamaño',
-        'state'                    => 'Estado',
-        'street'                   => 'Rúa',
-        'student'                  => 'Estudante',
-        'subject'                  => 'Asunto',
-        'teacher'                  => 'Titor',
-        'terms'                    => 'Términos',
-        'test_description'         => 'Probar Descrición',
-        'test_locale'              => 'Probar Local',
-        'test_name'                => 'Probar Nome',
-        'text'                     => 'Texto',
-        'time'                     => 'Tempo',
-        'title'                    => 'Título',
-        'updated_at'               => 'Actualizado ás',
-        'username'                 => 'Nome do usuario',
-        'year'                     => 'Ano',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',

@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => 'Morate prihvatiti :attribute polje.',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => 'Greška pri postavljanju dokumenata.',
     'url'                  => 'Polje :attribute nije link.',
     'uuid'                 => 'Polje :attribute nije pretstavljen kao jedinstveni identifikator.',
-    'attributes'           => [
-        'address'                  => 'adresa',
-        'age'                      => 'godine',
-        'amount'                   => 'Amount',
-        'area'                     => 'Area',
-        'available'                => 'Available',
-        'birthday'                 => 'Birthday',
-        'body'                     => 'sadržaj',
-        'city'                     => 'grad',
-        'content'                  => 'Content',
-        'country'                  => 'država',
-        'created_at'               => 'Created At',
-        'creator'                  => 'Creator',
-        'current_password'         => 'Current Password',
-        'date'                     => 'datum',
-        'date_of_birth'            => 'Date Of Birth',
-        'day'                      => 'dan',
-        'deleted_at'               => 'Deleted At',
-        'description'              => 'opis',
-        'district'                 => 'District',
-        'duration'                 => 'Duration',
-        'email'                    => 'email',
-        'excerpt'                  => 'siže',
-        'filter'                   => 'Filter',
-        'first_name'               => 'ime',
-        'gender'                   => 'pol',
-        'group'                    => 'Group',
-        'hour'                     => 'sat',
-        'image'                    => 'Image',
-        'last_name'                => 'prezime',
-        'lesson'                   => 'Lesson',
-        'line_address_1'           => 'Line Address 1',
-        'line_address_2'           => 'Line Address 2',
-        'message'                  => 'poruka',
-        'middle_name'              => 'Middle Name',
-        'minute'                   => 'minuti',
-        'mobile'                   => 'mobilni',
-        'month'                    => 'mjesec',
-        'name'                     => 'ime',
-        'national_code'            => 'National Code',
-        'number'                   => 'Number',
-        'password'                 => 'lozinka',
-        'password_confirmation'    => 'provjera lozinke',
-        'phone'                    => 'telefon',
-        'photo'                    => 'Photo',
-        'postal_code'              => 'Postal Code',
-        'price'                    => 'Price',
-        'province'                 => 'Province',
-        'recaptcha_response_field' => 'Recaptcha Response Field',
-        'remember'                 => 'Remember',
-        'restored_at'              => 'Restored At',
-        'result_text_under_image'  => 'Result Text Under Image',
-        'role'                     => 'Role',
-        'second'                   => 'sekunde',
-        'sex'                      => 'pol',
-        'short_text'               => 'Short Text',
-        'size'                     => 'Size',
-        'state'                    => 'State',
-        'street'                   => 'Street',
-        'student'                  => 'Student',
-        'subject'                  => 'naslov',
-        'teacher'                  => 'Teacher',
-        'terms'                    => 'Terms',
-        'test_description'         => 'Test Description',
-        'test_locale'              => 'Test Locale',
-        'test_name'                => 'Test Name',
-        'text'                     => 'Text',
-        'time'                     => 'vrijeme',
-        'title'                    => 'naslov',
-        'updated_at'               => 'Updated At',
-        'username'                 => 'korisničko ime',
-        'year'                     => 'godina',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',

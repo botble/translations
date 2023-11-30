@@ -1,6 +1,15 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Validation Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines contain the default error messages used by
+| the validator class. Some of these rules have multiple versions such
+| as the size rules. Feel free to tweak each of these messages here.
+|
+*/
 
 return [
     'accepted'             => 'Вы должны принять :attribute.',
@@ -119,79 +128,6 @@ return [
     'uploaded'             => 'Загрузка поля :attribute не удалась.',
     'url'                  => 'Значение поля :attribute имеет ошибочный формат URL.',
     'uuid'                 => 'Значение поля :attribute должно быть корректным UUID.',
-    'attributes'           => [
-        'address'                  => 'адрес',
-        'age'                      => 'возраст',
-        'amount'                   => 'количество',
-        'area'                     => 'область',
-        'available'                => 'доступно',
-        'birthday'                 => 'дата рождения',
-        'body'                     => 'контент',
-        'city'                     => 'город',
-        'content'                  => 'контент',
-        'country'                  => 'страна',
-        'created_at'               => 'создано в',
-        'creator'                  => 'создатель',
-        'current_password'         => 'текущий пароль',
-        'date'                     => 'дата',
-        'date_of_birth'            => 'день рождения',
-        'day'                      => 'день',
-        'deleted_at'               => 'удалено в',
-        'description'              => 'описание',
-        'district'                 => 'округ',
-        'duration'                 => 'продолжительность',
-        'email'                    => 'email адрес',
-        'excerpt'                  => 'выдержка',
-        'filter'                   => 'фильтр',
-        'first_name'               => 'имя',
-        'gender'                   => 'пол',
-        'group'                    => 'группа',
-        'hour'                     => 'час',
-        'image'                    => 'изображение',
-        'last_name'                => 'фамилия',
-        'lesson'                   => 'урок',
-        'line_address_1'           => 'строка адреса 1',
-        'line_address_2'           => 'строка адреса 2',
-        'message'                  => 'сообщение',
-        'middle_name'              => 'отчество',
-        'minute'                   => 'минута',
-        'mobile'                   => 'моб. номер',
-        'month'                    => 'месяц',
-        'name'                     => 'имя',
-        'national_code'            => 'национальный код',
-        'number'                   => 'номер',
-        'password'                 => 'пароль',
-        'password_confirmation'    => 'подтверждение пароля',
-        'phone'                    => 'номер телефона',
-        'photo'                    => 'фотография',
-        'postal_code'              => 'индекс',
-        'price'                    => 'стоимость',
-        'province'                 => 'провинция',
-        'recaptcha_response_field' => 'ошибка рекапчи',
-        'remember'                 => 'запомнить',
-        'restored_at'              => 'восстановлено в',
-        'result_text_under_image'  => 'текст под изображением',
-        'role'                     => 'роль',
-        'second'                   => 'секунда',
-        'sex'                      => 'пол',
-        'short_text'               => 'короткое описание',
-        'size'                     => 'размер',
-        'state'                    => 'штат',
-        'street'                   => 'улица',
-        'student'                  => 'студент',
-        'subject'                  => 'заголовок',
-        'teacher'                  => 'учитель',
-        'terms'                    => 'правила',
-        'test_description'         => 'тестовое описание',
-        'test_locale'              => 'тестовая локализация',
-        'test_name'                => 'тестовое имя',
-        'text'                     => 'текст',
-        'time'                     => 'время',
-        'title'                    => 'наименование',
-        'updated_at'               => 'обновлено в',
-        'username'                 => 'никнейм',
-        'year'                     => 'год',
-    ],
     'custom'               => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
