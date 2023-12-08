@@ -16,7 +16,7 @@
     ":customer has requested return product(s)": ":customer đã yêu cầu trả lại sản phẩm(s)",
     ":number product available": ":number sản phẩm có sẵn",
     ":number products available": ":number sản phẩm có sẵn",
-    ":percent% off": ":percent% giảm giá",
+    ":percent% off": "Giảm giá :percent%",
     ":product is already in your compare list!": ":product đã có trong danh sách so sánh của bạn!",
     ":product is already in your wishlist!": ":product đã có trong danh sách mong muốn của bạn!",
     ":qty x": ":qty x",
