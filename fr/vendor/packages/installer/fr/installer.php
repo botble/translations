@@ -1,35 +1,65 @@
 <?php
 
 return [
-    'title' => 'Installer',
-    'next' => 'Prochaine étape',
+
+    /**
+     *
+     * Traductions partagées.
+     *
+     */
+    'title' => 'Installation',
+    'next' => 'Étape suivante',
     'back' => 'Précédent',
-    'finish' => 'Install',
+    'finish' => 'Installer',
+    'installation' => 'Installation',
     'forms' => [
         'errorTitle' => 'Les erreurs suivantes se sont produites :',
     ],
+
+    /**
+     *
+     * Traductions de la page d'accueil.
+     *
+     */
     'welcome' => [
-        'templateTitle' => 'Bienvenue',
+        'pageTitle' => 'Installation - Étape 1 : Bienvenue',
         'title' => 'Bienvenue',
-        'message' => 'Avant de commencer, nous avons besoin de quelques informations sur la base de données. Vous devez connaître les éléments suivants avant de poursuivre.',
+        'message' => 'Avant de commencer, nous avons besoin de certaines informations sur la base de données. Vous devrez connaître les éléments suivants avant de continuer.',
+        'language' => 'Langue',
         'next' => 'Allons-y',
     ],
+
+    /**
+     *
+     * Traductions de la page des prérequis.
+     *
+     */
     'requirements' => [
-        'templateTitle' => 'Step 1 | Server Requirements',
-        'title' => 'Server Requirements',
-        'next' => 'Check Permissions',
+        'pageTitle' => 'Installation - Étape 2 : Exigences du serveur',
+        'title' => 'Exigences du serveur',
+        'next' => 'Vérifier les autorisations',
     ],
+
+    /**
+     *
+     * Traductions de la page des autorisations.
+     *
+     */
     'permissions' => [
-        'templateTitle' => 'Step 2 | Permissions',
-        'title' => 'Permissions',
-        'next' => 'Configure Environment',
+        'next' => 'Configurer l\'environnement',
     ],
+
+    /**
+     *
+     * Traductions de la page de l'environnement.
+     *
+     */
     'environment' => [
         'wizard' => [
-            'templateTitle' => 'Environment Settings',
-            'title' => 'Environment Settings',
+            'pageTitle' => 'Installation - Étape 3 : Paramètres de l\'environnement',
+            'title' => 'Paramètres de l\'environnement',
             'form' => [
-                'name_required' => 'An environment name is required.',
+                'name_required' => 'Un nom d\'environnement est requis.',
                 'app_name_label' => 'Titre du site',
                 'app_name_placeholder' => 'Titre du site',
                 'app_url_label' => 'URL',
@@ -38,38 +68,66 @@ return [
                 'db_connection_label_mysql' => 'MySQL',
                 'db_connection_label_sqlite' => 'SQLite',
                 'db_connection_label_pgsql' => 'PostgreSQL',
-                'db_host_label' => 'Database host',
-                'db_host_placeholder' => 'Database host',
-                'db_port_label' => 'Database port',
-                'db_port_placeholder' => 'Database port',
-                'db_name_label' => 'Database name',
-                'db_name_placeholder' => 'Database name',
-                'db_username_label' => 'Database username',
-                'db_username_placeholder' => 'Database username',
-                'db_password_label' => 'Database password',
-                'db_password_placeholder' => 'Database password',
+                'db_host_label' => 'Hôte de la base de données',
+                'db_host_placeholder' => 'Hôte de la base de données',
+                'db_port_label' => 'Port de la base de données',
+                'db_port_placeholder' => 'Port de la base de données',
+                'db_name_label' => 'Nom de la base de données',
+                'db_name_placeholder' => 'Nom de la base de données',
+                'db_username_label' => 'Nom d\'utilisateur de la base de données',
+                'db_username_placeholder' => 'Nom d\'utilisateur de la base de données',
+                'db_password_label' => 'Mot de passe de la base de données',
+                'db_password_placeholder' => 'Mot de passe de la base de données',
                 'buttons' => [
-                    'install' => 'Installation',
+                    'install' => 'Installer',
+                ],
+                'db_host_helper' => 'Si vous utilisez Laravel Sail, changez simplement DB_HOST en DB_HOST=mysql. Sur certains hébergements, DB_HOST peut être localhost au lieu de 127.0.0.1',
+                'db_connections' => [
+                    'mysql' => 'MySQL',
+                    'sqlite' => 'SQLite',
+                    'pgsql' => 'PostgreSQL',
                 ],
             ],
         ],
         'success' => 'Les paramètres de votre fichier .env ont été enregistrés.',
-        'errors' => 'Impossible d\'enregistrer le fichier .env, veuillez le créer manuellement.',
+        'errors' => 'Impossible d\'enregistrer le fichier .env. Veuillez le créer manuellement.',
     ],
-    'install' => 'Install',
+
+    /**
+     * Page de création de compte.
+     */
+    'createAccount' => [
+        'pageTitle' => 'Installation - Étape 4 : Créer un compte',
+        'title' => 'Créer un compte',
+        'form' => [
+            'first_name' => 'Prénom',
+            'last_name' => 'Nom de famille',
+            'username' => 'Nom d\'utilisateur',
+            'email' => 'E-mail',
+            'password' => 'Mot de passe',
+            'password_confirmation' => 'Confirmation du mot de passe',
+            'create' => 'Créer',
+        ],
+    ],
+
+    /**
+     * Page de licence.
+     */
+
+    'license' => [
+        'pageTitle' => 'Installation - Étape 5 : Activer la licence',
+        'title' => 'Activer la licence',
+        'skip' => 'Passer pour le moment',
+    ],
+
+    'install' => 'Installer',
+
     'final' => [
-        'title' => 'Installation terminée',
-        'templateTitle' => 'Installation terminée',
-        'finished' => 'L\'application a été installée avec succès.',
-        'exit' => 'Cliquez ici pour sortir',
+        'pageTitle' => 'Installation terminée',
+        'title' => 'Terminé',
+        'message' => 'L\'application a été installée avec succès.',
+        'exit' => 'Aller au tableau de bord d\'administration',
     ],
-    'create_account' => 'Créer un compte',
-    'first_name' => 'Prénom',
-    'last_name' => 'Nom',
-    'username' => 'Nom d\'utilisateur',
-    'email' => 'Email',
-    'password' => 'Mot de passe',
-    'password_confirmation' => 'Confirmation du mot de passe',
-    'create' => 'Créer',
-    'install_success' => 'Installation réussie !',
+
+    'install_success' => 'Installé avec succès!',
 ];
