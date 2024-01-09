@@ -8,7 +8,6 @@ return [
     'print' => 'In hóa đơn',
     'download' => 'Tải về hóa đơn',
     'heading' => 'Hóa Đơn',
-    'invoice_for_job' => '',
     'table' => [
         'code' => 'Mã',
         'amount' => 'Số tiền',
