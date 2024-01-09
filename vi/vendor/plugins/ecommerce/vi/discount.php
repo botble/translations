@@ -71,4 +71,5 @@ return [
     'cancel' => 'Cancel',
     'is' => 'Is',
     'when_shipping_fee_less_than' => 'when shipping fee less than',
+    'minimum_order_amount_error' => 'Bạn đã không đủ :minimum_amount tối thiểu để áp dụng mã giảm giá. Để sử dụng mã giảm giá, bạn cần thêm vào giỏ hàng của bạn thêm ít nhất :add_more vào giỏ hàng của mình.',
 ];
