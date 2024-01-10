@@ -249,7 +249,7 @@
     "Price: low to high": "Preu: de baix a alt",
     "Primary color": "Color primari",
     "Primary font": "Tipus de lletra primari",
-    "Processing. Please wait...": "Tramitació. Si us plau, espereu...",
+    "Processing. Please wait...": "Processament. Si us plau, espereu...",
     "Project Type:": "Tipus de projecte:",
     "Projects": "Projectes",
     "Projects by locations": "Projectes per ubicacions",
@@ -257,7 +257,7 @@
     "Properties": "Propietats",
     "Properties For Rent": "Propietats en lloguer",
     "Properties For Sale": "Propietats en venda",
-    "Properties hero slide": "Diapositiva d'heroi de propietats",
+    "Properties hero slide": "Diapositiva de l'heroi de propietats",
     "Properties in :city": "Properties in :city",
     "Properties layouts": "Dissenys de propietats",
     "Properties slide": "Diapositiva de propietats",
@@ -424,5 +424,9 @@
     "service": "servei",
     "to write review!": "per escriure ressenya!",
     "total": "total",
-    "via": "via"
+    "via": "via",
+    "review.service": "Service",
+    "review.value": "Value",
+    "review.location": "Location",
+    "review.cleanliness": "Cleanliness"
 }

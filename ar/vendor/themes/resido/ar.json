@@ -143,7 +143,7 @@
     "Github": "جيثب",
     "Go & Search": "اذهب وابحث",
     "Goodgreen skin": "جلد أخضر جيد",
-    "Goodred skin": "جلد جيد أحمر",
+    "Goodred skin": "الجلد الجيد الأحمر",
     "Google": "جوجل",
     "Google map": "خرائط جوجل",
     "Green skin": "البشرة الخضراء",
@@ -205,7 +205,7 @@
     "No Max": "لا ماكس",
     "No Min": "لا يوجد",
     "No property found": "لم يتم العثور على الممتلكات",
-    "No review found": "لم يتم العثور على مراجعة",
+    "No review found": "لم يتم العثور على أي مراجعة",
     "No transactions!": "لا يوجد تحويلات!",
     "Number flats:": "عدد الشقق:",
     "Number of credits": "عدد الاعتمادات",
@@ -324,7 +324,7 @@
     "Slug": "سبيكة",
     "Social": "اجتماعي",
     "Social links": "روابط اجتماعية",
-    "Something is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused.": "شيء مكسور. يرجى إعلامنا بما كنت تفعله عندما حدث هذا الخطأ. ونحن سوف إصلاحه في أقرب وقت ممكن. اعتذر على أي ازعاج حدث.",
+    "Something is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused.": "هناك شيء مكسور. يرجى إعلامنا بما كنت تفعله عندما حدث هذا الخطأ. ونحن سوف إصلاحه في أقرب وقت ممكن. اعتذر على أي ازعاج حدث.",
     "Sorry, we are doing some maintenance. Please check back soon.": "عذرًا، نحن نقوم ببعض أعمال الصيانة. الرجاء التحقق مرة اخرى قريبا.",
     "Sort by": "ترتيب حسب",
     "Sqft": "قدم مربع",
@@ -424,5 +424,9 @@
     "service": "خدمة",
     "to write review!": "لكتابة مراجعة!",
     "total": "المجموع",
-    "via": "عبر"
+    "via": "عبر",
+    "review.service": "Service",
+    "review.value": "Value",
+    "review.location": "Location",
+    "review.cleanliness": "Cleanliness"
 }
