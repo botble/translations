@@ -424,5 +424,9 @@
     "service": "dịch vụ",
     "to write review!": "để viết đánh giá!",
     "total": "tổng cộng",
-    "via": "thông qua"
+    "via": "thông qua",
+    "review.service": "Service",
+    "review.value": "Value",
+    "review.location": "Location",
+    "review.cleanliness": "Cleanliness"
 }
