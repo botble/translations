@@ -1,9 +1,18 @@
 <?php
 
-declare(strict_types=1);
+/*
+|--------------------------------------------------------------------------
+| Authentication Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines are used during authentication for various
+| messages that we need to display to the user. You are free to modify
+| these language lines according to your application's requirements.
+|
+*/
 
 return [
     'failed'   => 'Ovi podaci se ne podudaraju s našim zapisima.',
-    'password' => 'Lozinka nije tačna.',
+    'password' => 'Navedena lozinka je netačna.',
     'throttle' => 'Previše neuspjelih pokušaja. Pokušajte ponovo za :seconds sekundi.',
 ];
