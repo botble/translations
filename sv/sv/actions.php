@@ -53,7 +53,10 @@ return [
     'load'            => 'Ladda',
     'localize'        => 'Lokalisera',
     'named'           => [
+        'add'       => 'Lägg till :name',
         'choose'    => 'Välj :name',
+        'create'    => 'Skapa :name',
+        'delete'    => 'Ta bort :name',
         'duplicate' => 'Dubblett: namn',
         'edit'      => 'Redigera :name',
         'hide'      => 'Göm :name',

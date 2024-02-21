@@ -53,7 +53,10 @@ return [
     'load'            => 'Zatížení',
     'localize'        => 'Lokalizovat',
     'named'           => [
+        'add'       => 'Přidejte :name',
         'choose'    => 'Vyberte :name',
+        'create'    => 'Vytvořit :name',
+        'delete'    => 'Smazat :name',
         'duplicate' => 'Duplikát: jméno',
         'edit'      => 'Upravit :name',
         'hide'      => 'Skrýt :name',

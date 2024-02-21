@@ -53,7 +53,10 @@ return [
     'load'            => 'ໂຫຼດ',
     'localize'        => 'ທ້ອງຖິ່ນ',
     'named'           => [
+        'add'       => 'ເພີ່ມ :name',
         'choose'    => 'ເລືອກ :name',
+        'create'    => 'ສ້າງ :name',
+        'delete'    => 'ລົບ :name',
         'duplicate' => 'ຊໍ້າກັນ: ຊື່',
         'edit'      => 'ແກ້​ໄຂ :name',
         'hide'      => 'ເຊື່ອງ :name',

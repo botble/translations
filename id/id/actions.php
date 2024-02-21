@@ -53,7 +53,10 @@ return [
     'load'            => 'Memuat',
     'localize'        => 'Melokalisir',
     'named'           => [
+        'add'       => 'Tambahkan :name',
         'choose'    => 'Pilih :name',
+        'create'    => 'Buat :name',
+        'delete'    => 'Hapus :name',
         'duplicate' => 'Duplikat: nama',
         'edit'      => 'Sunting :name',
         'hide'      => 'Sembunyikan :name',

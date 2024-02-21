@@ -53,7 +53,10 @@ return [
     'load'            => 'بار',
     'localize'        => 'بومی سازی کنید',
     'named'           => [
+        'add'       => ':name اضافه کنید',
         'choose'    => ':name را انتخاب کنید',
+        'create'    => ':name ایجاد کنید',
+        'delete'    => 'حذف :name',
         'duplicate' => 'تکراری: نام',
         'edit'      => 'ویرایش :name',
         'hide'      => 'مخفی کردن :name',

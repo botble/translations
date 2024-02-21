@@ -53,7 +53,10 @@ return [
     'load'            => 'Obciążenie',
     'localize'        => 'Zlokalizować',
     'named'           => [
+        'add'       => 'Dodaj :name',
         'choose'    => 'Wybierz :name',
+        'create'    => 'Utwórz :name',
+        'delete'    => 'Usuń :name',
         'duplicate' => 'Duplikat: imię',
         'edit'      => 'Edytuj :name',
         'hide'      => 'Ukryj :name',

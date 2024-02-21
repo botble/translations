@@ -53,7 +53,10 @@ return [
     'load'            => 'લોડ',
     'localize'        => 'સ્થાનિકીકરણ',
     'named'           => [
+        'add'       => ':name ઉમેરો',
         'choose'    => ':name પસંદ કરો',
+        'create'    => ':name બનાવો',
+        'delete'    => ':name કાઢી નાખો',
         'duplicate' => 'ડુપ્લિકેટ: નામ',
         'edit'      => ':name સંપાદિત કરો',
         'hide'      => ':name છુપાવો',

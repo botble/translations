@@ -53,7 +53,10 @@ return [
     'load'            => 'Ачаалал',
     'localize'        => 'Нутагшуулах',
     'named'           => [
+        'add'       => ':name нэмнэ',
         'choose'    => ':name-ыг сонгоно уу',
+        'create'    => ':name үүсгэх',
+        'delete'    => ':name устгах',
         'duplicate' => 'Давхардсан: нэр',
         'edit'      => 'Засвар :name',
         'hide'      => ':name нуух',

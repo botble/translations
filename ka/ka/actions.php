@@ -53,7 +53,10 @@ return [
     'load'            => 'ჩატვირთვა',
     'localize'        => 'ლოკალიზაცია',
     'named'           => [
+        'add'       => 'დაამატეთ :name',
         'choose'    => 'აირჩიეთ :name',
+        'create'    => 'შექმენით :name',
+        'delete'    => 'წაშალე :name',
         'duplicate' => 'დუბლიკატი: სახელი',
         'edit'      => 'რედაქტირება :name',
         'hide'      => 'დამალე :name',

@@ -53,7 +53,10 @@ return [
     'load'            => 'বোঝা',
     'localize'        => 'স্থানীয়করণ',
     'named'           => [
+        'add'       => ':name যোগ করুন',
         'choose'    => ':name চয়ন করুন',
+        'create'    => ':name তৈরি করুন',
+        'delete'    => 'মুছুন :name',
         'duplicate' => 'সদৃশ: নাম',
         'edit'      => ':name সম্পাদনা করুন',
         'hide'      => ':name লুকান',

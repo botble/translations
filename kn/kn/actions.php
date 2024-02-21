@@ -53,7 +53,10 @@ return [
     'load'            => 'ಲೋಡ್ ಮಾಡಿ',
     'localize'        => 'ಸ್ಥಳೀಕರಿಸು',
     'named'           => [
+        'add'       => ':name ಸೇರಿಸಿ',
         'choose'    => ':name ಆಯ್ಕೆಮಾಡಿ',
+        'create'    => 'ರಚಿಸಿ :name',
+        'delete'    => 'ಅಳಿಸಿ :name',
         'duplicate' => 'ನಕಲು: ಹೆಸರು',
         'edit'      => 'ಸಂಪಾದಿಸಿ :name',
         'hide'      => 'ಮರೆಮಾಡಿ :name',

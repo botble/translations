@@ -53,7 +53,10 @@ return [
     'load'            => 'belastning',
     'localize'        => 'Lokaliser',
     'named'           => [
+        'add'       => 'Tilføj :name',
         'choose'    => 'Vælg :name',
+        'create'    => 'Opret :name',
+        'delete'    => 'Slet :name',
         'duplicate' => 'Duplikat: navn',
         'edit'      => 'Rediger :name',
         'hide'      => 'Skjul :name',

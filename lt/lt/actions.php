@@ -53,7 +53,10 @@ return [
     'load'            => 'Įkelti',
     'localize'        => 'Lokalizuoti',
     'named'           => [
+        'add'       => 'Pridėti :name',
         'choose'    => 'Pasirinkite :name',
+        'create'    => 'Sukurti :name',
+        'delete'    => 'Ištrinti :name',
         'duplicate' => 'Dublikatas: vardas',
         'edit'      => 'Redaguoti :name',
         'hide'      => 'Paslėpti :name',

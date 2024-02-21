@@ -53,7 +53,10 @@ return [
     'load'            => 'Yük',
     'localize'        => 'Yerelleştir',
     'named'           => [
+        'add'       => ':name ekle',
         'choose'    => ':name\'u seçin',
+        'create'    => ':name oluştur',
+        'delete'    => ':name\'u sil',
         'duplicate' => 'Çoğalt: ad',
         'edit'      => ':name\'u düzenle',
         'hide'      => ':name\'u gizle',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Llwyth',
     'localize'        => 'Lleoli',
     'named'           => [
+        'add'       => 'Ychwanegu :name',
         'choose'    => 'Dewiswch :name',
+        'create'    => 'Creu :name',
+        'delete'    => 'Dileu :name',
         'duplicate' => 'Dyblyg: enw',
         'edit'      => 'Golygu :name',
         'hide'      => 'Cuddio :name',

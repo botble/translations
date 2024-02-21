@@ -53,7 +53,10 @@ return [
     'load'            => '짐',
     'localize'        => '현지화',
     'named'           => [
+        'add'       => ':name을 더하다',
         'choose'    => ':name개를 선택하세요',
+        'create'    => ':name개 생성',
+        'delete'    => ':name 삭제',
         'duplicate' => '중복: 이름',
         'edit'      => '편집 :name',
         'hide'      => ':name 숨기기',

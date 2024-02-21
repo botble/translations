@@ -53,7 +53,10 @@ return [
     'load'            => 'Sarcină',
     'localize'        => 'Localiza',
     'named'           => [
+        'add'       => 'Adăugați :name',
         'choose'    => 'Alege :name',
+        'create'    => 'Creați :name',
+        'delete'    => 'Șterge :name',
         'duplicate' => 'Duplicat: nume',
         'edit'      => 'Editare :name',
         'hide'      => 'Ascunde :name',

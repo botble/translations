@@ -53,7 +53,10 @@ return [
     'load'            => 'بار',
     'localize'        => 'ځایی کول',
     'named'           => [
+        'add'       => ':name اضافه کړئ',
         'choose'    => ':name غوره کړئ',
+        'create'    => ':name جوړ کړئ',
+        'delete'    => ':name ړنګول',
         'duplicate' => 'نقل: نوم',
         'edit'      => ':name سمون',
         'hide'      => ':name پټ کړئ',

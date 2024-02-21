@@ -53,8 +53,11 @@ return [
     'load'            => 'Load',
     'localize'        => 'Localize',
     'named'           => [
+        'add'       => 'Add :name',
         'choose'    => 'Choose :name',
-        'duplicate' => 'Duplicate: name',
+        'create'    => 'Create :name',
+        'delete'    => 'Delete :name',
+        'duplicate' => 'Duplicate :name',
         'edit'      => 'Edit :name',
         'hide'      => 'Hide :name',
         'import'    => 'Import :name',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Naložiť',
     'localize'        => 'Lokalizovať',
     'named'           => [
+        'add'       => 'Pridajte :name',
         'choose'    => 'Vyberte si :name',
+        'create'    => 'Vytvoriť :name',
+        'delete'    => 'Vymazať :name',
         'duplicate' => 'Duplikát: meno',
         'edit'      => 'Upraviť :name',
         'hide'      => 'Skryť :name',

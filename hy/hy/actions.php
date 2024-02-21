@@ -53,7 +53,10 @@ return [
     'load'            => 'Բեռնել',
     'localize'        => 'Տեղայնացնել',
     'named'           => [
+        'add'       => 'Ավելացնել :name',
         'choose'    => 'Ընտրեք :name',
+        'create'    => 'Ստեղծեք :name',
+        'delete'    => 'Ջնջել :name',
         'duplicate' => 'Կրկնօրինակ՝ անուն',
         'edit'      => 'Խմբագրել :name',
         'hide'      => 'Թաքցնել :name',

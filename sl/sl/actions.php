@@ -53,7 +53,10 @@ return [
     'load'            => 'obremenitev',
     'localize'        => 'Lokaliziraj',
     'named'           => [
+        'add'       => 'Dodajte :name',
         'choose'    => 'Izberite :name',
+        'create'    => 'Ustvari :name',
+        'delete'    => 'Izbriši :name',
         'duplicate' => 'Dvojnik: ime',
         'edit'      => 'Uredi :name',
         'hide'      => 'Skrij :name',

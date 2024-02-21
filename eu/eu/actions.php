@@ -53,7 +53,10 @@ return [
     'load'            => 'Kargatu',
     'localize'        => 'Lokalizatu',
     'named'           => [
+        'add'       => 'Gehitu :name',
         'choose'    => 'Aukeratu :name',
+        'create'    => 'Sortu :name',
+        'delete'    => 'Ezabatu :name',
         'duplicate' => 'Bikoiztua: izena',
         'edit'      => 'Editatu :name',
         'hide'      => 'Ezkutatu :name',

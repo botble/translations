@@ -53,7 +53,10 @@ return [
     'load'            => 'පැටවීම',
     'localize'        => 'දේශීයකරණය කරන්න',
     'named'           => [
+        'add'       => ':name එකතු කරන්න',
         'choose'    => ':name තෝරන්න',
+        'create'    => ':name සාදන්න',
+        'delete'    => ':name මකන්න',
         'duplicate' => 'අනුපිටපත: නම',
         'edit'      => 'සංස්කරණය :name',
         'hide'      => ':name සඟවන්න',

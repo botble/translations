@@ -53,7 +53,10 @@ return [
     'load'            => 'Ngarkoni',
     'localize'        => 'Lokalizoni',
     'named'           => [
+        'add'       => 'Shtoni :name',
         'choose'    => 'Zgjidhni :name',
+        'create'    => 'Krijo :name',
+        'delete'    => 'Fshi :name',
         'duplicate' => 'Dublikatë: emri',
         'edit'      => 'Redakto :name',
         'hide'      => 'Fshih :name',

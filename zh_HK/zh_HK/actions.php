@@ -53,7 +53,10 @@ return [
     'load'            => '加载',
     'localize'        => '本地化',
     'named'           => [
+        'add'       => '添加 :name',
         'choose'    => '选择:name',
+        'create'    => '创建 :name 个',
+        'delete'    => '删除 :name 个',
         'duplicate' => '重复：名称',
         'edit'      => '编辑:name',
         'hide'      => '隐藏 :name',

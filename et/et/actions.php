@@ -53,7 +53,10 @@ return [
     'load'            => 'Laadige',
     'localize'        => 'Lokaliseerida',
     'named'           => [
+        'add'       => 'Lisage :name',
         'choose'    => 'Valige :name',
+        'create'    => 'Loo :name',
+        'delete'    => 'Kustuta :name',
         'duplicate' => 'Duplikaat: nimi',
         'edit'      => 'Redigeeri :name',
         'hide'      => 'Peida :name',

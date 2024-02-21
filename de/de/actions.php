@@ -53,8 +53,11 @@ return [
     'load'            => 'Belastung',
     'localize'        => 'Lokalisieren',
     'named'           => [
+        'add'       => 'Addiere :name',
         'choose'    => 'Wählen Sie :name',
-        'duplicate' => 'Duplikat: Name',
+        'create'    => 'Erstellen Sie :name',
+        'delete'    => ':name löschen',
+        'duplicate' => 'Duplikat :name',
         'edit'      => 'Bearbeiten :name',
         'hide'      => ':name ausblenden',
         'import'    => 'Importieren Sie :name',

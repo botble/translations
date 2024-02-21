@@ -53,7 +53,10 @@ return [
     'load'            => 'Laste',
     'localize'        => 'Lokaliser',
     'named'           => [
+        'add'       => 'Legg til :name',
         'choose'    => 'Velg :name',
+        'create'    => 'Lag :name',
+        'delete'    => 'Slett :name',
         'duplicate' => 'Duplikat: navn',
         'edit'      => 'Rediger :name',
         'hide'      => 'Skjul :name',

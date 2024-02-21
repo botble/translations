@@ -53,7 +53,10 @@ return [
     'load'            => 'Hlaða',
     'localize'        => 'Staðsetja',
     'named'           => [
+        'add'       => 'Bættu við :name',
         'choose'    => 'Veldu :name',
+        'create'    => 'Búðu til :name',
+        'delete'    => 'Eyða :name',
         'duplicate' => 'Afrit: nafn',
         'edit'      => 'Breyta :name',
         'hide'      => 'Fela :name',

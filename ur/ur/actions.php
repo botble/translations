@@ -53,7 +53,10 @@ return [
     'load'            => 'لوڈ',
     'localize'        => 'مقامی بنانا',
     'named'           => [
+        'add'       => ':name شامل کریں۔',
         'choose'    => ':name کا انتخاب کریں۔',
+        'create'    => ':name بنائیں',
+        'delete'    => ':name کو حذف کریں۔',
         'duplicate' => 'نقل: نام',
         'edit'      => ':name میں ترمیم کریں۔',
         'hide'      => ':name چھپائیں۔',

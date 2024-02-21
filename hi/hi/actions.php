@@ -53,7 +53,10 @@ return [
     'load'            => 'भार',
     'localize'        => 'स्थानीय बनाना',
     'named'           => [
+        'add'       => ':name जोड़ें',
         'choose'    => ':name चुनें',
+        'create'    => ':name बनाएं',
+        'delete'    => ':name हटाएं',
         'duplicate' => 'डुप्लिकेट: नाम',
         'edit'      => 'संपादित करें :name',
         'hide'      => ':name छुपाएं',

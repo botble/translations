@@ -53,7 +53,10 @@ return [
     'load'            => 'Charger',
     'localize'        => 'Localiser',
     'named'           => [
+        'add'       => 'Ajouter :name',
         'choose'    => 'Choisissez :name',
+        'create'    => 'Créer :name',
+        'delete'    => 'Supprimer :name',
         'duplicate' => 'Duplicata : nom',
         'edit'      => 'Modifier :name',
         'hide'      => 'Masquer :name',

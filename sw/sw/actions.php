@@ -53,7 +53,10 @@ return [
     'load'            => 'Mzigo',
     'localize'        => 'Janibisha',
     'named'           => [
+        'add'       => 'Ongeza :name',
         'choose'    => 'Chagua :name',
+        'create'    => 'Unda :name',
+        'delete'    => 'Futa :name',
         'duplicate' => 'Nakala: jina',
         'edit'      => 'Hariri :name',
         'hide'      => 'Ficha :name',

@@ -53,7 +53,10 @@ return [
     'load'            => '.Ük',
     'localize'        => 'Lokallaşdyryň',
     'named'           => [
+        'add'       => ':name goşuň',
         'choose'    => ':name saýlaň',
+        'create'    => ':name dörediň',
+        'delete'    => ':name pozuň',
         'duplicate' => 'Göçürme: ady',
         'edit'      => ':name redaktirläň',
         'hide'      => ':name gizläň',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Φορτώνω',
     'localize'        => 'Εντοπίζω',
     'named'           => [
+        'add'       => 'Προσθέστε :name',
         'choose'    => 'Επιλέξτε :name',
+        'create'    => 'Δημιουργία :name',
+        'delete'    => 'Διαγραφή :name',
         'duplicate' => 'Διπλότυπο: όνομα',
         'edit'      => 'Επεξεργασία :name',
         'hide'      => 'Απόκρυψη :name',

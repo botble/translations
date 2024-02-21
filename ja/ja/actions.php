@@ -53,7 +53,10 @@ return [
     'load'            => '負荷',
     'localize'        => 'ローカライズ',
     'named'           => [
+        'add'       => ':nameを追加',
         'choose'    => ':name 個選択してください',
+        'create'    => ':nameを作成する',
+        'delete'    => ':nameを削除',
         'duplicate' => '重複: 名前',
         'edit'      => '編集:name',
         'hide'      => '隠す:name',

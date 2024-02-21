@@ -53,7 +53,10 @@ return [
     'load'            => 'Trọng tải',
     'localize'        => 'Bản địa hóa',
     'named'           => [
+        'add'       => 'Thêm :name',
         'choose'    => 'Chọn :name',
+        'create'    => 'Tạo :name',
+        'delete'    => 'Xóa :name',
         'duplicate' => 'Trùng lặp: tên',
         'edit'      => 'Chỉnh sửa :name',
         'hide'      => 'Ẩn :name',

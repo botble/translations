@@ -53,7 +53,10 @@ return [
     'load'            => 'Magkarga',
     'localize'        => 'I-localize',
     'named'           => [
+        'add'       => 'Magdagdag ng :name',
         'choose'    => 'Pumili ng :name',
+        'create'    => 'Lumikha :name',
+        'delete'    => 'Tanggalin :name',
         'duplicate' => 'Duplicate: pangalan',
         'edit'      => 'I-edit :name',
         'hide'      => 'Itago :name',

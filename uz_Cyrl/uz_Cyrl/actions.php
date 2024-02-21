@@ -53,7 +53,10 @@ return [
     'load'            => 'Yuklash',
     'localize'        => 'Mahalliylashtirish',
     'named'           => [
+        'add'       => ':name qo\'shing',
         'choose'    => ':name ni tanlang',
+        'create'    => ':name yarating',
+        'delete'    => ':name ni o\'chirish',
         'duplicate' => 'Dublikat: ism',
         'edit'      => 'Tahrirlash :name',
         'hide'      => ':name ni yashirish',

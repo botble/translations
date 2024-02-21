@@ -53,7 +53,10 @@ return [
     'load'            => 'Вчитај',
     'localize'        => 'Локализирај',
     'named'           => [
+        'add'       => 'Додадете :name',
         'choose'    => 'Изберете :name',
+        'create'    => 'Создадете :name',
+        'delete'    => 'Избриши :name',
         'duplicate' => 'Дупликат: име',
         'edit'      => 'Уреди :name',
         'hide'      => 'Сокриј :name',

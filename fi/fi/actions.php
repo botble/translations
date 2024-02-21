@@ -53,7 +53,10 @@ return [
     'load'            => 'Ladata',
     'localize'        => 'Paikallistaa',
     'named'           => [
+        'add'       => 'Lisää :name',
         'choose'    => 'Valitse :name',
+        'create'    => 'Luo :name',
+        'delete'    => 'Poista :name',
         'duplicate' => 'Kopio: nimi',
         'edit'      => 'Muokkaa :name',
         'hide'      => 'Piilota :name',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Жүктеу',
     'localize'        => 'Локализация',
     'named'           => [
+        'add'       => ':name қосыңыз',
         'choose'    => ':name таңдаңыз',
+        'create'    => ':name құру',
+        'delete'    => ':name жою',
         'duplicate' => 'Көшірме: аты',
         'edit'      => 'Өңдеу :name',
         'hide'      => ':name жасыру',

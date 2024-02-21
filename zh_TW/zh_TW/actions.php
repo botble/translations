@@ -53,7 +53,10 @@ return [
     'load'            => '載入',
     'localize'        => '在地化',
     'named'           => [
+        'add'       => '添加 :name',
         'choose'    => '選擇:name',
+        'create'    => '創建 :name 個',
+        'delete'    => '刪除 :name 個',
         'duplicate' => '重複：名稱',
         'edit'      => '編輯:name',
         'hide'      => '隱藏 :name',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Laai',
     'localize'        => 'Lokaliseer',
     'named'           => [
+        'add'       => 'Voeg :name by',
         'choose'    => 'Kies :name',
+        'create'    => 'Skep :name',
+        'delete'    => 'Vee :name uit',
         'duplicate' => 'Duplikaat: naam',
         'edit'      => 'Wysig :name',
         'hide'      => 'Versteek :name',

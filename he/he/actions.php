@@ -53,7 +53,10 @@ return [
     'load'            => 'לִטעוֹן',
     'localize'        => 'לְמַקֵם',
     'named'           => [
+        'add'       => 'הוסף :name',
         'choose'    => 'בחר :name',
+        'create'    => 'צור :name',
+        'delete'    => 'מחק :name',
         'duplicate' => 'שכפול: שם',
         'edit'      => 'ערוך :name',
         'hide'      => 'הסתר :name',

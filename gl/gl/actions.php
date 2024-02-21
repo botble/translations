@@ -53,7 +53,10 @@ return [
     'load'            => 'Carga',
     'localize'        => 'Localizar',
     'named'           => [
+        'add'       => 'Engadir :name',
         'choose'    => 'Escolle :name',
+        'create'    => 'Crear :name',
+        'delete'    => 'Eliminar :name',
         'duplicate' => 'Duplicado: nome',
         'edit'      => 'Edición :name',
         'hide'      => 'Ocultar :name',

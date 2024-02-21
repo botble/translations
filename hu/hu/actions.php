@@ -53,7 +53,10 @@ return [
     'load'            => 'Betöltés',
     'localize'        => 'Lokalizálás',
     'named'           => [
+        'add'       => 'Adjunk hozzá :name-et',
         'choose'    => 'Válassz :name-et',
+        'create'    => 'Hozzon létre :name',
+        'delete'    => 'Törölje a :name',
         'duplicate' => 'Másodpéldány: név',
         'edit'      => 'Szerkesztés :name',
         'hide'      => 'Elrejtés :name',

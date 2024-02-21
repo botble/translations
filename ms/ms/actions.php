@@ -53,7 +53,10 @@ return [
     'load'            => 'Muatkan',
     'localize'        => 'Setempat',
     'named'           => [
+        'add'       => 'Tambah :name',
         'choose'    => 'Pilih :name',
+        'create'    => 'Buat :name',
+        'delete'    => 'Padam :name',
         'duplicate' => 'Pendua: nama',
         'edit'      => 'Edit :name',
         'hide'      => 'Sembunyikan :name',

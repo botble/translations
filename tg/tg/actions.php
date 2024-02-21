@@ -53,7 +53,10 @@ return [
     'load'            => 'Бор кардан',
     'localize'        => 'Маҳаллисозӣ',
     'named'           => [
+        'add'       => ':name илова кунед',
         'choose'    => ':name-ро интихоб кунед',
+        'create'    => 'Эҷоди :name',
+        'delete'    => ':name-ро нест кунед',
         'duplicate' => 'Дубликат: ном',
         'edit'      => 'Таҳрири :name',
         'hide'      => 'Пинҳон кардани :name',

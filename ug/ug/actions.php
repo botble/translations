@@ -53,7 +53,10 @@ return [
     'load'            => 'Load',
     'localize'        => 'يەرلىكلەشتۈرۈش',
     'named'           => [
+        'add'       => ':name نى قوشۇڭ',
         'choose'    => ':name نى تاللاڭ',
+        'create'    => ':name قۇر',
+        'delete'    => ':name نى ئۆچۈرۈڭ',
         'duplicate' => 'كۆپەيتىلگەن نۇسخىسى: ئىسمى',
         'edit'      => 'Edit :name',
         'hide'      => ':name نى يوشۇرۇش',

@@ -53,7 +53,10 @@ return [
     'load'            => 'Ielādēt',
     'localize'        => 'Lokalizēt',
     'named'           => [
+        'add'       => 'Pievienojiet :name',
         'choose'    => 'Izvēlieties :name',
+        'create'    => 'Izveidojiet :name',
+        'delete'    => 'Dzēst :name',
         'duplicate' => 'Dublikāts: vārds',
         'edit'      => 'Rediģēt :name',
         'hide'      => 'Paslēpt :name',
