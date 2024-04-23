@@ -18,6 +18,8 @@ return [
     'search' => 'Ara',
     'add_new' => 'Yeni ekle',
     'n_a' => 'N/A',
-    'page_loaded_time' => 'Sayfa şu sürede yüklendi',
+    'page_loaded_in_time' => 'Page loaded in :time seconds',
     'view_website' => 'Siteyi Görüntüle',
+    'tools' => 'Araçlar',
+    'page_loaded_time' => 'Sayfa şu sürede yüklendi',
 ];

@@ -1,12 +1,13 @@
 <?php
 
 return [
-    'name' => 'Widgets',
+    'name' => 'Widget\'lar',
+    'description' => 'Manage your system widgets',
     'create' => 'Yeni widget',
     'edit' => 'Widget\'ı düzenle',
     'delete' => 'Sil',
     'available' => 'Uygun Widget\'lar',
-    'instruction' => 'Bir widget\'ı etkinleştirmek için onu bir kenar çubuğuna sürükleyin veya üzerine tıklayın. Bir widget\'ı devre dışı bırakmak ve ayarlarını silmek için geri sürükleyin.',
+    'usage_instruction' => 'To activate a widget drag and drop it to a sidebar. To deactivate a widget, open it in sidebar and click delete button.',
     'number_tag_display' => 'Sayı etiketleri görüntülenecek',
     'number_post_display' => 'Sayı gönderileri görüntülenecek',
     'select_menu' => 'Menü Seç',
@@ -18,8 +19,16 @@ return [
     'widget_custom_menu_description' => 'Widget alanınıza özel bir menü ekleyin.',
     'widget_tag' => 'Etiketler',
     'widget_tag_description' => 'Popüler etiketler',
+    'widget_menu' => 'Simple Menu',
+    'widget_menu_description' => 'Add a simple menu to your widget area.',
+    'widget_menu_label' => 'Label',
+    'widget_menu_attributes' => 'Attributes',
+    'widget_menu_url' => 'URL',
+    'widget_menu_is_open_new_tab' => 'Is open new tab?',
     'save_success' => 'Widget başarıyla kaydedildi!',
     'delete_success' => 'Widget başarıyla silindi!',
     'primary_sidebar_name' => 'Birincil sidebar',
     'primary_sidebar_description' => 'Birincil sidebar bölümü',
+    'drag_widget_to_sidebar' => 'Drag and drop widgets to this area.',
+    'instruction' => 'Bir widget\'ı etkinleştirmek için onu bir kenar çubuğuna sürükleyin veya üzerine tıklayın. Bir widget\'ı devre dışı bırakmak ve ayarlarını silmek için geri sürükleyin.',
 ];

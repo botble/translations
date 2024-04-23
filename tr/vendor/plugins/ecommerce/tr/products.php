@@ -2,7 +2,12 @@
 
 return [
     'name' => 'Ürünler',
+    'description' => 'View and update your products settings',
     'create' => 'Yeni Ürün',
+    'create_product_type' => [
+        'digital' => 'Yeni Dijital Ürün',
+        'physical' => 'Yeni Fiziksel Ürün',
+    ],
     'edit' => 'Ürünü düzenle - :name',
     'form' => [
         'name' => 'Ad',
@@ -45,7 +50,7 @@ return [
         'barcode_placeholder' => 'Barkod gir',
         'cost_per_item' => 'Öğe başına maliyet',
         'cost_per_item_placeholder' => 'Öğe başına maliyeti girin',
-        'cost_per_item_helper' => "Müşteriler bu fiyatı görmeyecek.",
+        'cost_per_item_helper' => 'Müşteriler bu fiyatı görmeyecek.',
         'stock' => [
             'allow_order_when_out' => 'Bu ürün stokta kalmadığında müşterinin ödeme yapmasına izin ver',
             'in_stock' => 'Stokta Var',
@@ -86,12 +91,18 @@ return [
         'featured_image' => 'Öne Çıkan Görsel (isteğe bağlı)',
         'product_id' => 'Ürün Kimliği',
         'taxes' => 'Vergiler',
+        'minimum_order_quantity' => 'Minimum Sipariş Miktarı',
+        'maximum_order_quantity' => 'Maksimum Sipariş Miktarı',
+        'minimum_order_quantity_helper' => 'Sipariş verilebilecek minimum miktar, değer 0 ise sınır yoktur.',
+        'maximum_order_quantity_helper' => 'Sipariş verilebilecek maksimum miktar, değer 0 ise herhangi bir limit yoktur.',
     ],
     'price' => 'Fiyat',
     'quantity' => 'Adet',
     'type' => 'Tür',
     'image' => 'Küçük Resim',
     'sku' => 'SKU',
+    'sku_line' => 'SKU: :sku',
+    'variation_sku' => 'Varyasyon SKU\'su',
     'brand' => 'Marka',
     'cannot_delete' => 'Ürün Silinemedi',
     'product_deleted' => 'Ürün Silindi',
@@ -134,6 +145,7 @@ return [
     'delete_variations_confirmation' => 'Bu varyasyonları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.',
     'product_create_validate_name_required' => 'Lütfen ürünün adını girin',
     'product_create_validate_sale_price_max' => 'İndirimli fiyat orijinal fiyattan daha az olmalıdır',
+    'product_create_validate_cost_per_item_max' => 'The cost per item must be less than the original price',
     'product_create_validate_sale_price_required_if' => 'Bir promosyon planlamak istediğinizde bir indirim oranı girmelisiniz',
     'product_create_validate_end_date_after' => 'Bitiş tarihi, başlangıç ​​tarihinden sonra olmalıdır',
     'product_create_validate_start_date_required_if' => 'Planlama seçildiğinde indirim başlangıç ​​tarihi boş bırakılamaz',
@@ -150,6 +162,12 @@ return [
     'category' => 'Kategori',
     'product_price_flash_sale_warning' => 'Bu ürün hızlı indirimde <strong>:name</strong> yani fiyatı <strong>:price</strong>.',
     'product_price_discount_warning' => 'Bu ürün <strong>:name</strong> indirimde olduğundan fiyatı <strong>:price</strong>.',
+    'product_image' => 'Ürün Resmi',
+    'product_name' => 'Ürün Adı',
+    'types' => [
+        'digital' => 'Dijital Ürün',
+        'physical' => 'Fiziksel Ürün',
+    ],
     'digital_attachments' => [
         'file_name' => 'Dosya adı',
         'file_size' => 'Dosya boyutu',
@@ -157,17 +175,19 @@ return [
         'title' => 'Dijital Ekler',
         'unsaved' => 'Kaydedilmemiş',
     ],
-    'create_product_type' => [
-        'digital' => 'Yeni Dijital Ürün',
-        'physical' => 'Yeni Fiziksel Ürün',
-    ],
-    'product_image' => 'Ürün Resmi',
-    'product_name' => 'Ürün Adı',
-    'types' => [
-        'digital' => 'Dijital Ürün',
-        'physical' => 'Fiziksel Ürün',
-    ],
-    'variation_sku' => 'Varyasyon SKU\'su',
+    'this_action_will_reload_page' => 'This action will reload the page to update the data!',
     'select' => 'Seç',
     'set_this_variant_as_default' => 'Bu varyantı varsayılan olarak ata',
+    'download' => 'Download',
+    'cross_sell_price_type' => [
+        'title' => 'Price type',
+        'fixed' => 'Fixed',
+        'percent' => 'Percent',
+    ],
+    'cross_sell_help' => [
+        'price' => '* Price field',
+        'price_description' => 'Enter the amount you want to reduce from the original price. Example: If the original price is $100, enter 20 to reduce the price to $80.',
+        'type' => '* Type field',
+        'type_description' => 'Choose the discount type: Fixed (reduce a specific amount) or Percent (reduce by a percentage).',
+    ],
 ];

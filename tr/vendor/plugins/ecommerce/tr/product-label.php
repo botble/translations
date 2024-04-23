@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Ürün Adı',
+    'name' => 'Yanıp Sönen Etiketler',
     'create' => 'Yeni Ürün Adı',
     'edit' => 'Ürün Adını Düzenle',
     'color' => 'Renk',

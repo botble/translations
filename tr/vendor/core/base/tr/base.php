@@ -21,7 +21,27 @@ return [
     'image' => 'Resim',
     'using_button' => 'Buttonu kullan',
     'select_image' => 'Resmi seç',
+    'click_here' => 'Click here',
     'to_add_more_image' => 'daha fazla resim seç',
     'add_image' => 'Resim ekle',
     'tools' => 'Araçlar',
+    'close' => 'Close',
+    'panel' => [
+        'others' => 'Others',
+        'system' => 'System',
+        'manage_description' => 'Manage :name',
+    ],
+    'global_search' => [
+        'title' => 'Ara',
+        'search' => 'Ara',
+        'no_result' => 'Sonuç bulunamadı',
+        'to_select' => 'Seç',
+        'to_navigate' => 'Yukarı / Aşağı',
+        'to_close' => 'Kapat',
+    ],
+    'validation' => [
+        'email_in_blacklist' => 'The :attribute is in blacklist. Please use another email address.',
+        'domain' => 'The :attribute must be a valid domain.',
+    ],
+    'showing_records' => 'Showing :from to :to of :total records',
 ];
