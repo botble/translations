@@ -85,7 +85,7 @@
     "Credits": "Crédits",
     "Custom HTML": "HTML personnalisé",
     "Custom Menu": "Menu personnalisé",
-    "Custom layout": "Mise en page personnalisée",
+    "Custom layout": "Disposition personnalisée",
     "Customer can buy product and pay directly using Visa, Credit card via :name": "Customer can buy product and pay directly using Visa, Credit card via :name",
     "Customer can buy product and pay directly using Visa, Credit card via Razorpay": "Le client peut acheter le produit et payer directement en utilisant Visa, carte de crédit via Razorpay",
     "Darkblue skin": "Peau bleu foncé",
@@ -193,7 +193,7 @@
     "Max price": "Prix ​​maximum",
     "Message": "Message",
     "Messages": "messages",
-    "Min Area": "Superficie minimale",
+    "Min Area": "Zone minimale",
     "Min Price": "Prix ​​minimum",
     "Min price": "Prix ​​minimum",
     "Name": "Nom",
@@ -425,8 +425,8 @@
     "to write review!": "pour écrire une critique!",
     "total": "total",
     "via": "via",
-    "review.service": "Service",
-    "review.value": "Value",
-    "review.location": "Location",
-    "review.cleanliness": "Cleanliness"
+    "review.service": "avis.service",
+    "review.value": "avis.valeur",
+    "review.location": "avis.emplacement",
+    "review.cleanliness": "avis.propreté"
 }

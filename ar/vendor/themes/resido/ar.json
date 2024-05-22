@@ -8,7 +8,7 @@
     "About us": "معلومات عنا",
     "Action": "فعل",
     "Add": "يضيف",
-    "Add Google map iframe": "أضف iframe لخريطة جوجل",
+    "Add Google map iframe": "إضافة iframe لخريطة جوجل",
     "Add Property": "أضف خاصية",
     "Add a custom menu to your widget area.": "أضف قائمة مخصصة إلى منطقة عنصر واجهة المستخدم الخاصة بك.",
     "Add credit to account": "إضافة رصيد إلى الحساب",
@@ -428,5 +428,5 @@
     "review.service": "Service",
     "review.value": "Value",
     "review.location": "Location",
-    "review.cleanliness": "Cleanliness"
+    "review.cleanliness": "مراجعة. النظافة"
 }
