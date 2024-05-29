@@ -2,6 +2,7 @@
 
 return [
     'cache_management' => 'Gestión de caché',
+    'cache_management_description' => 'Limpiar la caché para mantener tu sitio actualizado.',
     'cache_commands' => 'Comandos para limpieza de cache',
     'commands' => [
         'clear_cms_cache' => [
@@ -11,7 +12,7 @@ return [
         ],
         'refresh_compiled_views' => [
             'title' => 'Actualizar vistas compiladas',
-            'description' => 'Clear compiled views to make views up to date.',
+            'description' => 'Limpiar las vistas compiladas para mantener las vistas actualizadas.',
             'success_msg' => 'Las vistas se han eliminado!',
         ],
         'clear_config_cache' => [

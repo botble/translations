@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'create_success_message' => 'Se ha creado!',
-    'update_success_message' => 'Actualizado!',
-    'delete_success_message' => 'Se ha eliminado!',
-    'success_header' => 'Muy bien!!',
-    'error_header' => 'Error!',
-    'no_select' => 'Seleccione al menos un registro para realizar esta acción.',
-    'processing_request' => 'Estamos procesando su petición.',
-    'error' => 'Error!',
-    'success' => 'Muy bien!',
-    'info' => 'Info!',
+    'create_success_message' => 'Creado exitosamente',
+    'update_success_message' => 'Actualizado exitosamente',
+    'delete_success_message' => 'Eliminado exitosamente',
+    'success_header' => '¡Éxito!',
+    'error_header' => '¡Error!',
+    'no_select' => 'Por favor selecciona al menos un registro para realizar esta acción.',
+    'processing_request' => 'Estamos procesando tu solicitud.',
+    'error' => '¡Error!',
+    'success' => '¡Éxito!',
+    'info' => 'Información',
     'enum' => [
-        'validate_message' => 'El valor del atributo: :attribute no es válido.',
+        'validate_message' => 'El valor de :attribute que has ingresado es inválido.',
     ],
 ];

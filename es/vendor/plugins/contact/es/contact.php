@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'name' => 'Contacts',
+    'contact_form' => 'Contact form',
     'menu' => 'Contacto',
     'edit' => 'Ver contacto',
     'tables' => [
@@ -45,6 +47,7 @@ return [
     'form_subject' => 'Asunto',
     'form_phone' => 'Teléfono',
     'form_message' => 'Mensaje',
+    'form_content' => 'Content',
     'required_field' => 'Los campos marcados con (<span style="color: red">*</span>) son obligatorios.',
     'send_btn' => 'Enviar mensaje',
     'new_msg_notice' => 'Tienes <span class="bold">:count</span> Mensajes nuevos',
@@ -62,7 +65,7 @@ return [
             'description' => 'Configuración de correo electrónico de contacto',
             'templates' => [
                 'notice_title' => 'Enviar aviso al administrador',
-                'notice_description' => 'Plantilla de correo electrónico para enviar un aviso al administrador cuando el sistema obtenga un nuevo contacto',
+                'notice_description' => 'Plantilla de correo electrónico para enviar un aviso al administrador cuando el sistema recibe un nuevo contacto.',
             ],
         ],
     ],
@@ -73,4 +76,11 @@ return [
     'shortcode_description' => 'Agregar un formulario de contacto',
     'shortcode_content_description' => 'Agregar código [contact-form][/contact-form] al editor?',
     'message_sent_success' => 'Mensaje enviado!',
+    'dropdown_show_label' => 'Show contacts',
+    'display_fields' => 'Mostrar campos',
+    'mandatory_fields' => 'Mandatory fields',
+    'mandatory_fields_helper_text' => 'If it is blank, it will be validated by default configuration. Name and Message are always required.',
+    'custom_field' => [
+        'order' => 'Pedido',
+    ],
 ];
