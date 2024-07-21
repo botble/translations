@@ -2,7 +2,8 @@
 
 return [
     'name' => 'Nhận xét của khách hàng',
+    'description' => 'Quản lý lời chứng thực hệ thống của bạn',
     'create' => 'Thêm nhận xét mới',
-    'edit' => 'Sửa nhận xét',
     'company' => 'Chức vụ/Công ty',
+    'edit' => 'Sửa nhận xét',
 ];

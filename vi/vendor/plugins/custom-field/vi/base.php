@@ -3,6 +3,7 @@
 return [
     'admin_menu' => [
         'title' => 'Trường tùy chỉnh',
+        'description' => 'Xem và quản lý Trường tùy chỉnh',
     ],
     'page_title' => 'Trường tùy chỉnh',
     'all_field_groups' => 'Tất cả nhóm trường tùy chỉnh',
@@ -51,8 +52,8 @@ return [
             'image' => 'Hình ảnh',
             'file' => 'Tập tin',
             'select' => 'Thanh lựa chọn',
-            'checkbox' => 'Checkbox',
-            'radio' => 'Radio',
+            'checkbox' => 'Hộp kiểm',
+            'radio' => 'Đài',
             'repeater' => 'Bộ lặp',
         ],
         'rules' => [
@@ -64,7 +65,14 @@ return [
             'and' => 'Và',
             'or' => 'Hoặc',
         ],
+        'new_field' => 'Trường mới',
     ],
     'import' => 'Nhập dữ liệu',
     'export' => 'Xuất dữ liệu',
+    'publish' => 'Công bố',
+    'remove_this_line' => 'Xóa dòng này',
+    'collapse_this_line' => 'Thu gọn dòng này',
+    'error_occurred' => 'Xảy ra lỗi',
+    'request_completed' => 'Yêu cầu hoàn thành',
+    'item_not_existed' => 'Mục không tồn tại',
 ];

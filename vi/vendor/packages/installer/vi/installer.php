@@ -1,12 +1,6 @@
 <?php
 
 return [
-
-    /**
-     *
-     * Shared translations.
-     *
-     */
     'title' => 'Cài đặt',
     'next' => 'Bước tiếp theo',
     'back' => 'Trước đó',
@@ -15,12 +9,6 @@ return [
     'forms' => [
         'errorTitle' => 'Có lỗi sau đây:',
     ],
-
-    /**
-     *
-     * Home page translations.
-     *
-     */
     'welcome' => [
         'pageTitle' => 'Cài đặt - Bước 1: Chào mừng',
         'title' => 'Chào mừng',
@@ -28,32 +16,14 @@ return [
         'language' => 'Ngôn ngữ',
         'next' => 'Bắt đầu',
     ],
-
-    /**
-     *
-     * Requirements page translations.
-     *
-     */
     'requirements' => [
         'pageTitle' => 'Cài đặt - Bước 2: Yêu cầu máy chủ',
         'title' => 'Yêu cầu máy chủ',
         'next' => 'Kiểm tra quyền',
     ],
-
-    /**
-     *
-     * Permissions page translations.
-     *
-     */
     'permissions' => [
         'next' => 'Cấu hình môi trường',
     ],
-
-    /**
-     *
-     * Environment page translations.
-     *
-     */
     'environment' => [
         'wizard' => [
             'pageTitle' => 'Cài đặt - Bước 3: Cài đặt môi trường',
@@ -92,10 +62,10 @@ return [
         'success' => 'Cài đặt file .env của bạn đã được lưu.',
         'errors' => 'Không thể lưu file .env, Vui lòng tạo nó thủ công.',
     ],
-
-    /**
-     * Create account page.
-     */
+    'theme' => [
+        'title' => 'Chọn chủ đề',
+        'message' => 'Chọn một chủ đề để cá nhân hóa giao diện trang web của bạn. Lựa chọn này cũng sẽ nhập dữ liệu mẫu phù hợp với chủ đề đã chọn.',
+    ],
     'createAccount' => [
         'pageTitle' => 'Cài đặt - Bước 4: Tạo tài khoản',
         'title' => 'Tạo tài khoản',
@@ -103,31 +73,24 @@ return [
             'first_name' => 'Tên',
             'last_name' => 'Họ',
             'username' => 'Tên người dùng',
-            'email' => 'Email',
+            'email' => 'E-mail',
             'password' => 'Mật khẩu',
             'password_confirmation' => 'Xác nhận mật khẩu',
             'create' => 'Tạo',
         ],
     ],
-
-    /**
-     * License page.
-     */
-
     'license' => [
         'pageTitle' => 'Cài đặt - Bước 5: Kích hoạt giấy phép',
         'title' => 'Kích hoạt giấy phép',
         'skip' => 'Bỏ qua tạm thời',
     ],
-
     'install' => 'Cài đặt',
-
     'final' => [
         'pageTitle' => 'Cài đặt đã hoàn thành',
         'title' => 'Hoàn tất',
         'message' => 'Ứng dụng đã được cài đặt thành công.',
         'exit' => 'Điều hướng đến bảng điều khiển quản trị',
     ],
-
     'install_success' => 'Cài đặt thành công!',
+    'install_step_title' => 'Installation - Step :step: :title',
 ];

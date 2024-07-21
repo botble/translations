@@ -2,7 +2,6 @@
 
 return [
     'create' => 'Thêm trang',
-    'edit' => 'Sửa trang',
     'form' => [
         'name' => 'Tiêu đề trang',
         'note' => 'Nội dung ghi chú',
@@ -13,16 +12,21 @@ return [
         'no_select' => 'Chọn ít nhất 1 trang để thực hiện hành động này!',
         'update_success_message' => 'Cập nhật thành công',
     ],
-    'deleted' => 'Xóa trang thành công',
     'cannot_delete' => 'Không thể xóa trang',
+    'deleted' => 'Xóa trang thành công',
+    'pages' => 'Trang',
     'menu' => 'Trang',
     'menu_name' => 'Trang',
     'edit_this_page' => 'Sửa trang này',
-    'pages' => 'Trang',
+    'total_pages' => 'Tổng số trang',
     'front_page' => 'Trang chủ',
+    'theme_options' => [
+        'title' => 'Trang',
+        'your_home_page_display' => 'Trang chủ của bạn hiển thị',
+    ],
+    'edit' => 'Sửa trang',
     'settings' => [
         'select' => '-- Lựa chọn --',
         'show_on_front' => 'Lựa chọn trang chủ',
     ],
-    'total_pages' => 'Tổng số trang',
 ];

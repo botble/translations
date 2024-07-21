@@ -2,6 +2,7 @@
 
 return [
     'cache_management' => 'Quản lý bộ nhớ đệm',
+    'cache_management_description' => 'Xóa bộ nhớ đệm để cập nhật trang web của bạn.',
     'cache_commands' => 'Các lệnh xoá bộ nhớ đệm cơ bản',
     'commands' => [
         'clear_cms_cache' => [

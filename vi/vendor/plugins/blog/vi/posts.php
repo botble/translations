@@ -2,7 +2,6 @@
 
 return [
     'create' => 'Thêm bài viết',
-    'edit' => 'Sửa bài viết',
     'form' => [
         'name' => 'Tên',
         'name_placeholder' => 'Tên bài viết (Tối đa 120 kí tự)',
@@ -16,15 +15,31 @@ return [
         'note' => 'Nội dung ghi chú',
         'format_type' => 'Định dạng',
     ],
-    'post_deleted' => 'Xóa bài viết thành công',
     'cannot_delete' => 'Không thể xóa bài viết',
-    'menu_name' => 'Bài viết',
-    'edit_this_post' => 'Sửa bài viết này',
-    'no_new_post_now' => 'Hiện tại không có bài viết mới!',
+    'post_deleted' => 'Xóa bài viết thành công',
     'posts' => 'Bài viết',
     'post' => 'Bài viết',
+    'edit_this_post' => 'Sửa bài viết này',
+    'no_new_post_now' => 'Hiện tại không có bài viết mới!',
+    'menu_name' => 'Bài viết',
     'widget_posts_recent' => 'Bài viết gần đây',
-    'author' => 'Tác giả',
     'categories' => 'Danh mục',
     'category' => 'Danh mục',
+    'author' => 'Tác giả',
+    'export' => [
+        'description' => 'Xuất bài đăng sang tệp CSV/Excel.',
+        'total' => 'Tổng số bài viết',
+    ],
+    'import' => [
+        'description' => 'Nhập bài đăng từ tệp CSV/Excel.',
+        'done_message' => ':created posts created and :updated posts updated.',
+        'rules' => [
+            'nullable_string_max' => ':attribute can be empty or a string with a maximum length of :max characters if provided.',
+            'sometimes_array' => ':attribute can be left empty or must be an array if provided.',
+            'in' => ':attribute must be one of the following values: :values.',
+            'nullable_string' => ':attribute can be left empty or must be a string if provided.',
+            'nullable_string_max_in' => ':attribute can be left empty or must be a string with a maximum length of :max characters if provided and must be one of the following values: :values.',
+        ],
+    ],
+    'edit' => 'Sửa bài viết',
 ];
