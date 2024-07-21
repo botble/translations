@@ -2,9 +2,9 @@
 
 return [
     'dob' => 'Born :date',
-    'draft_posts' => 'Draft Posts',
-    'pending_posts' => 'Pending Posts',
-    'published_posts' => 'Published Posts',
-    'posts' => 'Posts',
-    'write_post' => 'Write a post',
+    'draft_posts' => 'مسودة المشاركات',
+    'pending_posts' => 'منشور معلق',
+    'published_posts' => 'المشاركات المنشورة',
+    'posts' => 'دعامات',
+    'write_post' => 'اكتب مشاركة',
 ];

@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'name' => 'Product collections',
-    'create' => 'New product collection',
-    'edit' => 'Edit product collection',
-    'slug_help_block' => 'Label key: <code>:slug</code>. We will use this key for filter.',
+    'name' => 'مجموعات المنتجات',
+    'create' => 'مجموعة منتجات جديدة',
+    'edit' => 'تحرير مجموعة المنتجات',
+    'slug_help_block' => 'مفتاح التسمية: <code>:slug</code>. سوف نستخدم هذا المفتاح للتصفية.',
     'intro' => [
-        'title' => 'Manage product collections',
-        'description' => 'Group your products into collections to make it easier for customers to find them by category.',
-        'button_text' => 'Create product collection',
+        'title' => 'إدارة مجموعات المنتجات',
+        'description' => 'قم بتجميع منتجاتك في مجموعات ليسهل على العملاء العثور عليها حسب الفئة.',
+        'button_text' => 'إنشاء مجموعة المنتجات',
     ],
 ];

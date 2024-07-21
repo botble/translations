@@ -1,14 +1,21 @@
 <?php
 
 return [
-    'menu_name' => 'Blog',
-    'blog_page' => 'Blog Page',
-    'select' => '-- Select --',
-    'blog_page_id' => 'Blog page',
-    'number_posts_per_page' => 'Number posts per page',
-    'write_some_tags' => 'Write some tags',
-    'short_code_name' => 'Blog posts',
-    'short_code_description' => 'Add blog posts',
-    'number_posts_per_page_in_category' => 'Number of posts per page in a category',
-    'number_posts_per_page_in_tag' => 'Number of posts per page in a tag',
+    'menu_name' => 'مدونة',
+    'blog_page' => 'صفحة المدونة',
+    'select' => '-- يختار --',
+    'blog_page_id' => 'صفحة المدونة',
+    'number_posts_per_page' => 'عدد المشاركات في كل صفحة',
+    'write_some_tags' => 'اكتب بعض العلامات',
+    'short_code_name' => 'مشاركات المدونة',
+    'short_code_description' => 'أضف منشورات المدونة',
+    'number_posts_per_page_in_category' => 'عدد المشاركات لكل صفحة في الفئة',
+    'number_posts_per_page_in_tag' => 'عدد المشاركات لكل صفحة في العلامة',
+    'settings' => [
+        'title' => 'مدونة',
+        'description' => 'عرض وتحديث إعدادات المدونة',
+        'enable_blog_post_schema' => 'هل تريد تفعيل مخطط مشاركة المدونة؟',
+        'enable_blog_post_schema_description' => 'تعرف على المزيد: https://schema.org/Article',
+        'schema_type' => 'نوع المخطط',
+    ],
 ];

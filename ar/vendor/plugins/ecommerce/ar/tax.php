@@ -1,11 +1,24 @@
 <?php
 
 return [
-    'name' => 'Taxes',
-    'create' => 'Create a tax',
+    'name' => 'الضرائب',
+    'description' => 'عرض وتحديث إعدادات المنتجات الخاصة بك',
+    'create' => 'إنشاء ضريبة',
     'edit' => 'Edit tax :title',
-    'title' => 'Title',
-    'percentage' => 'Percentage %',
-    'priority' => 'Priority',
+    'title' => 'عنوان',
+    'percentage' => 'نسبة مئوية %',
+    'priority' => 'أولوية',
+    'default' => 'تقصير',
+    'country' => 'دولة',
+    'state' => 'ولاية',
+    'city' => 'مدينة',
+    'zip_code' => 'الرمز البريدي',
+    'rules' => 'قواعد',
+    'tax' => 'ضريبة',
+    'rule' => [
+        'name' => 'القواعد الضريبية',
+        'create' => 'إنشاء قاعدة ضريبية',
+        'edit' => 'Edit tax rule :title',
+    ],
     'select_tax' => '-- select --',
 ];

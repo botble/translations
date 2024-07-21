@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'name' => 'Product labels',
-    'create' => 'New product label',
-    'edit' => 'Edit product label',
-    'color' => 'Color',
-    'color_placeholder' => 'Example: #f0f0f0',
+    'name' => 'تسميات المنتج',
+    'create' => 'تسمية منتج جديد',
+    'edit' => 'تحرير تسمية المنتج',
+    'color' => 'لون',
+    'color_placeholder' => 'مثال: #f0f0f0',
 ];

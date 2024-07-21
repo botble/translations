@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'name' => 'Product tags',
-    'create' => 'New product tag',
-    'edit' => 'Edit product tag',
+    'name' => 'علامات المنتج',
+    'create' => 'علامة منتج جديد',
+    'edit' => 'تحرير علامة المنتج',
+    'edit_this_product_tag' => 'قم بتحرير علامة المنتج هذه',
 ];

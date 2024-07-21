@@ -2,20 +2,20 @@
 
 return [
     'form' => [
-        'name' => 'Name',
-        'name_placeholder' => 'Tag\'s name (Maximum 120 characters)',
-        'description' => 'Description',
-        'description_placeholder' => 'Short description for tag (Maximum 400 characters)',
-        'categories' => 'Categories',
+        'name' => 'اسم',
+        'name_placeholder' => 'اسم العلامة (الحد الأقصى 120 حرفًا)',
+        'description' => 'وصف',
+        'description_placeholder' => 'وصف مختصر للعلامة (الحد الأقصى 400 حرف)',
+        'categories' => 'فئات',
     ],
     'notices' => [
-        'no_select' => 'Please select at least one tag to take this action!',
+        'no_select' => 'الرجاء تحديد علامة واحدة على الأقل لاتخاذ هذا الإجراء!',
     ],
-    'create' => 'Create new tag',
+    'create' => 'إنشاء علامة جديدة',
+    'cannot_delete' => 'لا يمكن حذف العلامة',
+    'deleted' => 'تم حذف العلامة',
+    'menu' => 'العلامات',
+    'edit_this_tag' => 'تحرير هذه العلامة',
+    'menu_name' => 'العلامات',
     'edit' => 'Edit tag',
-    'cannot_delete' => 'Tag could not be deleted',
-    'deleted' => 'Tag deleted',
-    'menu' => 'Tags',
-    'edit_this_tag' => 'Edit this tag',
-    'menu_name' => 'Tags',
 ];

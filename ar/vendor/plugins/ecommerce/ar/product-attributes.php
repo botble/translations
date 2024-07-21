@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'name' => 'Product attributes',
-    'create' => 'New product attribute',
-    'edit' => 'Edit product attribute',
+    'name' => 'سمات المنتج',
+    'create' => 'سمة المنتج الجديد',
+    'edit' => 'تحرير سمة المنتج',
     'intro' => [
-        'title' => 'Manage product attributes',
-        'description' => 'Product attribute such as color, width, height ...',
-        'button_text' => 'Create product attribute',
+        'title' => 'إدارة سمات المنتج',
+        'description' => 'سمة المنتج مثل اللون والعرض والارتفاع ...',
+        'button_text' => 'إنشاء سمة المنتج',
     ],
 ];

@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'name' => 'الإعلانات',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'قمة',
+            'bottom' => 'ثابت في الأسفل',
+            'popup' => 'يظهر فجأة',
+            'theme' => 'الموضوع مدمج',
+        ],
+        'text_alignment' => [
+            'start' => 'يبدأ',
+            'center' => 'مركز',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'يجب أن يكون حجم الخط قيمة صالحة لحجم خط CSS.',
+        'text_color' => 'يجب أن يكون لون النص قيمة لون سداسية عشرية صالحة.',
+    ],
+    'create' => 'إنشاء إعلان جديد',
+    'add_new' => 'اضف جديد',
+    'settings' => [
+        'name' => 'إعلان',
+        'description' => 'إدارة إعدادات الإعلان',
+    ],
+    'background_color' => 'لون الخلفية',
+    'font_size' => 'حجم الخط',
+    'font_size_help' => 'اتركه فارغًا لاستخدام الافتراضي. على سبيل المثال: 1rem، 1em، 12px، ...',
+    'text_color' => 'لون الخط',
+    'start_date' => 'تاريخ البدء',
+    'end_date' => 'تاريخ الانتهاء',
+    'has_action' => 'لديه عمل',
+    'action_label' => 'تسمية العمل',
+    'action_url' => 'عنوان URL للإجراء',
+    'action_open_new_tab' => 'فتح في علامة تبويب جديدة',
+    'dismissible_label' => 'السماح للمستخدم برفض الإعلان',
+    'placement' => 'تحديد مستوى',
+    'text_alignment' => 'محاذاة النص',
+    'is_active' => 'نشط',
+    'max_width' => 'أقصى عرض',
+    'max_width_help' => 'اتركه فارغًا لاستخدام القيمة الافتراضية. مثال: 100%، 500 بكسل، ...',
+    'max_width_unit' => 'وحدة العرض القصوى',
+    'font_size_unit' => 'وحدة حجم الخط',
+    'autoplay_label' => 'تشغيل تلقائي',
+    'autoplay_delay_label' => 'تأخير التشغيل التلقائي',
+    'autoplay_delay_help' => 'التأخير بين كل إعلان بالمللي ثانية. اتركه فارغا لاستخدام القيمة الافتراضية (5000).',
+    'lazy_loading' => 'تحميل كسول',
+    'lazy_loading_description' => 'قم بتمكين هذا الخيار لتحسين سرعة تحميل الصفحة',
+];

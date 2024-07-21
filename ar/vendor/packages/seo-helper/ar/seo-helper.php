@@ -1,9 +1,13 @@
 <?php
 
 return [
-    'meta_box_header' => 'Search Engine Optimize',
-    'edit_seo_meta' => 'Edit SEO meta',
-    'default_description' => 'Setup meta title & description to make your site easy to discovered on search engines such as Google',
-    'seo_title' => 'SEO Title',
-    'seo_description' => 'SEO description',
+    'meta_box_header' => 'تحسين محرك البحث',
+    'edit_seo_meta' => 'تحرير التعريف SEO',
+    'default_description' => 'قم بإعداد العنوان والوصف التعريفي لتسهيل اكتشاف موقعك على محركات البحث مثل Google',
+    'seo_title' => 'عنوان تحسين محركات البحث',
+    'seo_description' => 'وصف كبار المسئولين الاقتصاديين',
+    'seo_image' => 'صورة كبار المسئولين الاقتصاديين',
+    'allow_index' => 'السماح لمحركات البحث بفهرسة هذه الصفحة',
+    'index' => 'فِهرِس',
+    'noindex' => 'لا يوجد مؤشر',
 ];
