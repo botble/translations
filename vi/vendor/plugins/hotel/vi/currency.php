@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'currencies' => 'Tiền tệ',
+    'setting_description' => 'Danh sách các loại tiền tệ sử dụng trên trang web',
+    'name' => 'Tên',
+    'symbol' => 'Biểu tượng',
+    'number_of_decimals' => 'Số thập phân',
+    'exchange_rate' => 'Tỷ giá',
+    'is_prefix_symbol' => 'Vị trí của biểu tượng',
+    'is_default' => 'Là mặc định?',
+    'remove' => 'Xóa',
+    'new_currency' => 'Thêm một loại tiền tệ mới',
+    'save_settings' => 'Lưu các thiết lập',
+    'before_number' => 'Trước số',
+    'after_number' => 'Sau số',
+    'require_at_least_one_currency' => 'Hệ thống yêu cầu ít nhất một loại tiền tệ!',
+    'thousands_separator' => 'Dấu phân cách hàng nghìn',
+    'decimal_separator' => 'Phân số thập phân',
+    'separator_period' => 'Giai đoạn (.)',
+    'separator_comma' => 'Dấu phẩy (,)',
+    'separator_space' => 'Không gian ( )',
+    'enable_auto_detect_visitor_currency' => 'Bật tính năng tự động phát hiện loại tiền tệ của khách truy cập?',
+    'auto_detect_visitor_currency_description' => 'Hệ thống sẽ tự động phát hiện loại tiền tệ của khách truy cập dựa trên vị trí của họ',
+    'add_space_between_price_and_currency' => 'Thêm khoảng cách giữa giá và tiền tệ?',
+    'instruction' => 'Vui lòng kiểm tra danh sách mã tiền tệ tại đây: https://en.wikipedia.org/wiki/ISO_4217',
+    'invalid_currency_name' => 'Tên tiền tệ không hợp lệ. Vui lòng kiểm tra danh sách mã tiền tệ tại đây: https://en.wikipedia.org/wiki/ISO_4217',
+];

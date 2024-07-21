@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'name' => 'Đặt chỗ',
+    'create' => 'Đặt phòng mới',
+    'statuses' => [
+        'pending' => 'Chưa giải quyết',
+        'processing' => 'Xử lý',
+        'completed' => 'Hoàn thành',
+        'cancelled' => 'Đã hủy',
+    ],
+    'amount' => 'Số tiền',
+    'customer' => 'Khách hàng',
+    'room' => 'Phòng',
+    'booking_information' => 'Thông tin về đặt vé',
+    'time' => 'Thời gian',
+    'full_name' => 'Họ và tên',
+    'email' => 'E-mail',
+    'phone' => 'Điện thoại',
+    'address' => 'Địa chỉ',
+    'arrival_time' => 'Thời gian đến',
+    'start_date' => 'Ngày bắt đầu',
+    'end_date' => 'Ngày cuối',
+    'settings' => [
+        'email' => [
+            'title' => 'Đặt trước',
+            'description' => 'Cấu hình email đặt chỗ',
+            'templates' => [
+                'notice_title' => 'Gửi thông báo cho quản trị viên',
+                'notice_description' => 'Mẫu email gửi thông báo tới quản trị viên khi hệ thống nhận được booking mới',
+                'booking_success_title' => 'Gửi email cho khách',
+                'booking_success_description' => 'Mẫu email để gửi email cho khách xác nhận đặt phòng',
+                'booking_status_changed_title' => 'Gửi email cho khách hàng khi trạng thái đặt chỗ thay đổi',
+                'booking_status_changed_description' => 'Mẫu email để gửi email cho khách hàng khi trạng thái đặt phòng thay đổi',
+            ],
+        ],
+    ],
+    'new_booking_notice' => 'Bạn có <span class="bold">:count</span> lượt đặt chỗ mới',
+    'view_all' => 'Xem tất cả',
+    'payment_method' => 'Phương thức thanh toán',
+    'payment_status_label' => 'Tình trạng thanh toán',
+    'booking_period' => 'Thời gian đặt chỗ',
+    'reports' => 'Báo cáo đặt phòng',
+    'calendar' => 'Lịch đặt chỗ',
+    'calendar_item_title' => ':room (:number_of_rooms room(s), :number_of_guests adults(s), :number_of_children children(s))',
+];

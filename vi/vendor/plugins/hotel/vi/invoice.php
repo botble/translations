@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'name' => 'Hóa đơn',
+    'amount' => 'Số tiền',
+    'customer' => 'Khách hàng',
+    'tax' => 'Thuế',
+    'code' => 'Mã số',
+    'show' => 'Invoice :code',
+    'print' => 'In hóa đơn',
+    'download' => 'Tải hóa đơn xuống',
+    'heading' => 'Hóa đơn',
+    'purchase_at' => 'Mua hàng tại',
+    'sub_total' => 'Tổng phụ',
+    'tax_amount' => 'Số tiền thuế',
+    'discount_amount' => 'Số tiền giảm giá',
+    'total_amount' => 'Tổng cộng',
+    'status' => 'Trạng thái',
+    'account' => 'Tài khoản',
+    'payment_info' => 'Thông tin thanh toán',
+    'payment_method' => 'Phương thức thanh toán',
+    'payment_status' => 'Tình trạng thanh toán',
+    'item' => [
+        'name' => 'Tên',
+        'qty' => 'Số lượng',
+        'description' => 'Mô tả',
+    ],
+    'statuses' => [
+        'pending' => 'Chưa giải quyết',
+        'processing' => 'Xử lý',
+        'completed' => 'Hoàn thành',
+        'canceled' => 'Đã hủy',
+    ],
+    'template' => [
+        'name' => 'Mẫu hóa đơn',
+        'setting_content' => 'Nội dung',
+        'preview' => 'Xem trước',
+        'preview_heading' => 'Xem trước mẫu Hóa đơn',
+    ],
+];
