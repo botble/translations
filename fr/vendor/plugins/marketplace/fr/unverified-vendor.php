@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'name' => 'Vendeurs non vérifiés',
-    'verify' => 'Vérifier le vendeur ":nom"',
+    'name' => 'Unverified vendors',
+    'verify' => 'Verify vendor ":name"',
     'forms' => [
-        'email' => 'Email',
-        'store_name' => 'Nom du magasin',
-        'store_phone' => 'Téléphone du magasin',
-        'vendor_phone' => 'Tél',
-        'verify_vendor' => 'Vérifier le vendeur',
-        'registered_at' => 'Enregistré à',
+        'email' => 'E-mail',
     ],
-    'approve' => 'Approuver',
-    'approve_vendor_confirmation' => 'Approuver la confirmation du vendeur',
-    'approve_vendor_confirmation_description' => 'Êtes-vous sûr de vouloir autoriser :vendor à vendre sur ce site ?',
-    'vendor_approval_notification' => 'Voulez-vous autoriser ce vendeur à vendre sur ce site ? Approuver ici :approve_link',
+    'approve' => 'Approve',
+    'approve_vendor_confirmation' => 'Approve vendor confirmation',
+    'approve_vendor_confirmation_description' => 'Are you sure you really want to approve :vendor for selling on this site?',
+    'vendor_approval_notification' => 'Do you want to approve this vendor for selling on this site? :approve_link',
+    'new_vendor_notifications' => [
+        'new_vendor' => 'Nouveau vendeur',
+        'view' => 'Voir',
+        'description' => ':customer has registered but not verified.',
+    ],
 ];

@@ -1,25 +1,20 @@
 <?php
 
 return [
-    'edit' => 'Mise à jour du solde du portefeuille',
-    'view_store' => 'Voir la boutique ":store"',
+    'edit' => 'Update wallet balance',
+    'view_store' => 'View store ":store"',
     'forms' => [
-        'description_placeholder' => 'Mettre à jour le montant exact de la commande #__ORDER_ID__ with reason: __REASON__',
-        'amount' => 'Montant',
-        'amount_placeholder' => 'Saisir le montant',
-        'type' => 'Type',
-        'created_by' => 'Créé par',
+        'type' => 'Taper',
     ],
     'types' => [
-        'add-amount' => 'Ajouter un montant',
-        'subtract-amount' => 'Soustraire le montant',
+        'order-return' => 'Retour de commande',
     ],
-    'store_name' => 'Nom du magasin',
-    'vendor_name' => 'Nom du vendeur',
-    'balance' => 'Solde',
-    'store_information' => 'Informations sur le magasin',
-    'update_balance' => 'Ajuster le solde',
-    'update_balance_title' => 'Ajouter/soustraire le montant du vendeur',
-    'statements' => 'Déclarations',
-    'products' => 'Produits',
+    'store_name' => 'Store Name',
+    'vendor_name' => 'Vendor Name',
+    'balance' => 'Balance',
+    'store_information' => 'Store information',
+    'update_balance' => 'Adjust Balance',
+    'update_balance_title' => 'Add/Subtract amount of vendor',
+    'statements' => 'Statements',
+    'products' => 'Products',
 ];

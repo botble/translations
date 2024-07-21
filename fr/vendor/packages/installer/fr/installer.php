@@ -1,87 +1,35 @@
 <?php
 
 return [
-
-    /**
-     *
-     * Traductions partagées.
-     *
-     */
     'title' => 'Installation',
-    'next' => 'Étape suivante',
-    'back' => 'Précédent',
-    'finish' => 'Installer',
+    'next' => 'Next Step',
+    'back' => 'Previous',
+    'finish' => 'Install',
     'installation' => 'Installation',
     'forms' => [
-        'errorTitle' => 'Les erreurs suivantes se sont produites :',
+        'errorTitle' => 'The following errors occurred:',
     ],
-
-    /**
-     *
-     * Traductions de la page d'accueil.
-     *
-     */
     'welcome' => [
-        'pageTitle' => 'Installation - Étape 1 : Bienvenue',
-        'title' => 'Bienvenue',
-        'message' => 'Avant de commencer, nous avons besoin de certaines informations sur la base de données. Vous devrez connaître les éléments suivants avant de continuer.',
-        'language' => 'Langue',
-        'next' => 'Allons-y',
+        'title' => 'Welcome',
+        'message' => 'Before getting started, we need some information on the database. You will need to know the following items before proceeding.',
+        'language' => 'Language',
+        'next' => 'Let\'s go',
     ],
-
-    /**
-     *
-     * Traductions de la page des prérequis.
-     *
-     */
     'requirements' => [
-        'pageTitle' => 'Installation - Étape 2 : Exigences du serveur',
-        'title' => 'Exigences du serveur',
-        'next' => 'Vérifier les autorisations',
+        'title' => 'Server Requirements',
+        'next' => 'Check Permissions',
     ],
-
-    /**
-     *
-     * Traductions de la page des autorisations.
-     *
-     */
     'permissions' => [
-        'next' => 'Configurer l\'environnement',
+        'next' => 'Configure Environment',
     ],
-
-    /**
-     *
-     * Traductions de la page de l'environnement.
-     *
-     */
     'environment' => [
         'wizard' => [
-            'pageTitle' => 'Installation - Étape 3 : Paramètres de l\'environnement',
-            'title' => 'Paramètres de l\'environnement',
             'form' => [
-                'name_required' => 'Un nom d\'environnement est requis.',
-                'app_name_label' => 'Titre du site',
-                'app_name_placeholder' => 'Titre du site',
                 'app_url_label' => 'URL',
                 'app_url_placeholder' => 'URL',
-                'db_connection_label' => 'Connexion à la base de données',
                 'db_connection_label_mysql' => 'MySQL',
                 'db_connection_label_sqlite' => 'SQLite',
                 'db_connection_label_pgsql' => 'PostgreSQL',
-                'db_host_label' => 'Hôte de la base de données',
-                'db_host_placeholder' => 'Hôte de la base de données',
-                'db_port_label' => 'Port de la base de données',
-                'db_port_placeholder' => 'Port de la base de données',
-                'db_name_label' => 'Nom de la base de données',
-                'db_name_placeholder' => 'Nom de la base de données',
-                'db_username_label' => 'Nom d\'utilisateur de la base de données',
-                'db_username_placeholder' => 'Nom d\'utilisateur de la base de données',
-                'db_password_label' => 'Mot de passe de la base de données',
-                'db_password_placeholder' => 'Mot de passe de la base de données',
-                'buttons' => [
-                    'install' => 'Installer',
-                ],
-                'db_host_helper' => 'Si vous utilisez Laravel Sail, changez simplement DB_HOST en DB_HOST=mysql. Sur certains hébergements, DB_HOST peut être localhost au lieu de 127.0.0.1',
                 'db_connections' => [
                     'mysql' => 'MySQL',
                     'sqlite' => 'SQLite',
@@ -89,45 +37,34 @@ return [
                 ],
             ],
         ],
-        'success' => 'Les paramètres de votre fichier .env ont été enregistrés.',
-        'errors' => 'Impossible d\'enregistrer le fichier .env. Veuillez le créer manuellement.',
     ],
-
-    /**
-     * Page de création de compte.
-     */
+    'theme' => [
+        'title' => 'Choisir un thème',
+        'message' => 'Choisissez un thème pour personnaliser l\'apparence de votre site Web. Cette sélection importera également des exemples de données adaptées au thème choisi.',
+    ],
     'createAccount' => [
-        'pageTitle' => 'Installation - Étape 4 : Créer un compte',
-        'title' => 'Créer un compte',
+        'title' => 'Create account',
         'form' => [
-            'first_name' => 'Prénom',
-            'last_name' => 'Nom de famille',
-            'username' => 'Nom d\'utilisateur',
-            'email' => 'E-mail',
-            'password' => 'Mot de passe',
-            'password_confirmation' => 'Confirmation du mot de passe',
-            'create' => 'Créer',
+            'first_name' => 'First name',
+            'last_name' => 'Last name',
+            'username' => 'Username',
+            'email' => 'Email',
+            'password' => 'Password',
+            'password_confirmation' => 'Password confirmation',
+            'create' => 'Create',
         ],
     ],
-
-    /**
-     * Page de licence.
-     */
-
     'license' => [
-        'pageTitle' => 'Installation - Étape 5 : Activer la licence',
-        'title' => 'Activer la licence',
-        'skip' => 'Passer pour le moment',
+        'title' => 'Activate License',
+        'skip' => 'Skip for now',
     ],
-
-    'install' => 'Installer',
-
+    'install' => 'Install',
     'final' => [
-        'pageTitle' => 'Installation terminée',
-        'title' => 'Terminé',
-        'message' => 'L\'application a été installée avec succès.',
-        'exit' => 'Aller au tableau de bord d\'administration',
+        'pageTitle' => 'Installation Finished',
+        'title' => 'Done',
+        'message' => 'Application has been successfully installed.',
+        'exit' => 'Go to admin dashboard',
     ],
-
-    'install_success' => 'Installé avec succès!',
+    'install_success' => 'Installed successfully!',
+    'install_step_title' => 'Installation - Step :step: :title',
 ];

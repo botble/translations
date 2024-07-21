@@ -1,28 +1,27 @@
 <?php
 
 return [
-    'create' => 'Créer une nouvelle page',
-    'edit' => 'Modifier la page',
+    'create' => 'Create new page',
     'form' => [
-        'name' => 'Nom',
-        'name_placeholder' => 'Nom de la page(Maximum 120 characters)',
-        'content' => 'Contenu',
-        'note' => 'Contenu de la note',
+        'name' => 'Name',
+        'name_placeholder' => 'Page\'s name (Maximum 120 characters)',
+        'content' => 'Content',
+        'note' => 'Note content',
     ],
     'notices' => [
-        'no_select' => 'Veuillez sélectionner au moins un enregistrement pour effectuer cette action !',
-        'update_success_message' => 'Mise à jour réussie',
+        'no_select' => 'Please select at least one record to take this action!',
+        'update_success_message' => 'Update successfully',
     ],
-    'cannot_delete' => 'La page n\'a pas pu être supprimée',
-    'deleted' => 'Page supprimée',
+    'cannot_delete' => 'Page could not be deleted',
+    'deleted' => 'Page deleted',
     'pages' => 'Pages',
     'menu' => 'Pages',
     'menu_name' => 'Pages',
-    'edit_this_page' => 'Modifier cette page',
-    'total_pages' => 'Total pages',
-    'settings' => [
-        'show_on_front' => 'Votre page d\'accueil affiche',
-        'select' => '— Select —',
+    'edit_this_page' => 'Edit this page',
+    'total_pages' => 'Pages totales',
+    'front_page' => 'Page de garde',
+    'theme_options' => [
+        'title' => 'Page',
+        'your_home_page_display' => 'Votre page d\'accueil s\'affiche',
     ],
-    'front_page' => 'Front Page',
 ];

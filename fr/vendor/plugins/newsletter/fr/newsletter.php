@@ -1,33 +1,27 @@
 <?php
 
 return [
-    'name' => 'Newsletters',
+    'name' => 'Lettres d\'information',
+    'newsletter_form' => 'Formulaire de newsletter',
+    'description' => 'Afficher et supprimer les abonnés à la newsletter',
     'settings' => [
         'email' => [
             'templates' => [
-                'title' => 'Newsletter',
-                'description' => 'Configurer les modèles de newsletter',
-                'to_admin' => [
-                    'title' => 'Envoi d\'un e-mail à l\'administrateur',
-                    'description' => 'Modèle pour l\'envoi d\'un e-mail à l\'administrateur',
-                ],
-                'to_user' => [
-                    'title' => 'Envoi d\'un e-mail à l\'utilisateur',
-                    'description' => 'Modèle pour l\'envoi d\'un e-mail à l\'abonné',
-                ],
+                'title' => 'Bulletin',
             ],
         ],
-        'title' => 'Newsletter',
-        'description' => 'Paramètres de la Newsletter',
-        'mailchimp_api_key' => 'Mailchimp API Key',
-        'mailchimp_list_id' => 'Mailchimp List ID',
-        'mailchimp_list' => 'Mailchimp List',
-        'sendgrid_api_key' => 'Sendgrid API Key',
-        'sendgrid_list_id' => 'Sendgrid List ID',
-        'sendgrid_list' => 'Sendgrid List',
+        'title' => 'Bulletin',
+        'panel_description' => 'Afficher et mettre à jour les paramètres de la newsletter',
+        'mailchimp_api_key' => 'Clé API Mailchimp',
+        'mailchimp_list_id' => 'ID de liste Mailchimp',
+        'mailchimp_list' => 'Liste Mailchimp',
+        'sendgrid_api_key' => 'Clé API Sendgrid',
+        'sendgrid_list_id' => 'ID de liste Sendgrid',
+        'sendgrid_list' => 'Liste Sendgrid',
+        'enable_newsletter_contacts_list_api' => 'Activer l\'API de la liste de contacts de la newsletter ?',
     ],
     'statuses' => [
-        'subscribed' => 'Abonné(e)',
-        'unsubscribed' => 'Désabonné',
+        'subscribed' => 'Subscribed',
+        'unsubscribed' => 'Unsubscribed',
     ],
 ];

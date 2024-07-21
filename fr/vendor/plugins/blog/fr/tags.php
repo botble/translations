@@ -2,20 +2,16 @@
 
 return [
     'form' => [
-        'name' => 'Nom',
-        'name_placeholder' => 'Nom de Tag (Maximum 120 characters)',
         'description' => 'Description',
-        'description_placeholder' => 'Brève description de la balise (Maximum 400 characters)',
-        'categories' => 'Categories',
+        'categories' => 'Catégories',
     ],
     'notices' => [
-        'no_select' => 'Veuillez sélectionner au moins une étiquette pour entreprendre cette action !',
+        'no_select' => 'Please select at least one tag to take this action!',
     ],
-    'create' => 'Créer un nouveau tag',
-    'edit' => 'Editer le tag',
-    'cannot_delete' => 'Le tag n\'a pas pu être supprimé',
-    'deleted' => 'Tag supprimé',
-    'menu' => 'Tags',
-    'edit_this_tag' => 'Modifier ce tag',
-    'menu_name' => 'Tags',
+    'create' => 'Create new tag',
+    'cannot_delete' => 'Tag could not be deleted',
+    'deleted' => 'Tag deleted',
+    'menu' => 'Mots clés',
+    'edit_this_tag' => 'Edit this tag',
+    'menu_name' => 'Mots clés',
 ];

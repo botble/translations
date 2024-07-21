@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'name' => 'Ventes flash',
-    'create' => 'Nouvelle vente flash',
-    'edit' => 'Editer la vente flash',
-    'products' => 'Produits',
+    'name' => 'Flash sales',
+    'create' => 'New flash sale',
+    'edit' => 'Edit flash sale',
+    'products' => 'Products',
 ];

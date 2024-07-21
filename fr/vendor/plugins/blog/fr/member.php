@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'dob' => 'Né(e) :date',
-    'draft_posts' => 'Projets d\'articles',
-    'pending_posts' => 'Posts en attente',
-    'published_posts' => 'Articles publiés',
-    'posts' => 'Posts',
-    'write_post' => 'Rédiger un billet',
+    'dob' => 'Born :date',
+    'draft_posts' => 'Draft Posts',
+    'pending_posts' => 'Pending Posts',
+    'published_posts' => 'Published Posts',
+    'posts' => 'Des postes',
+    'write_post' => 'Write a post',
 ];

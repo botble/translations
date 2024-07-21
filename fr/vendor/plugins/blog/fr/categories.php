@@ -1,11 +1,10 @@
 <?php
 
 return [
-    'create' => 'Créer une nouvelle catégorie',
-    'edit' => 'Editer la catégorie',
-    'menu' => 'Categories',
-    'edit_this_category' => 'Modifier cette catégorie',
-    'menu_name' => 'Categories',
-    'none' => 'Aucun',
+    'create' => 'Create new category',
+    'menu' => 'Catégories',
+    'edit_this_category' => 'Edit this category',
+    'menu_name' => 'Catégories',
+    'none' => 'None',
     'total_posts' => 'Total posts: :total',
 ];

@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'name' => 'Annonces',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'Haut',
+            'bottom' => 'Fixé en bas',
+            'popup' => 'Surgir',
+            'theme' => 'Thème intégré',
+        ],
+        'text_alignment' => [
+            'start' => 'Commencer',
+            'center' => 'Centre',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'La taille de police doit être une valeur de taille de police CSS valide.',
+        'text_color' => 'La couleur du texte doit être une valeur de couleur hexadécimale valide.',
+    ],
+    'create' => 'Créer une nouvelle annonce',
+    'add_new' => 'Ajouter un nouveau',
+    'settings' => [
+        'name' => 'Annonce',
+        'description' => 'Gérer les paramètres d\'annonce',
+    ],
+    'background_color' => 'Couleur de l\'arrière plan',
+    'font_size' => 'Taille de police',
+    'font_size_help' => 'Laissez vide pour utiliser la valeur par défaut. Exemple : 1rem, 1em, 12px, ...',
+    'text_color' => 'Couleur du texte',
+    'start_date' => 'Date de début',
+    'end_date' => 'Date de fin',
+    'has_action' => 'A de l\'action',
+    'action_label' => 'Étiquette d\'action',
+    'action_url' => 'URL de l\'action',
+    'action_open_new_tab' => 'Ouvrir dans un nouvel onglet',
+    'dismissible_label' => 'Autoriser l\'utilisateur à ignorer l\'annonce',
+    'placement' => 'Placement',
+    'text_alignment' => 'Alignement du texte',
+    'is_active' => 'C\'est actif',
+    'max_width' => 'largeur maximale',
+    'max_width_help' => 'Laissez vide pour utiliser la valeur par défaut. Exemple : 100%, 500px, ...',
+    'max_width_unit' => 'Unité de largeur maximale',
+    'font_size_unit' => 'Unité de taille de police',
+    'autoplay_label' => 'Lecture automatique',
+    'autoplay_delay_label' => 'Délai de lecture automatique',
+    'autoplay_delay_help' => 'Le délai entre chaque annonce en millisecondes. Laissez vide pour utiliser la valeur par défaut (5000).',
+    'lazy_loading' => 'Chargement paresseux',
+    'lazy_loading_description' => 'Activez cette option pour améliorer la vitesse de chargement des pages',
+];

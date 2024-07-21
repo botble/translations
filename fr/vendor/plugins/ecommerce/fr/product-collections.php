@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'name' => 'Collections de produits',
-    'create' => 'Nouvelle collection de produits',
-    'edit' => 'Editer la collection de produits',
-    'slug_help_block' => 'Clé d\'étiquette : <code>:slug</code>. Nous utiliserons cette clé pour le filtre.',
+    'name' => 'Product collections',
+    'create' => 'New product collection',
+    'edit' => 'Edit product collection',
+    'slug_help_block' => 'Label key: <code>:slug</code>. We will use this key for filter.',
     'intro' => [
-        'title' => 'Gérer les collections de produits',
-        'description' => 'Regroupez vos produits dans des collections afin que les clients puissent les trouver plus facilement par catégorie.',
-        'button_text' => 'Créer une collection de produits',
+        'title' => 'Manage product collections',
+        'description' => 'Group your products into collections to make it easier for customers to find them by category.',
+        'button_text' => 'Create product collection',
     ],
 ];

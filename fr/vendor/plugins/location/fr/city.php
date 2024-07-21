@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'name' => 'Villes',
-    'create' => 'Nouvelle ville',
-    'edit' => 'Editer la ville',
-    'state' => 'État',
-    'select_state' => 'Sélectionner l\'état...',
-    'select_city' => 'Sélectionnez une ville...',
-    'country' => 'Pays',
-    'select_country' => 'Sélectionner un pays...',
-    'city' => 'Ville',
+    'name' => 'Cities',
+    'description' => 'Gérer les villes de localisation',
+    'create' => 'New city',
+    'state' => 'State',
+    'select_state' => 'Select state...',
+    'select_city' => 'Select city...',
+    'country' => 'Country',
+    'select_country' => 'Select country...',
+    'city' => 'City',
 ];
