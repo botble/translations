@@ -6,4 +6,5 @@ return [
     'published_properties' => 'Tin đã được xuất bản',
     'properties' => 'Tin bất động sản',
     'write_property' => 'Đăng bài',
+    'images' => 'Images (maximum :max images)',
 ];

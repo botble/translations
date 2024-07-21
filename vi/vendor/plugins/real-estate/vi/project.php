@@ -22,6 +22,11 @@ return [
         'currency' => 'Loại tiền',
         'city' => 'Thành phố',
         'category' => 'Loại dự án',
+        'latitude' => 'Vĩ độ',
+        'latitude_helper' => 'Tới đây để lấy Latitude từ địa chỉ.',
+        'longitude' => 'Kinh độ',
+        'longitude_helper' => 'Tới đây để lấy Kinh độ từ địa chỉ.',
+        'categories' => 'Danh mục',
     ],
     'statuses' => [
         'not_available' => 'Không khả dụng',
@@ -30,4 +35,10 @@ return [
         'sold' => 'Đã bán',
         'building' => 'Đang xây dựng',
     ],
+    'distance_key' => 'Chìa khóa khoảng cách giữa các cơ sở',
+    'select_investor' => 'Lựa chọn nhà đầu tư...',
+    'import_projects' => 'Dự án nhập khẩu',
+    'export_projects' => 'Dự án xuất khẩu',
+    'views' => 'Lượt xem',
+    'unique_id' => 'ID duy nhất',
 ];

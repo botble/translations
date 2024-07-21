@@ -12,5 +12,6 @@ return [
     'form' => [
         'help_block' => 'Thông tin về các tiện ích',
         'name' => 'Tiêu đề',
+        'icon' => 'Biểu tượng',
     ],
 ];

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Facilities',
-    'create' => 'New facility',
-    'edit' => 'Edit facility',
+    'name' => 'Cơ sở',
+    'create' => 'Cơ sở mới',
+    'edit' => 'Chỉnh sửa cơ sở',
 ];

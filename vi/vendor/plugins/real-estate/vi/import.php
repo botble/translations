@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'choose_file' => 'Chọn tập tin',
+    'choose_file_description' => 'Choose file with mimes: :types.',
+    'import_success_message' => 'Đã nhập thành công.',
+    'import_failed_message' => 'Nhập không thành công, vui lòng kiểm tra lỗi bên dưới!',
+    'row' => 'Hàng ngang',
+    'attribute' => 'Thuộc tính',
+    'errors' => 'Lỗi',
+    'failures' => 'Thất bại',
+    'results' => 'Result: :success success(es), :failed failure(s)',
+    'rules' => 'Quy tắc',
+    'column' => 'Cột',
+    'template' => 'Mẫu mẫu',
+    'download_csv_file' => 'Tải xuống tệp CSV',
+    'download_excel_file' => 'Tải xuống tệp Excel',
+    'downloading' => 'Đang tải xuống',
+    'uploading' => 'Đang tải lên...',
+    'validating' => 'Đang xác thực...',
+    'importing' => 'Đang nhập khẩu...',
+    'importing_message' => 'Importing form :from to :to',
+    'validating_message' => 'Validating form :from to :to',
+    'total_rows' => 'You have imported :total rows successfully!',
+    'imported_successfully' => 'Thuộc tính của bạn đã được nhập thành công!',
+];

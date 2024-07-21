@@ -15,4 +15,5 @@ return [
     'account_limit' => 'Giới hạn số gói có thể mua theo tài khoản',
     'account_limit_placeholder' => 'Mỗi tài khoản có thể mua x lần',
     'subscribe_package' => 'Đăng ký tin',
+    'add_credit_alert' => 'Vui lòng thêm tín dụng của bạn để tạo bài viết của riêng bạn.',
 ];
