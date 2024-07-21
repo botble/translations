@@ -26,5 +26,8 @@ return [
     'important_message2' => 'Yerel depolamada 1GB\'tan fazla görseliniz/dosyanız varsa, barındırma veya VPS\'nizin yedekleme özelliğini kullanmalısınız.',
     'important_message3' => 'Veritabanınızı yedeklemek için <strong>proc_open()</strong> veya <strong>system()</strong> işlevi etkinleştirilmelidir. Devre dışıysa etkinleştirmek için barındırma sağlayıcınızla iletişime geçin.',
     'important_message4' => 'Tam bir yedekleme değildir, yalnızca yüklenen dosyaların ve veritabanınızın yedeklenmesidir.',
+    'important_message_pgsql1' => 'Şu anda, PostgreSQL\'in veritabanını dışa aktarırken doğrudan veritabanı şifresini girme seçeneği olmadığından <strong>PostgreSQL</strong> veritabanını web üzerinde yedekleyemiyoruz.',
+    'important_message_pgsql2' => 'Yedeği oluşturmak için <strong>php artisan cms:backup:create {name</strong> komutunu veya en son yedeği geri yüklemek için <strong>php artisan cms:backup:restore</strong> komutunu çalıştırabilirsiniz.',
     'cannot_restore_database' => 'Veritabanı geri yüklenemiyor. Veritabanı yedeği eksik!',
+    'database_driver_not_supported' => 'Veritabanı sürücüsü desteklenmiyor.',
 ];

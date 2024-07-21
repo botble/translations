@@ -11,6 +11,7 @@ return [
         'placeholder' => [
             'username' => 'Lütfen Şifrenizi Girin',
             'email' => 'Lütfen E-Posta Adresinizi Girin',
+            'password' => 'Şifrenizi girin',
         ],
         'success' => 'Giriş Başarılı!',
         'fail' => 'Kullanıcı adı veya parola hatalı!',
@@ -42,6 +43,10 @@ return [
             'fail' => 'Bu süre içinde e-posta gönderilemiyor. Lütfen daha sonra tekrar deneyiniz.',
         ],
         'new-password' => 'Yeni Şifre',
+        'placeholder' => [
+            'new_password' => 'Yeni şifrenizi giriniz',
+            'new_password_confirmation' => 'Yeni şifrenizi onaylayın',
+        ],
     ],
     'email' => [
         'reminder' => [
@@ -50,7 +55,7 @@ return [
     ],
     'password_confirmation' => 'Şifre Onaylama',
     'failed' => 'Hata',
-    'throttle' => 'Throttle',
+    'throttle' => 'Gaz kelebeği',
     'not_member' => 'Henüz Üye Değil Misiniz?',
     'register_now' => 'Şimdi Üye Ol!',
     'lost_your_password' => 'Şifrenizi mi unuttunuz?',

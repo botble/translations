@@ -7,7 +7,7 @@ return [
     'slug_help_block' => 'Etiket anahtarı: <code>:slug</code>. Filtreleme için bu anahtarı kullanacağız.',
     'intro' => [
         'title' => 'Ürün Listelerini Yönet',
-        'description' => 'Group your products into collections to make it easier for customers to find them by category.',
+        'description' => 'Müşterilerinizin kategoriye göre bulmasını kolaylaştırmak için ürünlerinizi koleksiyonlar halinde gruplandırın.',
         'button_text' => 'Ürün Listesi Oluştur',
     ],
 ];

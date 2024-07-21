@@ -3,11 +3,9 @@
 return [
     'name' => 'SSS',
     'create' => 'Sıkça Sorulan Sorular (SSS)',
-    'edit' => 'SSS\'i Düzenle',
     'question' => 'Soru',
     'answer' => 'Cevap',
     'category' => 'Kategori',
-    'all' => 'Hepsi',
     'faq_schema_config' => 'SSS Şema Yapılandırması (:link)',
     'learn_more' => 'Daha Fazla Bilgi Edin',
     'settings' => [
@@ -18,4 +16,10 @@ return [
     ],
     'select_category' => 'Bir Kategori Seç',
     'add_item' => 'Öge Ekle',
+    'or' => 'veya',
+    'faqs_menu_name' => 'Yönetici -> SSS -> Oluştur',
+    'select_from_existing' => 'Mevcut SSS\'ler arasından seçim yapın',
+    'no_existing' => 'No existing FAQs, please create one first at :link.',
+    'edit' => 'SSS\'i Düzenle',
+    'all' => 'Hepsi',
 ];

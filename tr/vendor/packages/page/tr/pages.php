@@ -2,7 +2,6 @@
 
 return [
     'create' => 'Yeni Sayfa Yarat',
-    'edit' => 'Sayfayı Düzenle',
     'form' => [
         'name' => 'Ad',
         'name_placeholder' => 'Sayfanın adı (En fazla 120 karakter)',
@@ -20,9 +19,14 @@ return [
     'menu_name' => 'Sayfalar',
     'edit_this_page' => 'Sayfayı Düzenle',
     'total_pages' => 'Toplam Sayfalar',
+    'front_page' => 'Ön Sayfa',
+    'theme_options' => [
+        'title' => 'Sayfa',
+        'your_home_page_display' => 'Ana sayfanız görüntülenir',
+    ],
+    'edit' => 'Sayfayı Düzenle',
     'settings' => [
         'show_on_front' => 'Ana sayfanız görüntülenir',
         'select' => '— Seç —',
     ],
-    'front_page' => 'Ön Sayfa',
 ];

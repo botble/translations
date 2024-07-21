@@ -8,6 +8,8 @@ return [
     'please_check_again_later' => 'Lütfen daha sonra kontrol et',
     'view_more' => 'Daha fazla gör...',
     'view' => 'Görüntüle',
+    'next' => 'Sonraki',
+    'previous' => 'Öncesi',
     'show_more' => 'Daha fazla göster',
     'show_less' => 'Daha az göster',
 ];

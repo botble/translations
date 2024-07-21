@@ -2,8 +2,8 @@
 
 return [
     'create' => 'Yeni Slider',
-    'edit' => 'Slider\'ı Düzenle',
     'menu' => 'Slider',
+    'simple_slider_description' => 'Sisteminizin basit kaydırıcılarını yönetin',
     'settings' => [
         'title' => 'Slider',
         'description' => 'Basit Sliders\'lar İçin Ayarlar',
@@ -20,4 +20,6 @@ return [
     'simple_slider_shortcode_name' => 'Slider',
     'simple_slider_shortcode_description' => 'Basit Slider Ekle',
     'select_slider' => 'Bir Slider Seç',
+    'shortcode' => 'Kısa kod',
+    'edit' => 'Slider\'ı Düzenle',
 ];

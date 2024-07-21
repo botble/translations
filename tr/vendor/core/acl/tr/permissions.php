@@ -46,6 +46,7 @@ return [
     'access_denied_message' => 'Bu işlemi yapmanıza izin verilmiyor',
     'roles' => 'Roller',
     'role_permission' => 'Roller ve İzinler',
+    'role_permission_description' => 'Rollerinizi ve izinlerinizi görüntüleyin ve güncelleyin',
     'user_management' => 'Kullanıcı Yönetimi',
     'super_user_management' => 'Süper Kullanıcı Yönetimi',
     'action_unauthorized' => 'Bu işlem yetkisizdir.',

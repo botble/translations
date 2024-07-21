@@ -1,7 +1,5 @@
 <?php
 
-
-
 return [
     'no_select' => 'Bu eylemi gerçekleştirmek için lütfen en az bir kayıt seçin!',
     'cannot_find_user' => 'Belirtilen kullanıcı bulunamadı',
@@ -39,6 +37,7 @@ return [
         'cache' => 'Önbellek',
         'locale' => 'Aktif yerel ayar',
         'environment' => 'Çevrebirim',
+        'description' => 'Mevcut sistem yapılandırmasına ilişkin tüm bilgiler.',
     ],
     'disabled_in_demo_mode' => 'Demo modunda yapamazsınız!',
     'report_description' => 'Sorun giderme için lütfen bu bilgiyi paylaşın',
@@ -47,6 +46,7 @@ return [
     'framework_version' => 'Uygulama Çerçevesi Versiyonu',
     'timezone' => 'Saat dilimi',
     'debug_mode' => 'Hata Ayıklama Mod',
+    'debug_mode_off' => 'Hata Ayıklama Modu Kapalı',
     'storage_dir_writable' => 'Depolama Dizini Yazılabilir',
     'cache_dir_writable' => 'Önbellek Dizini Yazılabilir',
     'app_size' => 'Uygulama Boyutu',
@@ -78,6 +78,10 @@ return [
     'imagick_or_gd_ext' => 'Imagick/GD Eklentisi',
     'updater' => 'Sistem Güncelleyici',
     'zip' => 'Zip Eklentisi',
+    'iconv' => 'Iconv Dahili',
+    'memory_limit' => 'Bellek sınırı',
+    'max_execution_time' => 'Maksimum yürütme süresi (s)',
+    'allow_url_fopen_enabled' => 'izin_url_fopen etkin',
     'cleanup' => [
         'title' => 'Temizleme Sistemi',
         'table' => [
@@ -90,5 +94,6 @@ return [
         'submit_button' => 'Temizlik',
         'success_message' => 'Veri başarıyla temizlendi',
         'not_enabled_yet' => 'Bu özellik henüz etkinleştirilmedi. <br />Bu özelliği etkinleştirmek için lütfen .env\'ye şunu ekleyin: <code>EMC_ENABLED_CLEANUP_DATABASE=true</code>!',
+        'description' => 'Veritabanındaki kullanılmayan verilerinizi temizleyin',
     ],
 ];

@@ -2,8 +2,11 @@
 
 return [
     'name' => 'Diller',
+    'description' => 'Web sitenizin dillerini görüntüleyin ve güncelleyin',
     'choose_language' => 'Bir Dil Seçin',
     'select_language' => 'Dil Seç',
+    'select_language_code' => 'Dil kodunu seçin',
+    'select_locale' => 'Yerel ayarı seçin',
     'choose_language_helper' => 'Listeden bir dil seçebilir veya doğrudan aşağıda düzenleyebilirsiniz.',
     'language_name' => 'Dil Adı',
     'language_name_helper' => 'Ad, sitenizde nasıl görüntülendiğidir (for example: English).',
@@ -55,4 +58,7 @@ return [
     'delete_confirmation_message' => 'Bu dili gerçekten silmek istiyor musunuz? Bu işlem bu dildeki tüm öğeleri siler ve bu işlem geri alınamaz!',
     'added_already' => 'Bu Dil Zaten Eklendi!',
     'language_auto_detect_user_language' => 'Kullanıcı dili otomatik olarak algılansın mı?',
+    'setup_site_language' => 'To set up the site language, please go to :link page. Or go to :appearance_link to set up the admin language.',
+    'no_languages' => 'Sitenizde dil yok!',
+    'update' => 'Güncelleme',
 ];

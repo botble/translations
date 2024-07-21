@@ -22,10 +22,12 @@ return [
     'cannot_delete' => 'Marka silinemedi',
     'brand_deleted' => 'Marka silindi',
     'menu' => 'Markalar',
-    'no_brand' => 'Marka yok',
+    'select_brand' => 'Bir marka seçin...',
     'intro' => [
         'title' => 'Markaları Yönet',
         'description' => 'Nike, Adidas, Bitis gibi ürün markalarını yönetin...',
         'button_text' => 'Marka oluştur',
     ],
+    'edit_this_brand' => 'Bu markayı düzenle',
+    'no_brand' => 'Marka yok',
 ];

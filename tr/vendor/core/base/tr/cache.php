@@ -2,6 +2,7 @@
 
 return [
     'cache_management' => 'Cache yönetimi',
+    'cache_management_description' => 'Sitenizi güncel tutmak için önbelleği temizleyin.',
     'cache_commands' => 'Cache temizleme komutları',
     'commands' => [
         'clear_cms_cache' => [

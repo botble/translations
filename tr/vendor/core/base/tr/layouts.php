@@ -17,7 +17,7 @@ return [
     'home' => 'Anasayfa',
     'search' => 'Ara',
     'add_new' => 'Yeni ekle',
-    'n_a' => 'N/A',
+    'n_a' => 'Yok',
     'page_loaded_in_time' => 'Page loaded in :time seconds',
     'view_website' => 'Siteyi Görüntüle',
     'tools' => 'Araçlar',

@@ -38,7 +38,9 @@ return [
     'update' => 'Kaydet',
     'read_image_failed' => 'Resim Dosyası Okunamadı',
     'users' => 'Kullanıcılar',
+    'users_description' => 'Sistem kullanıcılarınızı görüntüleyin ve güncelleyin',
     'update_avatar_success' => 'Profil Resminiz Başarıyla Güncellendi',
+    'delete_avatar_success' => 'Profil resmini başarıyla silin!',
     'info' => [
         'title' => 'Kullanıcı Profili',
         'first_name' => 'Ad',
@@ -54,16 +56,13 @@ return [
         'interes' => 'İlgi Alanları',
         'about' => 'Hakkında',
     ],
-    'gender' => [
-        'title' => 'Cinsiyet',
-        'male' => 'Erkek',
-        'female' => 'Kadın',
-    ],
     'total_users' => 'Toplam Kullanıcı',
     'statuses' => [
         'activated' => 'Aktif',
         'deactivated' => 'Devredışı Bırakıldı',
     ],
+    'avatar' => 'avatar',
+    'preferences' => 'Tercihler',
     'make_super' => 'Süper Yap',
     'remove_super' => 'Süper Kaldır',
     'is_super' => 'Süper Mi?',
@@ -75,4 +74,10 @@ return [
     'assigned_role' => 'Atanan Rol',
     'no_role_assigned' => 'Rol Atanmadı',
     'view_user_profile' => 'Kullanıcının profilini görüntüle',
+    'update_preferences_success' => 'Tercihleri ​​başarıyla güncelleyin!',
+    'gender' => [
+        'title' => 'Cinsiyet',
+        'male' => 'Erkek',
+        'female' => 'Kadın',
+    ],
 ];

@@ -16,7 +16,7 @@ return [
     ],
     'phone' => 'Telefon',
     'phone_placeholder' => 'Telefon',
-    'avatar' => 'Avatar',
+    'avatar' => 'avatar',
     'dob' => 'Doğum tarihi',
     'statuses' => [
         'activated' => 'Aktif',
@@ -24,12 +24,12 @@ return [
     ],
     'email_verified' => 'E-posta Doğrulandı Mı?',
     'verify_email' => [
-        'confirm_heading' => 'Verify email confirmation',
-        'confirm_description' => 'Are you sure you want to verify email this customer?',
+        'confirm_heading' => 'E-posta onayını doğrulayın',
+        'confirm_description' => 'Bu müşteriye e-postayı doğrulamak istediğinizden emin misiniz?',
         'notification' => 'This customer is not verified email yet? :approve_link to verify email.',
-        'approve_here' => 'click here',
-        'confirm_button' => 'Verify',
+        'approve_here' => 'buraya tıklayın',
+        'confirm_button' => 'Doğrulamak',
     ],
-    'private_notes' => 'Private notes',
-    'private_notes_helper' => 'Private notes are only visible to admins.',
+    'private_notes' => 'Özel notlar',
+    'private_notes_helper' => 'Özel notlar yalnızca yöneticiler tarafından görülebilir.',
 ];

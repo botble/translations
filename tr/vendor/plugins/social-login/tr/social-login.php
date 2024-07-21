@@ -9,6 +9,7 @@ return [
             'app_secret' => 'Uygulama Gizli Anahtarı',
             'app_id' => 'Uygulama Kimliği',
             'title' => 'Google Uygulama Ayarları',
+            'enable' => 'Google girişini etkinleştir',
         ],
         'description' => 'Sosyal Medya Girişlerini Düzenle',
         'facebook' => [
@@ -17,6 +18,8 @@ return [
             'description' => 'Facebook ile girişi Etkinleştir / Devre dışı bırak veya Kimlik Bilgilerini düzenle',
             'helper' => 'Lütfen uygulamanızı oluşturmak için şu adrese gidin: https://developers.facebook.com Çağırma Bağlantısı :callback',
             'title' => 'Facebook Uygulama Ayarları',
+            'enable' => 'Facebook girişini etkinleştir',
+            'data_deletion_request_callback_url' => 'Set this URL :url as the Data Deletion Request URL in your Facebook app settings to allow users to request deletion of their data.',
         ],
         'github' => [
             'description' => 'GitHub ile girişi Etkinleştir / Devre dışı bırak veya Kimlik Bilgilerini düzenle',
@@ -24,6 +27,7 @@ return [
             'app_id' => 'Uygulama Kimliği',
             'app_secret' => 'Uygulama Gizli Anahtarı',
             'title' => 'GitHub Uygulama Ayarları',
+            'enable' => 'GitHub girişini etkinleştir',
         ],
         'linkedin' => [
             'description' => 'Linkedin ile giriş Etkinleştir / Devre dışı bırak veya Kimlik Bilgilerini düzenle',
@@ -31,8 +35,27 @@ return [
             'app_secret' => 'Uygulama Gizli Anahtarı',
             'app_id' => 'Uygulama Kimliği',
             'title' => 'Linkedin Uygulama Ayarları',
+            'enable' => 'Linkedin girişini etkinleştir',
         ],
         'title' => 'Sosyal Medya ile Giriş Ayarları',
+        'linkedin-openid' => [
+            'enable' => 'OpenID Connect girişini kullanarak Linkedin\'i etkinleştirin',
+            'app_id' => 'Uygulama kimliği',
+            'app_secret' => 'Uygulama Sırrı',
+            'helper' => 'Please go to https://www.linkedin.com/developers/apps/new to create new app update App ID, App Secret. Callback URL is :callback',
+        ],
+        'style' => 'Stil',
+        'minimal' => 'En az',
+        'default' => 'Varsayılan',
+    ],
+    'socials' => [
+        'facebook' => 'Facebook',
+        'google' => 'Google',
+        'github' => 'GitHub',
+        'linkedin' => 'LinkedIn',
+        'linkedin-openid' => 'Linkedin OpenID Bağlantısı',
     ],
     'menu' => 'Sosyal Medya API',
+    'description' => 'Sosyal giriş ayarlarınızı görüntüleyin ve güncelleyin',
+    'sign_in_with' => 'Sign in with :provider',
 ];

@@ -2,6 +2,7 @@
 
 return [
     'name' => 'Etkinlik Günlükleri',
+    'description' => 'Sistem etkinliği günlüklerinizi görüntüleyin ve silin',
     'created' => 'Oluşturuldu',
     'updated' => 'Güncellenmiş',
     'deleted' => 'Silindi',
@@ -27,4 +28,6 @@ return [
     'user_agent' => 'Kullanıcı Aracısı',
     'system' => 'Sistem',
     'delete_all' => 'Tüm Kayıtları Sil',
+    'empty_logs' => 'Boş günlükler',
+    'confirm_empty_logs_msg' => 'Günlükleri gerçekten boşaltmak istiyor musunuz?',
 ];

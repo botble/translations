@@ -2,21 +2,21 @@
 
 return [
     'name' => 'Ürün Fiyatları',
-    'warning_prices' => 'These prices represent the original costs of the product and may not reflect the final prices, which could vary due to factors such as flash sales, promotions, and more.',
+    'warning_prices' => 'Bu fiyatlar ürünün orijinal maliyetlerini temsil etmektedir ve anlık indirimler, promosyonlar ve benzeri faktörlere bağlı olarak değişiklik gösterebilecek nihai fiyatları yansıtmayabilir.',
     'import' => [
         'name' => 'Ürün Fiyatlarını Güncelle',
-        'description' => 'Update product prices in bulk by uploading a CSV/Excel file.',
+        'description' => 'CSV/Excel dosyası yükleyerek ürün fiyatlarını toplu olarak güncelleyin.',
         'done_message' => 'Updated :count product(s) successfully.',
         'rules' => [
-            'id' => 'The ID field is mandatory and must be exists in products table.',
-            'name' => 'The name field is mandatory and must be a string.',
-            'sku' => 'The SKU field must be a string.',
-            'cost_per_item' => 'The cost per item field must be a numeric value.',
-            'price' => 'The price field is required and must be a numeric value.',
-            'sale_price' => 'The sale price field must be a numeric value.',
+            'id' => 'ID alanı zorunludur ve ürünler tablosunda bulunmalıdır.',
+            'name' => 'Ad alanı zorunludur ve bir dize olmalıdır.',
+            'sku' => 'SKU alanı bir dize olmalıdır.',
+            'cost_per_item' => 'Ürün başına maliyet alanı sayısal bir değer olmalıdır.',
+            'price' => 'Fiyat alanı zorunludur ve sayısal bir değer olmalıdır.',
+            'sale_price' => 'İndirimli fiyat alanı sayısal bir değer olmalıdır.',
         ],
     ],
     'export' => [
-        'description' => 'Export product prices to a CSV/Excel file.',
+        'description' => 'Ürün fiyatlarını CSV/Excel dosyasına aktarın.',
     ],
 ];

@@ -46,4 +46,6 @@ return [
         'variations' => 'Varyasyonlar',
     ],
     'import_products' => 'Ürünleri içe aktar',
+    'update_existing_products' => 'Mevcut ürünleri güncelle',
+    'update_existing_products_description' => 'Mevcut ürünler kimlik veya SKU\'ya göre güncellenecektir. Mevcut olmayan ürünler dikkate alınmayacaktır.',
 ];

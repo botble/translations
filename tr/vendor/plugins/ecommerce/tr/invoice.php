@@ -1,7 +1,17 @@
 <?php
 
 return [
+    'name' => 'Faturalar',
+    'description' => 'Fatura ayarlarınızı görüntüleyin ve güncelleyin',
     'create' => 'Yeni Fatura',
+    'edit' => 'Fatura Düzenle',
+    'print' => 'Fatura Yazdır',
+    'download' => 'Faturayı İndir',
+    'heading' => 'Fatura',
+    'table' => [
+        'amount' => 'Miktar',
+        'code' => 'Kod',
+    ],
     'detail' => [
         'amount' => 'Miktar',
         'code' => 'Fatura Kodu',
@@ -17,18 +27,18 @@ return [
         'tax' => 'Vergi',
         'tax_id' => 'Vergi Numarası',
         'total' => 'Toplam',
+        'quantity' => 'Miktar',
+        'attributes' => 'Öznitellikler',
+        'product_options' => 'Ürün seçenekleri',
+        'license_code' => 'Lisans kodu',
     ],
-    'download' => 'Faturayı İndir',
-    'edit' => 'Fatura Düzenle',
-    'heading' => 'Fatura',
-    'name' => 'Faturalar',
+    'total_amount' => 'Toplam Tutar',
     'payment_info' => 'Ödeme Bilgisi',
     'payment_method' => 'Ödeme Yöntemi',
     'payment_status' => 'Ödeme Durumu',
-    'print' => 'Fatura Yazdır',
-    'table' => [
-        'amount' => 'Miktar',
-        'code' => 'Kod',
-    ],
-    'total_amount' => 'Toplam Tutar',
+    'generate_invoices' => 'Fatura Oluştur',
+    'generate_success_message' => 'Generated :count invoices successfully',
+    'generate_invoice' => 'Fatura oluştur',
+    'order' => 'Emir',
+    'all_invoices_have_already_generated' => 'Tüm faturalar zaten oluşturuldu.',
 ];

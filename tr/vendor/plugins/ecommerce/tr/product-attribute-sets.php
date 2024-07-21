@@ -51,7 +51,7 @@ return [
     'attributes_list' => 'Özellikler Listesi',
     'is_default' => 'Varsayılan mı?',
     'title' => 'Başlık',
-    'slug' => 'Slug',
+    'slug' => 'Sümüklüböcek',
     'color' => 'Renk',
     'image' => 'Görsel',
     'remove' => 'Kaldır',

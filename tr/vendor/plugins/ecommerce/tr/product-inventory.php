@@ -2,21 +2,21 @@
 
 return [
     'name' => 'Ürün Envanteri',
-    'storehouse_management' => 'Storehouse Management',
+    'storehouse_management' => 'Depo Yönetimi',
     'import' => [
-        'name' => 'Update Product Inventory',
-        'description' => 'Update product inventory in bulk by uploading a CSV/Excel file.',
+        'name' => 'Ürün Envanterini Güncelle',
+        'description' => 'Bir CSV/Excel dosyası yükleyerek ürün envanterini toplu olarak güncelleyin.',
         'done_message' => 'Updated :count product(s) successfully.',
         'rules' => [
-            'id' => 'The ID field is mandatory and must be exists in products table.',
-            'name' => 'The name field is mandatory and must be a string.',
-            'sku' => 'The SKU field must be a string.',
-            'with_storehouse_management' => 'The with storehouse management field must be "Yes" or "No".',
-            'quantity' => 'The quantity field is mandatory when with storehouse management is "Yes".',
+            'id' => 'ID alanı zorunludur ve ürünler tablosunda bulunmalıdır.',
+            'name' => 'Ad alanı zorunludur ve bir dize olmalıdır.',
+            'sku' => 'SKU alanı bir dize olmalıdır.',
+            'with_storehouse_management' => 'Depo yönetimli alanı "Evet" veya "Hayır" olmalıdır.',
+            'quantity' => 'Depo yönetimi "Evet" olduğunda miktar alanı zorunludur.',
             'stock_status' => 'The stock status field is mandatory when with storehouse management is "No" and must be one of the following values: :statuses.',
         ],
     ],
     'export' => [
-        'description' => 'Export product inventory to a CSV/Excel file.',
+        'description' => 'Ürün envanterini bir CSV/Excel dosyasına aktarın.',
     ],
 ];
