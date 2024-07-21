@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'name' => 'Price',
-    'create' => 'New price',
-    'edit' => 'Edit price',
-    'list' => 'List price',
+    'name' => 'Giá',
+    'create' => 'Giá mới',
+    'edit' => 'Chỉnh sửa giá',
+    'list' => 'Bảng giá',
 ];
