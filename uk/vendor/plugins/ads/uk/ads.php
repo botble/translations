@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'name' => 'Реклама',
+    'create' => 'Нова реклама',
+    'edit' => 'Редагувати рекламу',
+    'location' => 'Розташування',
+    'url' => 'URL',
+    'expired_at' => 'Термін дії закінчується',
+    'key' => 'Ключ',
+    'shortcode' => 'Шорткод',
+    'clicked' => 'Клікнуто',
+    'not_set' => 'Не встановлено',
+    'adblock_warning' => 'Якщо ви використовуєте розширення браузера Adblock, вам потрібно спочатку вимкнути це розширення на вашому сайті. Воно може блокувати вашу рекламу, якщо ввімкнено на вашому сайті! <br /> Порада: Назва зображення НЕ ПОВИННА містити деякі ключові слова реклами (ad, promotion...)',
+    'select_ad' => 'Вибрати рекламу',
+    'open_in_new_tab' => 'Відкрити у новій вкладці?',
+    'ads_type' => 'Тип реклами',
+    'custom_ad' => 'Користувацька реклама',
+    'google_adsense_slot_id' => 'ID слота Google AdSense',
+    'settings' => [
+        'title' => 'Налаштування реклами',
+        'description' => 'Управління налаштуваннями реклами',
+        'google_adsense_auto_ads_snippet' => 'Код автоматичної реклами Google AdSense',
+        'google_adsense_auto_ads_snippet_helper' => 'Ви можете отримати цей код за :link, перейдіть до Ads → Get code → Скопіювати код та вставте його тут.',
+        'google_adsense_unit_ads_client_id' => 'ID клієнта блокової реклами Google AdSense',
+        'google_adsense_unit_ads_client_id_helper' => 'Ви можете отримати цей код за :link, перейдіть до Ads → Unit Ads → Отримати код → Скопіювати ID клієнта та вставте його тут.',
+        'google_adsense_unit_ads_where_to_get_client_id' => 'Де отримати ID клієнта Google AdSense?',
+        'google_adsense_unit_ads_guide_to_get_client_id' => 'Коли ви отримуєте код блоку реклами, ви можете побачити цей атрибут <code>data-ad-client="ca-pub-123456789"</code>, де <code>ca-pub-123456789</code> є ID клієнта блоку реклами.',
+        'google_adsense_unit_ads_guide_example_snippet' => 'Приклад коду блоку реклами Google AdSense:',
+    ],
+];

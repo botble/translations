@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'name' => 'Ads',
+    'create' => 'New ads',
+    'edit' => 'Edit ads',
+    'location' => 'Location',
+    'url' => 'URL',
+    'expired_at' => 'Expired at',
+    'key' => 'Key',
+    'shortcode' => 'Shortcode',
+    'clicked' => 'Clicked',
+    'not_set' => 'Not set',
+    'adblock_warning' => 'If you are using Adblock browser extension, you need to disable this extension on your site first. It may block your ads if it is enabled on your site! <br /> Tips: Image name SHOULD NOT contain some ads keywords (ad, promotion...)',
+    'select_ad' => 'Select Ad',
+    'open_in_new_tab' => 'Open in new tab?',
+    'ads_type' => 'Ads Type',
+    'custom_ad' => 'Custom Ad',
+    'google_adsense_slot_id' => 'Google AdSense Slot ID',
+    'settings' => [
+        'title' => 'Ads Settings',
+        'description' => 'Manage ads settings',
+        'google_adsense_auto_ads_snippet' => 'Google AdSense Auto Ads Snippet',
+        'google_adsense_auto_ads_snippet_helper' => 'You can get this snippet from :link, go to Ads → Get code  → Copy code snippet and paste here.',
+        'google_adsense_unit_ads_client_id' => 'Google AdSense Unit Ads Client ID',
+        'google_adsense_unit_ads_client_id_helper' => 'You can get this snippet from :link, go to Ads → Unit Ads  → Get code → Copy the client id and paste here.',
+        'google_adsense_unit_ads_where_to_get_client_id' => 'Where to get Google AdSense Client ID?',
+        'google_adsense_unit_ads_guide_to_get_client_id' => 'When you get the snippet code of unit ads, you can see this attribute <code>data-ad-client="ca-pub-123456789"</code>, the <code>ca-pub-123456789</code> is the unit ads client id.',
+        'google_adsense_unit_ads_guide_example_snippet' => 'Google AdSense Unit Ads Snippet Example:',
+    ],
+];
