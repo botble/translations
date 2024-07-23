@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'search' => 'пошук...',
     'enabled' => 'Увімкнено',
     'deactivated' => 'Деактивовано',
     'activated' => 'Активовано',
@@ -39,4 +40,12 @@ return [
     'install' => 'Встановити зараз',
     'install_plugin' => 'Встановити плагін',
     'minimum_core_version_not_met' => 'Плагін :plugin вимагає версію ядра не менше :minimum_core_version, але ваша версія ядра :current_core_version. Будь ласка, оновіть ядро, щоб використовувати цей плагін!',
+    'enums' => [
+        'plugin_filter_status' => [
+            'all' => 'все',
+            'activated' => 'активовано',
+            'not-activated' => 'Не активовано',
+            'updates-available' => 'Доступні оновлення',
+        ],
+    ],
 ];

@@ -11,7 +11,7 @@ return [
     'create' => 'Створити',
     'edit' => 'Редагувати',
     'permalink' => 'Постійне посилання',
-    'ok' => 'OK',
+    'ok' => 'в порядку',
     'cancel' => 'Скасувати',
     'template' => 'Шаблон',
     'choose_file' => 'Вибрати файл',
@@ -56,4 +56,5 @@ return [
     'select_placeholder' => 'Виберіть опцію',
     'selected' => 'обрано',
     'count_selected' => ':count обрано',
+    'sort_order' => 'Порядок сортування',
 ];

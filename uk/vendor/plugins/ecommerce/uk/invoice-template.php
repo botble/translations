@@ -7,6 +7,8 @@ return [
     'setting_content' => 'Зміст',
     'preview' => 'Попередній перегляд',
     'preview_heading' => 'Попередній перегляд шаблону рахунку-фактури',
+    'template' => 'Шаблон',
+    'order_invoice_label' => 'Рахунок на замовлення',
     'variables' => [
         'invoice_data' => 'Інформація про рахунок-фактуру з бази даних, наприклад: invoice.code, invoice.amount, ...',
         'site_logo' => 'Логотип сайту з повним URL',
@@ -25,4 +27,9 @@ return [
         'payment_status' => 'Статус оплати',
         'payment_description' => 'Опис оплати',
     ],
+    'reset_success' => 'Успішно відновлено налаштування за умовчанням',
+    'confirm_reset' => 'Підтвердити скидання шаблону рахунку?',
+    'confirm_message' => 'Ви справді бажаєте скинути шаблон рахунку-фактури до стандартного?',
+    'reset_to_default' => 'Скинути до замовчування',
+    'continue' => 'Продовжити',
 ];

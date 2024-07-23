@@ -60,5 +60,13 @@ return [
     ],
     'please_select_locale' => 'Будь ласка, виберіть мову, щоб почати переклад. Якщо ваша мова не відображається в списку, ви можете перейти до Налаштування -> Локалі, щоб додати її.',
     'import_translations' => 'Імпорт перекладів',
+    'export_description' => 'Export :name data to a CSV or Excel file.',
+    'import_description' => 'Import :name data from a CSV or Excel file.',
     'import_translations_description' => 'Це знайде всі тексти перекладів для передньої теми і додасть їх до перекладу',
+    'import' => [
+        'rules' => [
+            'key' => 'Не змінюйте цю колонку під час перекладу слів.',
+            'trans' => 'Can be empty or a string with a maximum length of :max characters if provided.',
+        ],
+    ],
 ];

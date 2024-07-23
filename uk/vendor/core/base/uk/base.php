@@ -65,4 +65,6 @@ return [
         'domain' => ':attribute має бути дійсним доменом.',
     ],
     'showing_records' => 'Показано від :from до :to з :total записів',
+    'copy' => 'Копіювати',
+    'copied' => 'Скопійовано',
 ];

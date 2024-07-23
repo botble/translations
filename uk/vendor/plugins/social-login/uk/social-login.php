@@ -36,7 +36,18 @@ return [
             'helper' => 'Будь ласка, перейдіть на https://www.linkedin.com/developers/apps/new для створення нового додатку та оновлення ID додатку, Секрету додатку. URL для зворотного виклику: :callback',
         ],
         'enable' => 'Увімкнути соціальний вхід?',
+        'style' => 'Стиль',
+        'minimal' => 'Мінімальний',
+        'default' => 'За замовчуванням',
+    ],
+    'socials' => [
+        'facebook' => 'Facebook',
+        'google' => 'Google',
+        'github' => 'GitHub',
+        'linkedin' => 'Linkedin',
+        'linkedin-openid' => 'Linkedin OpenID Connect',
     ],
     'menu' => 'Соціальний вхід',
     'description' => 'Перегляньте та оновіть налаштування соціального входу',
+    'sign_in_with' => 'Sign in with :provider',
 ];

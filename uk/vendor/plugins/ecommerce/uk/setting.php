@@ -29,11 +29,12 @@ return [
                 'select' => '-- Вибрати --',
                 'none' => 'Немає',
                 'provider' => [
-                    'api_layer' => 'API Layer',
-                    'open_exchange_rate' => 'Open Exchange Rates',
+                    'api_layer' => 'Рівень API',
+                    'open_exchange_rate' => 'Відкрити курси валют',
                 ],
-                'open_exchange_app_id' => 'Open Exchange Rates App ID',
+                'open_exchange_app_id' => 'Відкрити ідентифікатор додатка «Курси валют».',
             ],
+            'default_currency_warning' => 'Для валюти за умовчанням обмінний курс має бути 1.',
         ],
     ],
     'product' => [
@@ -76,6 +77,7 @@ return [
         'form' => [
             'enable_support_digital_product' => 'Увімкнути підтримку цифрових продуктів',
             'allow_guest_checkout_for_digital_products' => 'Дозволити гостям оформлювати замовлення на цифрові продукти',
+            'disable_physical_product' => 'Вимкнути фізичний продукт',
         ],
     ],
     'product_review' => [
@@ -110,6 +112,9 @@ return [
             'checkout_page' => 'Сторінка оформлення замовлення',
             'cart_page' => 'Сторінка кошика',
             'cart_destroy_on_logout' => 'Знищити кошик при виході з системи',
+            'enable_wishlist_sharing' => 'Увімкнути спільний доступ до списку бажань',
+            'shared_wishlist_lifetime' => 'Тривалість спільного списку бажань (днів)',
+            'shared_wishlist_lifetime_helper' => 'Тривалість спільного списку бажань у днях. Після закінчення цього часу спільний список бажань буде видалено.',
         ],
     ],
     'checkout' => [
@@ -175,6 +180,7 @@ return [
             'add_language_support' => 'Додати підтримку мов',
             'only_latin_languages' => 'Тільки латинські мови',
             'disable_order_invoice_until_order_confirmed' => 'Вимкнути рахунок-фактуру до підтвердження замовлення',
+            'date_format' => 'Формат дати',
         ],
     ],
     'tax' => [
@@ -191,6 +197,8 @@ return [
             'default_tax_rate_description' => 'Важливо: буде застосовано, якщо в продукті не вибрано податок.',
             'select_tax' => '-- Вибрати --',
             'display_product_price_including_taxes' => 'Відображати ціну продукту з урахуванням податків',
+            'display_company_invoice_information_fields_at_checkout_page' => 'Відображення полів інформації про рахунок компанії на сторінці оформлення замовлення',
+            'display_company_invoice_information_fields_at_checkout_page_helper' => 'Якщо його ввімкнено, поля інформації про рахунок компанії відображатимуться на сторінці оформлення замовлення. Необхідно заповнити поля інформації про рахунок компанії.',
         ],
     ],
     'customer' => [
@@ -205,6 +213,11 @@ return [
             'login_with_email' => 'Увійти за допомогою електронної пошти',
             'login_with_phone' => 'Увійти за допомогою телефону',
             'login_with_email_or_phone' => 'Увійти за допомогою електронної пошти або телефону',
+            'verify_customer_email_helper' => 'Коли його ввімкнено, на електронну адресу клієнта буде надіслано посилання для підтвердження. Клієнтам потрібно натиснути це посилання, щоб підтвердити свою електронну адресу, перш ніж вони зможуть увійти.',
+            'enabled_customer_account_deletion' => 'Увімкнути видалення облікового запису клієнта',
+            'enabled_customer_account_deletion_helper' => 'Якщо його ввімкнено, клієнти можуть видалити свій обліковий запис у інформаційній панелі клієнта → Налаштування облікового запису.',
+            'enabled_customer_dob_field' => 'Увімкніть поле дати народження клієнта',
+            'enabled_customer_dob_field_helper' => 'Коли його ввімкнено, клієнти можуть вводити свою дату народження на інформаційній панелі клієнта → Налаштування облікового запису.',
         ],
     ],
     'shipping' => [
@@ -219,13 +232,14 @@ return [
         ],
     ],
     'webhook' => [
-        'name' => 'Webhook',
+        'name' => 'Вебхук',
         'description' => 'Налаштуйте налаштування webhook',
-        'webhook_setting' => 'Webhook',
+        'webhook_setting' => 'Вебхук',
         'webhook_setting_description' => 'Надіслати webhook при розміщенні замовлення',
         'form' => [
             'order_placed_webhook_url' => 'URL webhook для розміщення замовлення (метод: POST)',
             'order_placed_webhook_url_placeholder' => 'https://...',
+            'order_placed_webhook_url_helper' => 'Щоб отримувати сповіщення про розміщення замовлення, ви можете налаштувати зовнішню URL-адресу веб-хуку. Якщо у вас є зовнішня URL-адреса вебхуку, ви можете ввести цю URL-адресу або просто залишити її пустою.',
         ],
     ],
     'store_locator' => [

@@ -65,7 +65,7 @@ return [
     'pdo_ext' => 'PDO Ext',
     'curl_ext' => 'CURL Ext',
     'exif_ext' => 'Exif Ext',
-    'file_info_ext' => 'File info Ext',
+    'file_info_ext' => 'Інформація про файл Ext',
     'tokenizer_ext' => 'Tokenizer Ext',
     'extra_stats' => 'Додаткові статистики',
     'installed_packages' => 'Встановлені пакети та їх версії',

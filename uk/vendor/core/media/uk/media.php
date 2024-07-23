@@ -42,10 +42,8 @@ return [
     'up_level' => 'На один рівень вгору',
     'upload_progress' => 'Прогрес завантаження',
     'alt_text' => 'Alt текст',
-
     'folder_created' => 'Папка успішно створена!',
     'gallery' => 'Медіа галерея',
-
     'trash_error' => 'Помилка при видаленні вибраних елементів',
     'trash_success' => 'Вибрані елементи успішно переміщені до кошика!',
     'restore_error' => 'Помилка при відновленні вибраних елементів',
@@ -77,7 +75,6 @@ return [
         'description' => 'Керування та перегляд медіафайлів',
     ],
     'add' => 'Додати медіа',
-
     'javascript' => [
         'name' => 'Назва',
         'url' => 'URL',
@@ -91,7 +88,6 @@ return [
         'visit_link' => 'Відкрити посилання',
         'width' => 'Ширина',
         'height' => 'Висота',
-
         'no_item' => [
             'all_media' => [
                 'title' => 'Перетягніть файли та папки сюди',
@@ -114,20 +110,16 @@ return [
                 'message' => 'Ця директорія не має жодного елемента',
             ],
         ],
-
         'clipboard' => [
             'success' => 'Ці посилання на файли скопійовані в буфер обміну',
         ],
-
         'message' => [
             'error_header' => 'Помилка',
             'success_header' => 'Успіх',
         ],
-
         'download' => [
             'error' => 'Файли не вибрані або не можна завантажити ці файли',
         ],
-
         'actions_list' => [
             'basic' => [
                 'preview' => 'Попередній перегляд',
@@ -138,6 +130,8 @@ return [
                 'rename' => 'Перейменувати',
                 'make_copy' => 'Зробити копію',
                 'alt_text' => 'ALT текст',
+                'copy_indirect_link' => 'Копіювати непряме посилання',
+                'share' => 'Поділіться',
             ],
             'user' => [
                 'favorite' => 'Додати до обраного',
@@ -169,7 +163,6 @@ return [
     'update_alt_text_success' => 'Alt текст успішно оновлено!',
     'upload_from_local' => 'Завантажити з локального',
     'upload_from_url' => 'Завантажити з URL',
-
     'cropper' => [
         'height' => 'Висота',
         'width' => 'Ширина',
@@ -185,4 +178,13 @@ return [
         'color_label' => 'Виберіть колір для цієї папки',
     ],
     'update_properties_success' => 'Властивості успішно оновлено!',
+    'share' => 'Поділіться',
+    'share_type' => 'Тип спільного доступу',
+    'share_as_url' => 'URL',
+    'share_as_indirect_url' => 'Непряма URL-адреса',
+    'share_as_html' => 'HTML',
+    'share_as_markdown' => 'Уцінка',
+    'share_results' => 'Поділіться результатами',
+    'download_image_to_local_storage' => 'Завантажте зображення в локальне сховище',
+    'download_image_to_local_storage_helper' => 'Якщо не позначено, зображення відображатиметься з оригінальної URL-адреси',
 ];

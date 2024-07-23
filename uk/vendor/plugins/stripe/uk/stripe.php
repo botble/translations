@@ -13,5 +13,5 @@ return [
         'step_3_description' => 'Натисніть кнопку "Додати кінцеву точку", щоб зберегти webhook.',
         'step_4_label' => 'Скопіюйте секретний ключ підпису',
         'step_4_description' => 'Скопіюйте значення "Signing Secret" з розділу "Webhook Details" і вставте його в поле "Stripe Webhook Secret" у розділі "Stripe" вкладки "Оплата" на сторінці "Налаштування".',
-    ]
+    ],
 ];

@@ -49,6 +49,7 @@ return [
     'theme_option_seo_open_graph_image' => 'SEO зображення за замовчуванням для Open Graph',
     'theme_option_logo' => 'Логотип',
     'theme_option_favicon' => 'Фавікон',
+    'theme_option_breadcrumb' => 'Хлібний сухарь',
     'folder_is_not_writeable' => 'Неможливо записати файли! Папка :name недоступна для запису. Будь ласка, змініть права доступу!',
     'breadcrumb_enabled' => 'Увімкнути хлібні крихти?',
     'themes' => 'Теми',
@@ -61,4 +62,13 @@ return [
     'robots_txt_file' => 'Завантажити файл robots.txt',
     'robots_txt_file_helper' => 'Якщо ви хочете завантажити файл robots.txt, будь ласка, виберіть його тут.',
     'email_template_logo_helper_text' => 'Якщо не встановлено, він буде взятий з опцій теми логотипу в Адміністратор -> Зовнішній вигляд -> Параметри теми -> Логотип.',
+    'settings' => [
+        'website_tracking' => [
+            'title' => 'Відстеження веб-сайту',
+            'description' => 'Налаштувати відстеження веб-сайту',
+            'google_tag_id' => 'Ідентифікатор тегу Google',
+            'google_tag_id_placeholder' => 'Приклад: G-123ABC4567',
+            'google_tag_code' => 'Код тегу Google',
+        ],
+    ],
 ];

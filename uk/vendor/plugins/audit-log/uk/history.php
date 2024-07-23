@@ -25,7 +25,7 @@ return [
     'custom-field' => 'користувацьке поле',
     'widget_audit_logs' => 'Журнали активності',
     'action' => 'Дія',
-    'user_agent' => 'User Agent',
+    'user_agent' => 'Агент користувача',
     'system' => 'Система',
     'delete_all' => 'Видалити всі записи',
     'empty_logs' => 'Очистити журнали',

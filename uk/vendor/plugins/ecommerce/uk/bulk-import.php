@@ -46,4 +46,6 @@ return [
         'variations' => 'Варіації',
     ],
     'import_products' => 'Імпорт продуктів',
+    'update_existing_products' => 'Оновлення існуючих продуктів',
+    'update_existing_products_description' => 'Існуючі продукти буде оновлено на основі ідентифікатора або SKU. Продукти, яких не існує, будуть проігноровані.',
 ];

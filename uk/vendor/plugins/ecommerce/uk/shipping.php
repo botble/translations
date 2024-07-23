@@ -108,6 +108,7 @@ return [
     'adjustment_price_of' => 'Коригування ціни на :key',
     'warehouse' => 'Склад',
     'delivery_note' => 'Примітка до доставки',
+    'customer_note' => 'Примітка клієнта',
     'shipments' => 'Відправлення',
     'order_id' => 'Ідентифікатор замовлення',
     'shipment_id' => 'Ідентифікатор відправлення',

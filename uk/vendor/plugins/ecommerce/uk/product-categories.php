@@ -14,4 +14,10 @@ return [
     ],
     'total_products' => 'Загальна кількість продуктів: :total',
     'edit_this_category' => 'Редагувати цю категорію',
+    'export' => [
+        'description' => 'Експорт категорій продуктів у файл Excel/CSV.',
+    ],
+    'import' => [
+        'description' => 'Імпортуйте категорії продуктів із файлу Excel/CSV.',
+    ],
 ];

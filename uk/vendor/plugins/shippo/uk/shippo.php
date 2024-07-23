@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'name' => 'Shippo',
+    'name' => 'Шиппо',
     'description' => 'Усі перевізники та магазини, які вам потрібні',
     'note_0' => 'Перед активацією, будь ласка, прочитайте наведену нижче інформацію',
     'note_1' => 'Потрібно використовувати міста, штати, країни з Адміністратор -> Локації, <a href=":link" target="_blank" rel="noopener noreferrer">:link</a>',
@@ -58,5 +58,5 @@ return [
     'logging' => 'Логування?',
     'webhooks' => 'Вебхуки?',
     'cache_response' => 'Кешування відповіді?',
-    'not_available_in_cod_payment_method' => "Опції Shippo не будуть відображатися, якщо вибрано метод оплати COD!",
+    'not_available_in_cod_payment_method' => 'Опції Shippo не будуть відображатися, якщо вибрано метод оплати COD!',
 ];

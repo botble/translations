@@ -9,7 +9,6 @@ return [
     'setting_general' => 'Загальні',
     'setting_email' => 'Електронна пошта',
     'system_information' => 'Інформація про систему',
-
     'theme' => 'Тема',
     'copyright' => 'Авторські права :year © :company. Версія :version',
     'profile' => 'Профіль',
