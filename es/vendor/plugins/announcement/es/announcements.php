@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'name' => 'Anuncios',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'Arriba',
+            'bottom' => 'Fijo en la parte inferior',
+            'popup' => 'Surgir',
+            'theme' => 'Tema incorporado',
+        ],
+        'text_alignment' => [
+            'start' => 'Comenzar',
+            'center' => 'Centro',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'El tamaño de fuente debe ser un valor de tamaño de fuente CSS válido.',
+        'text_color' => 'El color del texto debe ser un valor de color hexadecimal válido.',
+    ],
+    'create' => 'Crear nuevo anuncio',
+    'add_new' => 'Agregar nuevo',
+    'settings' => [
+        'name' => 'Anuncio',
+        'description' => 'Administrar la configuración de anuncios',
+    ],
+    'background_color' => 'Color de fondo',
+    'font_size' => 'Tamaño de fuente',
+    'font_size_help' => 'Déjelo vacío para usar el valor predeterminado. Ejemplo: 1rem, 1em, 12px, ...',
+    'text_color' => 'Color de texto',
+    'start_date' => 'Fecha de inicio',
+    'end_date' => 'Fecha final',
+    'has_action' => 'tiene acción',
+    'action_label' => 'etiqueta de acción',
+    'action_url' => 'URL de acción',
+    'action_open_new_tab' => 'Abrir en una pestaña nueva',
+    'dismissible_label' => 'Permitir al usuario descartar el anuncio',
+    'placement' => 'Colocación',
+    'text_alignment' => 'Alineación del texto',
+    'is_active' => 'Está activo',
+    'max_width' => 'anchura máxima',
+    'max_width_help' => 'Déjelo vacío para usar el valor predeterminado. Ejemplo: 100%, 500px, ...',
+    'max_width_unit' => 'Unidad de ancho máximo',
+    'font_size_unit' => 'Unidad de tamaño de fuente',
+    'autoplay_label' => 'Auto-reproducción',
+    'autoplay_delay_label' => 'Retraso de reproducción automática',
+    'autoplay_delay_help' => 'El retraso entre cada anuncio en milisegundos. Déjelo vacío para usar el valor predeterminado (5000).',
+    'lazy_loading' => 'Carga lenta',
+    'lazy_loading_description' => 'Habilite esta opción para mejorar la velocidad de carga de la página',
+];

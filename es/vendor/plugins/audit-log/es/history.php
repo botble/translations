@@ -2,6 +2,7 @@
 
 return [
     'name' => 'Registros de actividades',
+    'description' => 'Ver y eliminar los registros de actividad del sistema',
     'created' => 'Creado',
     'updated' => 'actualizado',
     'deleted' => 'Eliminado',
@@ -27,4 +28,6 @@ return [
     'user_agent' => 'Agente de usuario',
     'system' => 'Sistema',
     'delete_all' => 'Eliminar todos los registros',
+    'empty_logs' => 'Registros vacíos',
+    'confirm_empty_logs_msg' => '¿Realmente quieres vaciar los registros?',
 ];

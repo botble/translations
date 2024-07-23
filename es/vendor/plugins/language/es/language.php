@@ -17,7 +17,7 @@ return [
     'text_direction' => 'Dirección del texto',
     'text_direction_helper' => 'Elige la dirección del texto para el idioma',
     'left_to_right' => 'De izquierda a derecha',
-    'right_to_left' => 'Right to left',
+    'right_to_left' => 'De derecha a izquierda',
     'flag' => 'Bandera',
     'flag_helper' => 'Elige una bandera para el idioma.',
     'order' => 'Orden',

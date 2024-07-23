@@ -2,7 +2,6 @@
 
 return [
     'create' => 'Crear nueva',
-    'edit' => 'Editar',
     'form' => [
         'name' => 'Nombre',
         'name_placeholder' => 'Nombre de la página (máximo 120 caracteres)',
@@ -20,9 +19,14 @@ return [
     'menu_name' => 'Páginas',
     'edit_this_page' => 'Edita esta página',
     'total_pages' => 'Total de páginas',
+    'front_page' => 'Vista de página',
+    'theme_options' => [
+        'title' => 'Página',
+        'your_home_page_display' => 'Se muestra tu página de inicio',
+    ],
+    'edit' => 'Editar',
     'settings' => [
         'show_on_front' => 'Págia de inicio',
         'select' => '— Selecciona—',
     ],
-    'front_page' => 'Vista de página',
 ];

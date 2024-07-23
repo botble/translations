@@ -2,7 +2,6 @@
 
 return [
     'create' => 'Crear nueva publicación',
-    'edit' => 'Editar post',
     'form' => [
         'name' => 'Nombre',
         'name_placeholder' => 'Nombre de la publicación(:c caracteres permitidos)',
@@ -27,4 +26,20 @@ return [
     'categories' => 'Categorías',
     'category' => 'Categoría',
     'author' => 'Autor',
+    'export' => [
+        'description' => 'Exportar publicaciones a un archivo CSV/Excel.',
+        'total' => 'Publicaciones totales',
+    ],
+    'import' => [
+        'description' => 'Importar publicaciones desde un archivo CSV/Excel.',
+        'done_message' => ':created posts created and :updated posts updated.',
+        'rules' => [
+            'nullable_string_max' => ':attribute can be empty or a string with a maximum length of :max characters if provided.',
+            'sometimes_array' => ':attribute can be left empty or must be an array if provided.',
+            'in' => ':attribute must be one of the following values: :values.',
+            'nullable_string' => ':attribute can be left empty or must be a string if provided.',
+            'nullable_string_max_in' => ':attribute can be left empty or must be a string with a maximum length of :max characters if provided and must be one of the following values: :values.',
+        ],
+    ],
+    'edit' => 'Editar post',
 ];

@@ -22,7 +22,7 @@ return [
         ],
         'clear_route_cache' => [
             'title' => 'Limpiar enrutamiento',
-            'description' => 'Clear cache routing.',
+            'description' => 'Borrar enrutamiento de caché.',
             'success_msg' => 'Enrutamiento de cache',
         ],
         'clear_log' => [

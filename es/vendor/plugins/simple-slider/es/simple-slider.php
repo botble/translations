@@ -2,8 +2,8 @@
 
 return [
     'create' => 'Nuevo',
-    'edit' => 'Editar',
     'menu' => 'Deslizadores',
+    'simple_slider_description' => 'Administre su sistema con controles deslizantes simples',
     'settings' => [
         'title' => 'Simple sliders',
         'description' => 'Configuración',
@@ -20,4 +20,6 @@ return [
     'simple_slider_shortcode_name' => 'Deslizador',
     'simple_slider_shortcode_description' => 'Agregar deslizador',
     'select_slider' => 'Selecciona el deslizador',
+    'shortcode' => 'Código corto',
+    'edit' => 'Editar',
 ];

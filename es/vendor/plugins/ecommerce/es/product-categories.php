@@ -13,4 +13,11 @@ return [
         'button_text' => 'Crear categoría',
     ],
     'total_products' => 'Total de productos :total',
+    'edit_this_category' => 'Editar esta categoría',
+    'export' => [
+        'description' => 'Exporte categorías de productos a un archivo Excel/CSV.',
+    ],
+    'import' => [
+        'description' => 'Importe categorías de productos desde un archivo Excel/CSV.',
+    ],
 ];

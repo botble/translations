@@ -14,7 +14,7 @@ return [
     'widget_not_exists' => 'El widget no existe',
     'manage_widgets' => 'Gestionar widgets',
     'fullscreen' => 'Pantalla completa',
-    'title' => 'Dashboard',
+    'title' => 'Panel',
     'predefined_ranges' => [
         'today' => 'Hoy',
         'yesterday' => 'Ayer',
@@ -22,6 +22,6 @@ return [
         'last_7_days' => 'Últimos 7 días',
         'this_month' => 'Este mes',
         'last_30_days' => 'Últimos 30 días',
-        'this_year' => 'This Year',
+        'this_year' => 'Este año',
     ],
 ];

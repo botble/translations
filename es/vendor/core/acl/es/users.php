@@ -40,7 +40,7 @@ return [
     'users' => 'Usuarios',
     'users_description' => 'Ver y actualizar los usuarios del sistema',
     'update_avatar_success' => 'La imagen de perfil fue actualizada!',
-    'delete_avatar_success' => 'Delete profile image successfully!',
+    'delete_avatar_success' => '¡Elimina la imagen de perfil con éxito!',
     'info' => [
         'about' => 'Acerca de',
         'address' => 'Habla a',
@@ -62,7 +62,7 @@ return [
         'deactivated' => 'Desactivado',
     ],
     'avatar' => 'Avatar',
-    'preferences' => 'Preferences',
+    'preferences' => 'Preferencias',
     'make_super' => 'Hacer super',
     'remove_super' => 'Quitar super',
     'is_super' => 'Super',

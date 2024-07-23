@@ -2,9 +2,9 @@
 
 return [
     'platform_admin' => 'Administración de la plataforma',
-    'dashboard' => 'Dashboard',
-    'widgets' => 'Widgets',
-    'plugins' => 'Plugins',
+    'dashboard' => 'Panel',
+    'widgets' => 'widgets',
+    'plugins' => 'Complementos',
     'settings' => 'Ajustes',
     'setting_general' => 'General',
     'setting_email' => 'Correo electrónico',
@@ -17,7 +17,7 @@ return [
     'home' => 'Inicio',
     'search' => 'Buscar',
     'add_new' => 'Añadir nuevo',
-    'n_a' => 'N/A',
+    'n_a' => 'N / A',
     'page_loaded_in_time' => 'Página cargada en :time segundos',
     'view_website' => 'Ver sitio web',
     'tools' => 'Herramientas',

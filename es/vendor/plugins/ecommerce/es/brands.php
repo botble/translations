@@ -22,11 +22,13 @@ return [
     'cannot_delete' => 'No se pudo borrar la marca',
     'brand_deleted' => 'Marca eliminada',
     'menu' => 'Marcas',
-    'no_brand' => 'Sin marca',
+    'select_brand' => 'Seleccione una marca...',
     'intro' => [
         'title' => 'Administrar marcas',
         'description' => 'Gestionar marcas de productos como Iartesano, Lolita, Crafttool',
         'button_text' => 'Crear Marca',
     ],
+    'edit_this_brand' => 'Editar esta marca',
+    'no_brand' => 'Sin marca',
     'list' => 'Lista de marcas',
 ];

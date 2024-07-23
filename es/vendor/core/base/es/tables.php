@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'id' => 'ID',
+    'id' => 'IDENTIFICACIÓN',
     'name' => 'Nombre',
-    'slug' => 'Slug',
+    'slug' => 'Babosa',
     'title' => 'Título',
     'order_by' => 'Ordenar por',
     'order' => 'Pedido',
@@ -29,7 +29,7 @@ return [
     'restore' => 'Restaurar',
     'activate' => 'Activar',
     'deactivate' => 'Desactivar',
-    'excel' => 'Excel',
+    'excel' => 'Sobresalir',
     'export' => 'Exportar',
     'csv' => 'CSV',
     'pdf' => 'PDF',

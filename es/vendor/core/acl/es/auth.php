@@ -68,7 +68,7 @@ return [
     'settings' => [
         'email' => [
             'description' => 'Configuración de correo ACL',
-            'title' => 'ACL',
+            'title' => 'LCA',
         ],
     ],
 ];

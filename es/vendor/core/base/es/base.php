@@ -35,6 +35,7 @@ return [
                 'if' => 'La declaración if en Twig es comparable con las declaraciones if de PHP',
             ],
         ],
+        'variable' => 'Variable',
     ],
     'change_image' => 'Cambiar imagen',
     'delete_image' => 'Eliminar imagen',
@@ -66,4 +67,6 @@ return [
         'domain' => 'El :attribute debe ser un dominio válido.',
     ],
     'showing_records' => 'Mostrando :from a :to de :total registros',
+    'copy' => 'Copiar',
+    'copied' => 'Copiado',
 ];
