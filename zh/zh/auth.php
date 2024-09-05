@@ -1,18 +1,7 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Authentication Language Lines
-|--------------------------------------------------------------------------
-|
-| The following language lines are used during authentication for various
-| messages that we need to display to the user. You are free to modify
-| these language lines according to your application's requirements.
-|
-*/
-
 return [
-    'failed'   => '用户名或密码错误。',
-    'password' => '密码错误。',
-    'throttle' => '您尝试的登录次数过多，请 :seconds 秒后再试。',
+    'failed' => '使用者名稱或密碼錯誤。',
+    'password' => '密碼不正確。',
+    'throttle' => '登入嘗試次數過多。請在 :seconds 秒後重試。',
 ];

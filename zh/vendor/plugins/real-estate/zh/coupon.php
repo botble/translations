@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'name' => '優惠券',
+    'create' => '新優惠券',
+    'edit' => '編輯優惠券“：名稱”',
+    'intro' => [
+        'button_text' => '創建優惠券',
+        'title' => '管理優惠券代碼',
+        'description' => '為您的客戶建立和管理優惠券代碼。',
+    ],
+    'types' => [
+        'percentage' => '百分比',
+        'fixed' => '固定的',
+    ],
+    'type' => '類型',
+    'created_message' => '優惠券已創建成功。',
+    'expires_date' => '到期日期',
+    'expires_time' => '過期時間',
+    'never_expired' => '從未過期？',
+    'save_button' => '儲存',
+    'coupon_code' => '優惠券代碼',
+    'coupon_code_placeholder' => '輸入優惠券代碼',
+    'generate_code_button' => '產生程式碼',
+    'value' => '價值',
+    'value_placeholder' => '輸入優惠券價值',
+    'value_off' => '：值關閉',
+    'total_used' => '已使用',
+    'expired' => '已到期',
+    'active' => '積極的',
+    'unlimited' => '無限次優惠券？',
+    'quantity' => '數量',
+    'quantity_placeholder' => '輸入優惠券數量',
+    'discount_amount' => '折扣金額',
+    'total' => '全部的',
+    'toggle_coupon_form_text' => '您有優惠券代碼嗎？',
+    'apply_coupon_code' => '申請',
+];

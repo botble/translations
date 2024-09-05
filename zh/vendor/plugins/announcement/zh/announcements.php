@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'name' => '公告',
+    'enums' => [
+        'announce_placement' => [
+            'top' => '頂部',
+            'bottom' => '固定在底部',
+            'popup' => '彈出視窗',
+            'theme' => '主題內建',
+        ],
+        'text_alignment' => [
+            'start' => '開始',
+            'center' => '中心',
+        ],
+    ],
+    'validation' => [
+        'font_size' => '字體大小必須是有效的 CSS 字體大小值。',
+        'text_color' => '文字顏色必須是有效的十六進位顏色值。',
+    ],
+    'create' => '建立新公告',
+    'add_new' => '新增新的',
+    'settings' => [
+        'name' => '公告',
+        'description' => '管理公告設置',
+    ],
+    'background_color' => '背景顏色',
+    'font_size' => '字體大小',
+    'font_size_help' => '留空以使用預設值。例：1rem、1em、12px、...',
+    'text_color' => '文字顏色',
+    'start_date' => '開始日期',
+    'end_date' => '結束日期',
+    'has_action' => '有行動',
+    'action_label' => '動作標籤',
+    'action_url' => '操作網址',
+    'action_open_new_tab' => '在新分頁中開啟',
+    'dismissible_label' => '允許用戶關閉公告',
+    'placement' => '放置',
+    'text_alignment' => '文字對齊',
+    'is_active' => '活躍',
+    'max_width' => '最大寬度',
+    'max_width_help' => '留空以使用預設值。例：100%、500px、...',
+    'max_width_unit' => '最大寬度單位',
+    'font_size_unit' => '字體大小單位',
+    'autoplay_label' => '自動播放',
+    'autoplay_delay_label' => '自動播放延遲',
+    'autoplay_delay_help' => '每個公告之間的延遲（以毫秒為單位）。留空以使用預設值 (5000)。',
+    'lazy_loading' => '延遲載入',
+    'lazy_loading_description' => '啟用此選項可提高頁面載入速度',
+];
