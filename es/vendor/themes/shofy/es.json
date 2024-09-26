@@ -1,6 +1,6 @@
 {
-    "(:count reviews)": "(:contar reseñas)",
-    "(:count)": "(:contar)",
+    "(:count reviews)": "(:count reseñas)",
+    "(:count)": "(:count)",
     "(Shipping fees not included)": "(Gastos de envío no incluidos)",
     "-- None --": "-- Ninguno --",
     "-- Select --": "-- Seleccionar --",
