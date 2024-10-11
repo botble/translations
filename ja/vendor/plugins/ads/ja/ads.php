@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'name' => '広告',
+    'create' => '新しい広告',
+    'edit' => '広告を編集する',
+    'location' => '位置',
+    'url' => 'URL',
+    'expired_at' => '期限切れ',
+    'key' => '鍵',
+    'shortcode' => 'ショートコード',
+    'clicked' => 'クリックされました',
+    'not_set' => '未設定',
+    'adblock_warning' => 'Adblock ブラウザ拡張機能を使用している場合は、まずサイトでこの拡張機能を無効にする必要があります。サイトで有効になっている場合、広告がブロックされる可能性があります。 <br /> ヒント: 画像名には広告キーワード (広告、プロモーションなど) を含めないでください。',
+    'select_ad' => '広告を選択',
+    'open_in_new_tab' => '新しいタブで開きますか?',
+    'ads_type' => '広告の種類',
+    'custom_ad' => 'カスタム広告',
+    'google_adsense_slot_id' => 'Google AdSense スロット ID',
+    'settings' => [
+        'title' => '広告設定',
+        'description' => '広告設定を管理する',
+        'google_adsense_auto_ads_snippet' => 'Google AdSense 自動広告スニペット',
+        'google_adsense_auto_ads_snippet_helper' => 'You can get this snippet from :link, go to Ads → Get code  → Copy code snippet and paste here.',
+        'google_adsense_unit_ads_client_id' => 'Google AdSense ユニット広告クライアント ID',
+        'google_adsense_unit_ads_client_id_helper' => 'You can get this snippet from :link, go to Ads → Unit Ads  → Get code → Copy the client id and paste here.',
+        'google_adsense_unit_ads_where_to_get_client_id' => 'Google AdSense クライアント ID はどこで入手できますか?',
+        'google_adsense_unit_ads_guide_to_get_client_id' => 'ユニット広告のスニペット コードを取得すると、この属性 <code>data-ad-client="ca-pub-123456789"</code> が表示されます。<code>ca-pub-123456789</code> はユニット広告クライアント ID。',
+        'google_adsense_unit_ads_guide_example_snippet' => 'Google AdSense ユニット広告のスニペットの例:',
+    ],
+];

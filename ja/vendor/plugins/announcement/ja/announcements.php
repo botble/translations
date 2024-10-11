@@ -1,0 +1,51 @@
+<?php
+
+return [
+    'name' => 'お知らせ',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'トップ',
+            'bottom' => '下部に固定',
+            'popup' => 'ポップアップ',
+            'theme' => 'テーマ組み込み',
+        ],
+        'text_alignment' => [
+            'start' => '始める',
+            'center' => '中心',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'フォント サイズは、有効な CSS フォント サイズ値である必要があります。',
+        'text_color' => 'テキストの色は有効な 16 進数の色の値である必要があります。',
+    ],
+    'create' => '新しいお知らせを作成する',
+    'add_new' => '新規追加',
+    'settings' => [
+        'name' => '発表',
+        'description' => 'アナウンス設定を管理する',
+    ],
+    'background_color' => '背景色',
+    'font_size' => 'フォントサイズ',
+    'font_size_help' => 'デフォルトを使用するには空のままにしてください。例: 1rem、1em、12px、...',
+    'text_color' => '文字の色',
+    'start_date' => '開始日',
+    'end_date' => '終了日',
+    'has_action' => 'アクションあり',
+    'action_label' => 'アクションラベル',
+    'action_url' => 'アクション URL',
+    'action_open_new_tab' => '新しいタブで開く',
+    'dismissible_label' => 'ユーザーがアナウンスを拒否できるようにする',
+    'placement' => '配置',
+    'text_alignment' => 'テキストの配置',
+    'is_active' => 'アクティブです',
+    'max_width' => '最大幅',
+    'max_width_help' => 'デフォルト値を使用するには、空のままにしておきます。例: 100%、500ピクセル、...',
+    'max_width_unit' => '最大幅の単位',
+    'font_size_unit' => 'フォントサイズの単位',
+    'autoplay_label' => '自動再生',
+    'autoplay_delay_label' => '自動再生の遅延',
+    'autoplay_delay_help' => '各アナウンス間の遅延 (ミリ秒単位)。デフォルト値 (5000) を使用するには、空のままにします。',
+    'lazy_loading' => '遅延読み込み',
+    'lazy_loading_description' => 'ページの読み込み速度を向上させるには、このオプションを有効にします',
+    'hide_on_mobile' => 'モバイルで非表示にする',
+];
