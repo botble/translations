@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'name' => 'Anúncios',
+    'create' => 'Novos anúncios',
+    'edit' => 'Editar anúncios',
+    'location' => 'Localização',
+    'location_helper' => 'A localização é utilizada para exibição de anúncios no site, é cadastrada no tema. Você pode usar este local para exibir anúncios no site.',
+    'url' => 'URL',
+    'expired_at' => 'Expirou em',
+    'expired_at_helper' => 'Os anúncios serão desativados automaticamente após esta data. Se o tipo de anúncio for Google Adsense, ele nunca expirará.',
+    'key' => 'Chave',
+    'shortcode' => 'Código curto',
+    'clicked' => 'Clicado',
+    'not_set' => 'Não definido',
+    'adblock_warning' => 'Se você estiver usando a extensão do navegador Adblock, primeiro será necessário desabilitar essa extensão em seu site. Ele pode bloquear seus anúncios se estiver habilitado em seu site! <br /> Dicas: O nome da imagem NÃO DEVE conter algumas palavras-chave de anúncios (anúncio, promoção...)',
+    'select_ad' => 'Selecione o anúncio',
+    'open_in_new_tab' => 'Abrir em uma nova aba?',
+    'ads_type' => 'Tipo de anúncio',
+    'custom_ad' => 'Anúncio personalizado',
+    'google_adsense_slot_id' => 'ID do espaço do Google AdSense',
+    'settings' => [
+        'title' => 'Configurações de anúncios',
+        'description' => 'Gerenciar configurações de anúncios',
+        'google_adsense_auto_ads_snippet' => 'Snippet de anúncios automáticos do Google AdSense',
+        'google_adsense_auto_ads_snippet_helper' => 'You can get this snippet from :link, go to Ads → Get code  → Copy code snippet and paste here.',
+        'google_adsense_unit_ads_client_id' => 'ID do cliente de anúncios unitários do Google AdSense',
+        'google_adsense_unit_ads_client_id_helper' => 'You can get this snippet from :link, go to Ads → Unit Ads  → Get code → Copy the client id and paste here.',
+        'google_adsense_unit_ads_where_to_get_client_id' => 'Onde obter o ID do cliente do Google AdSense?',
+        'google_adsense_unit_ads_guide_to_get_client_id' => 'Ao obter o código do snippet de anúncios unitários, você pode ver este atributo <code>data-ad-client="ca-pub-123456789"</code>, o <code>ca-pub-123456789</code> é o ID do cliente dos anúncios unitários.',
+        'google_adsense_unit_ads_guide_example_snippet' => 'Exemplo de snippet de anúncio de unidade do Google AdSense:',
+    ],
+];
