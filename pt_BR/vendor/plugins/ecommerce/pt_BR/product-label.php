@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'color' => 'Cor',
     'name' => 'Etiqueta',
-    'edit' => 'Editar etiqueta',
     'create' => 'Nova etiqueta',
+    'edit' => 'Editar etiqueta',
+    'color' => 'Cor',
+    'color_placeholder' => 'Exemplo: #f0f0f0',
 ];

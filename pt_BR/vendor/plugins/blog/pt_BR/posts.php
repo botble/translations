@@ -1,13 +1,7 @@
 <?php
 
 return [
-    'author' => 'Autor',
-    'cannot_delete' => 'Post não pode ser apagado',
-    'categories' => 'Categorias',
-    'category' => 'Categorias',
     'create' => 'Criar novos post',
-    'edit' => 'Editar post',
-    'edit_this_post' => 'Editar este post',
     'form' => [
         'categories' => 'Categorias',
         'description' => 'Descrição',
@@ -18,8 +12,34 @@ return [
         'name_placeholder' => 'Nome do Post (Máximo :c characteres)',
         'content' => 'Conteúdo',
         'note' => 'Conteúdo da nota',
+        'tags' => 'Etiquetas',
+        'tags_placeholder' => 'Etiquetas',
     ],
-    'no_new_post_now' => 'Não existe nenhum novo post!',
+    'cannot_delete' => 'Post não pode ser apagado',
     'post_deleted' => 'Post apagado!',
+    'posts' => 'Postagens',
+    'post' => 'Publicar',
+    'edit_this_post' => 'Editar este post',
+    'no_new_post_now' => 'Não existe nenhum novo post!',
+    'menu_name' => 'Postagens',
     'widget_posts_recent' => 'Post recentes',
+    'categories' => 'Categorias',
+    'category' => 'Categorias',
+    'author' => 'Autor',
+    'export' => [
+        'description' => 'Exporte postagens para arquivo CSV/Excel.',
+        'total' => 'Total de postagens',
+    ],
+    'import' => [
+        'description' => 'Importe postagens de um arquivo CSV/Excel.',
+        'done_message' => ':created posts created and :updated posts updated.',
+        'rules' => [
+            'nullable_string_max' => 'The :attribute field accepts a string value of up to :max characters or may be left blank.',
+            'sometimes_array' => 'The :attribute field accepts an array value or may be left blank.',
+            'in' => ':attribute must be one of the following values: :values.',
+            'nullable_string' => 'The :attribute field accepts a string value or may be left blank.',
+            'nullable_string_max_in' => 'The :attribute field can be left blank, or must be a string with a maximum length of :max characters if provided and must be one of the following values: :values.',
+        ],
+    ],
+    'edit' => 'Editar post',
 ];

@@ -1,11 +1,6 @@
 <?php
 
 return [
-    'cannot_delete' => 'Tag não foi possivel ser apagada',
-    'create' => 'Criar nova tag',
-    'deleted' => 'Tag apagada',
-    'edit' => 'Editar tag',
-    'edit_this_tag' => 'Editar esta tag',
     'form' => [
         'categories' => 'Categorias',
         'description' => 'Descrição',
@@ -16,4 +11,11 @@ return [
     'notices' => [
         'no_select' => 'Favor selecionar pelo menos uma tag para executar essa ação!',
     ],
+    'create' => 'Criar nova tag',
+    'cannot_delete' => 'Tag não foi possivel ser apagada',
+    'deleted' => 'Tag apagada',
+    'menu' => 'Etiquetas',
+    'edit_this_tag' => 'Editar esta tag',
+    'menu_name' => 'Etiquetas',
+    'edit' => 'Editar tag',
 ];

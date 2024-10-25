@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'name' => 'Atributo de produtos',
     'create' => 'Atriburo de novo produto',
     'edit' => 'Editar atributo do produto',
     'intro' => [
@@ -8,5 +9,4 @@ return [
         'title' => 'Gerenciar atributos do produto',
         'description' => 'Atributo do produto como cor, largura, altura...',
     ],
-    'name' => 'Atributo de produtos',
 ];

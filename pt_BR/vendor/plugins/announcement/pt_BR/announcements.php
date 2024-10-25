@@ -1,0 +1,51 @@
+<?php
+
+return [
+    'name' => 'Anúncios',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'Principal',
+            'bottom' => 'Fixado na parte inferior',
+            'popup' => 'Aparecer',
+            'theme' => 'Tema integrado',
+        ],
+        'text_alignment' => [
+            'start' => 'Começar',
+            'center' => 'Centro',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'O tamanho da fonte deve ser um valor válido de tamanho de fonte CSS.',
+        'text_color' => 'A cor do texto deve ser um valor de cor hexadecimal válido.',
+    ],
+    'create' => 'Criar novo anúncio',
+    'add_new' => 'Adicionar novo',
+    'settings' => [
+        'name' => 'Anúncio',
+        'description' => 'Gerenciar configurações de anúncio',
+    ],
+    'background_color' => 'Cor de fundo',
+    'font_size' => 'Tamanho da fonte',
+    'font_size_help' => 'Deixe em branco para usar o padrão. Exemplo: 1rem, 1em, 12px, ...',
+    'text_color' => 'Cor do texto',
+    'start_date' => 'Data de início',
+    'end_date' => 'Data de término',
+    'has_action' => 'Tem ação',
+    'action_label' => 'Etiqueta de ação',
+    'action_url' => 'URL de ação',
+    'action_open_new_tab' => 'Abrir em nova aba',
+    'dismissible_label' => 'Permitir que o usuário ignore o anúncio',
+    'placement' => 'Colocação',
+    'text_alignment' => 'Alinhamento de texto',
+    'is_active' => 'Está ativo',
+    'max_width' => 'Largura máxima',
+    'max_width_help' => 'Deixe em branco para usar o valor padrão. Exemplo: 100%, 500px, ...',
+    'max_width_unit' => 'Unidade de largura máxima',
+    'font_size_unit' => 'Unidade de tamanho de fonte',
+    'autoplay_label' => 'Reprodução automática',
+    'autoplay_delay_label' => 'Atraso de reprodução automática',
+    'autoplay_delay_help' => 'O atraso entre cada anúncio em milissegundos. Deixe em branco para usar o valor padrão (5000).',
+    'lazy_loading' => 'Carregamento lento',
+    'lazy_loading_description' => 'Habilite esta opção para melhorar a velocidade de carregamento da página',
+    'hide_on_mobile' => 'Ocultar no celular',
+];

@@ -1,8 +1,8 @@
 <?php
 
 return [
+    'name' => 'Vendas rápida',
     'create' => 'Nova venda rápida',
     'edit' => 'Editar venda rápida',
-    'name' => 'Vendas rápida',
     'products' => 'Produtos',
 ];

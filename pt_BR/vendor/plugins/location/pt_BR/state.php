@@ -1,10 +1,11 @@
 <?php
 
 return [
-    'country' => 'País',
-    'create' => 'Novo estado',
-    'edit' => 'Editar estado',
     'name' => 'Estado',
+    'description' => 'Gerenciar estados de localização',
+    'create' => 'Novo estado',
+    'country' => 'País',
     'select_country' => 'Selecionar um país',
     'state' => 'Estado',
+    'edit' => 'Editar estado',
 ];
