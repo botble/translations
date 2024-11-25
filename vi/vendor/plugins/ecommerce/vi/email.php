@@ -23,7 +23,7 @@ return [
     'link_go_to_our_shop' => 'hoặc <a href=":link">Truy cập website</a>',
     'order_number' => 'Mã đơn hàng: <strong>:order_id</strong>',
     'order_information' => 'Thông tin đơn hàng',
-    'order_return_request_title' => 'Yêu cầu trả lại đơn hàng',
+    'order_return_request_title' => 'Yêu cầu hoàn hàng',
     'order_return_request_description' => 'Gửi cho khách hàng khi họ trả lại đơn hàng',
     'order_cancellation_description' => 'Được gửi khi khách hàng hủy đơn hàng',
 ];
