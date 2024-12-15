@@ -64,6 +64,12 @@ return [
             'templates' => [
                 'notice_title' => 'Надіслати сповіщення адміністратору',
                 'notice_description' => 'Шаблон електронної пошти для надсилання сповіщень адміністратору при отриманні нового контакту',
+                'contact_phone' => 'Телефон',
+                'contact_name' => 'Ім\'я',
+                'subject' => 'Відправлено сповіщення {{ site_title }}',
+                'contact_subject' => 'Тема',
+                'contact_email' => 'Email',
+                'sender_confirmation_subject' => 'Дякуємо, що звернулися до нас!',
             ],
         ],
         'title' => 'Контакт',

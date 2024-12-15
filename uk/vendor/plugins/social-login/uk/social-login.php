@@ -49,5 +49,5 @@ return [
     ],
     'menu' => 'Соціальний вхід',
     'description' => 'Перегляньте та оновіть налаштування соціального входу',
-    'sign_in_with' => 'Sign in with :provider',
+    'sign_in_with' => 'Увійти через :provider',
 ];

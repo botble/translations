@@ -9,7 +9,7 @@ return [
     'cancel_hide_btn' => 'Отмена',
     'collapse_expand' => 'Свернуть/развернуть',
     'hide' => 'Скрыть',
-    'reload' => 'Перезагрузить',
+    'reload' => 'Обновить',
     'save_setting_success' => 'Успешное сохранение настроек виджета!',
     'widget_not_exists' => 'Виджет не доступен!',
     'manage_widgets' => 'Управление виджетами',

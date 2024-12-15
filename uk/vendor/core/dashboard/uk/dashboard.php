@@ -9,7 +9,7 @@ return [
     'cancel_hide_btn' => 'Скасувати',
     'collapse_expand' => 'Згорнути/Розгорнути',
     'hide' => 'Приховати',
-    'reload' => 'Перезавантажити',
+    'reload' => 'Оновити',
     'save_setting_success' => 'Успішно збережено налаштування віджету!',
     'widget_not_exists' => 'Віджет не існує!',
     'manage_widgets' => 'Керування віджетами',

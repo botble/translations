@@ -2,6 +2,8 @@
 
 return [
     'name' => 'Рассылки',
+    'newsletter_form' => 'Newsletters form',
+    'description' => 'View and delete newsletter subscribers',
     'settings' => [
         'email' => [
             'templates' => [
@@ -14,6 +16,7 @@ return [
                 'to_user' => [
                     'title' => 'Отправка электронной почты пользователю',
                     'description' => 'Шаблон для отправки электронного письма подписчику',
+                    'subject' => '{{ site_title }}: Подписка оформлена!',
                 ],
             ],
         ],

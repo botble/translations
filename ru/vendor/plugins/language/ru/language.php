@@ -2,8 +2,11 @@
 
 return [
     'name' => 'Языки',
+    'description' => 'View and update your website languages',
     'choose_language' => 'Выберите язык',
     'select_language' => 'Выберите язык',
+    'select_language_code' => 'Select language code',
+    'select_locale' => 'Select locale',
     'choose_language_helper' => 'Вы можете выбрать язык в списке или непосредственно отредактировать его ниже.',
     'language_name' => 'Наименование языка',
     'language_name_helper' => 'Название - это то, как оно отображается на вашем сайте (например: English).',
@@ -30,7 +33,7 @@ return [
     'delete_tooltip' => 'Удалить этот язык и все связанные с ним данные',
     'choose_default_language' => 'Выберите :language как язык по умолчанию',
     'current_language' => 'Язык текущей записи',
-    'edit_related' => 'Редактировать связанный язык для этой записи',
+    'edit_related' => 'Редактировать языковой вариант для этой записи',
     'add_language_for_item' => 'Добавить другую языковую версию для этой записи',
     'settings' => 'Установки',
     'language_hide_default' => 'Скрыть язык по умолчанию в URL-адресе?',
@@ -41,7 +44,7 @@ return [
     'switcher_display' => 'Отображение переключателя языка',
     'language_switcher_display_dropdown' => 'Выпадающий',
     'language_switcher_display_list' => 'Список',
-    'current_language_edit_notification' => 'Вы редактируете "<strong class="current_language_text">:language</strong>" язык',
+    'current_language_edit_notification' => 'Редактирование языковой версии - "<strong class="current_language_text">:language</strong>"',
     'confirm-change-language' => 'Подтвердите изменение языка',
     'confirm-change-language-message' => 'Вы действительно хотите изменить язык на "<strong class="change_to_language_text"></strong>" ? Это действие будет отменено "<strong class="change_to_language_text"></strong>" , если он существует!',
     'confirm-change-language-btn' => 'Подтвердить изменение',
@@ -55,4 +58,8 @@ return [
     'delete_confirmation_message' => 'Вы действительно хотите удалить этот язык? При этом также удаляются все элементы этого языка, и откат невозможен!',
     'added_already' => 'Этот язык уже добавлен!',
     'language_auto_detect_user_language' => 'Автоматическое определение языка пользователя?',
+    'language_auto_detect_user_language_helper' => 'If enabled, the system will try to detect the user language based on the browser language.',
+    'setup_site_language' => 'To set up the site language, please go to :link page. Or go to :appearance_link to set up the admin language.',
+    'no_languages' => 'There are no languages in your site!',
+    'update' => 'Update',
 ];

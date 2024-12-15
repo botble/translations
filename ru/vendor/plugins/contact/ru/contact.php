@@ -1,7 +1,9 @@
 <?php
 
 return [
-    'menu' => 'Связаться с',
+    'name' => 'Contacts',
+    'contact_form' => 'Contact form',
+    'menu' => 'Связаться',
     'edit' => 'Посмотреть контакты',
     'tables' => [
         'phone' => 'Телефон',
@@ -9,7 +11,7 @@ return [
         'full_name' => 'Полное имя',
         'time' => 'Время',
         'address' => 'Адрес',
-        'subject' => 'Предмет',
+        'subject' => 'Тема',
         'content' => 'Содержание',
     ],
     'contact_information' => 'Контактная информация',
@@ -34,7 +36,7 @@ return [
     'sender' => 'Отправитель',
     'sender_email' => 'Email',
     'sender_address' => 'Адрес',
-    'sender_phone' => 'Phone',
+    'sender_phone' => 'Телефон',
     'message_content' => 'Содержание сообщения',
     'sent_from' => 'Электронное письмо отправлено из',
     'form_name' => 'Имя',
@@ -43,6 +45,7 @@ return [
     'form_subject' => 'Предмет',
     'form_phone' => 'Телефон',
     'form_message' => 'Сообщение',
+    'form_content' => 'Содержание',
     'required_field' => 'Требуется поле с (<span style="color: red">*</span>) .',
     'send_btn' => 'Отправить сообщение',
     'new_msg_notice' => 'У вас есть <span class="bold">:count</span> Новые сообщения',
@@ -56,11 +59,12 @@ return [
     'message' => 'Сообщение',
     'settings' => [
         'email' => [
-            'title' => 'Связаться с',
+            'title' => 'Связаться',
             'description' => 'Конфигурация контактной электронной почты',
             'templates' => [
                 'notice_title' => 'Отправить уведомление администратору',
                 'notice_description' => 'Шаблон электронной почты для отправки уведомления администратору, когда система получает новый контакт',
+                'sender_confirmation_subject' => 'Спасибо, что связались с нами!',
             ],
         ],
         'title' => 'Контакт',
@@ -80,4 +84,16 @@ return [
     'shortcode_description' => 'Добавить контактную форму',
     'shortcode_content_description' => 'Добавить shortcode [contact-form][/contact-form] редактору?',
     'message_sent_success' => 'Сообщение отправлено успешно!',
+    'dropdown_show_label' => 'Show contacts',
+    'display_fields' => 'Display fields',
+    'mandatory_fields' => 'Mandatory fields',
+    'mandatory_fields_helper_text' => 'If left blank, these fields will be validated by default configuration. Name and Message are always mandatory.',
+    'custom_field' => [
+        'enums' => [
+            'types' => [
+                'time' => 'Время',
+            ],
+        ],
+        'name' => 'Собственные поля',
+    ],
 ];

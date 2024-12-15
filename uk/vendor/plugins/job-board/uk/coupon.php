@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'name' => 'Coupons',
+    'intro' => [
+        'button_text' => 'Create coupon',
+        'title' => 'Manage coupons code',
+        'description' => 'Create and manage coupons code for your customers.',
+    ],
+    'types' => [
+        'percentage' => 'Percentage',
+        'fixed' => 'Fixed',
+    ],
+    'type' => 'Type',
+    'created_message' => 'Coupon has been created successfully.',
+    'expires_date' => 'Expires date',
+    'expires_time' => 'Expires time',
+    'never_expired' => 'Never expired',
+    'save_button' => 'Зберегти',
+    'coupon_code' => 'Coupon code',
+    'coupon_code_placeholder' => 'Enter coupon code',
+    'generate_code_button' => 'Generate code',
+    'value' => 'Value',
+    'value_placeholder' => 'Enter coupon value',
+    'value_off' => ':value off',
+    'total_used' => 'Used',
+    'expired' => 'Expired',
+    'active' => 'Active',
+    'unlimited' => 'Unlimited coupon',
+    'quantity' => 'Quantity',
+    'quantity_placeholder' => 'Enter number of coupon',
+    'discount_amount' => 'Discount amount',
+    'total' => 'Total',
+    'toggle_coupon_form_text' => 'You have a coupon code?',
+    'apply_coupon_code' => 'Apply',
+];

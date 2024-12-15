@@ -40,7 +40,7 @@ return [
     'not_found' => 'Роль не знайдена!',
     'role_edit_belong_user' => 'Ви не можете редагувати цю роль; вона належить іншому користувачу!',
     'modified_success' => 'Успішно змінено',
-    'create_success' => 'Успішно створено',
+    'create_success' => 'Запис успішно створено',
     'duplicated_success' => 'Успішно дубльовано',
     'options' => 'Опції',
     'access_denied_message' => 'Вам не дозволено виконувати цю дію',

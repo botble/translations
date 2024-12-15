@@ -365,6 +365,11 @@ return [
     'generating_media_thumbnails' => 'Генерування мініатюр медіа...',
     'test_email_template' => 'Тестовий шаблон електронної пошти',
     'select_email_template' => 'Виберіть шаблон електронної пошти',
+    'enums' => [
+        'data_retention_period' => [
+            365 => '1 Рік',
+        ],
+    ],
     'website_tracking' => [
         'title' => 'Відстеження веб-сайту',
         'description' => 'Налаштування відстеження веб-сайту',

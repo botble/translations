@@ -34,5 +34,14 @@ return [
         ],
         'enable' => 'Включить?',
     ],
+    'socials' => [
+        'facebook' => 'Facebook',
+        'google' => 'Google',
+        'github' => 'GitHub',
+        'linkedin' => 'Linkedin',
+        'linkedin-openid' => 'Linkedin OpenID Connect',
+    ],
     'menu' => 'Социальный вход',
+    'description' => 'View and update your social login settings',
+    'sign_in_with' => 'Войти через :provider',
 ];

@@ -2,12 +2,13 @@
 
 return [
     'name' => 'Города',
+    'description' => 'Manage location cities',
     'create' => 'Новый город',
-    'edit' => 'Редактировать город',
     'state' => 'Регион',
-    'select_state' => 'Выберите регион...',
+    'select_state' => 'Выберите область...',
     'select_city' => 'Выберите город...',
     'country' => 'Страна',
     'select_country' => 'Выберите страну...',
     'city' => 'Город',
+    'edit' => 'Редактировать город',
 ];
