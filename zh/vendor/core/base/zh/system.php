@@ -17,7 +17,7 @@ return [
     'role_and_permission_description' => '管理可用角色。',
     'user' => [
         'list_super' => '列出超級用戶',
-        'email' => 'Email',
+        'email' => '电子邮件',
         'last_login' => '上次登入',
         'username' => '使用者名稱',
         'add_user' => '新增超級用戶',
@@ -49,7 +49,7 @@ return [
     'debug_mode_off' => '偵錯模式關閉',
     'storage_dir_writable' => '儲存目錄可寫',
     'cache_dir_writable' => '緩存目錄可寫',
-    'app_size' => 'App Size',
+    'app_size' => '应用程序大小',
     'server_environment' => '伺服器環境',
     'php_version' => 'PHP版本',
     'php_version_error' => 'PHP 必須 >= :version',
@@ -97,4 +97,5 @@ return [
         'success_message' => '資料清理成功',
         'not_enabled_yet' => '此功能尚未啟用。 <br />請在.env中新增：<code>CMS_ENABLED_CLEANUP_DATABASE=true</code>以啟用此功能！',
     ],
+    'cache_too_large_alert' => '您的缓存文件夹太大 ~:size。请进入平台管理->缓存管理并清除它以减少磁盘空间。',
 ];

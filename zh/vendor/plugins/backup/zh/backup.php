@@ -30,4 +30,6 @@ return [
     'important_message_pgsql2' => '您可以執行指令 <strong>php artisan cms:backup:create {name}</strong> 產生備份，或執行 <strong>php artisan cms:backup:restore</strong> 還原最新備份。',
     'cannot_restore_database' => '無法恢復資料庫。資料庫備份遺失！',
     'database_driver_not_supported' => '不支援資料庫驅動程式。',
+    'backup_only_db' => '仅备份数据库',
+    'backup_only_db_helper' => '仅备份数据库，不备份上传的文件。当您只想备份数据库时，这很有用。',
 ];

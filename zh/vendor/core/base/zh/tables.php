@@ -3,7 +3,7 @@
 return [
     'id' => 'ID',
     'name' => '名稱',
-    'slug' => 'Slug',
+    'slug' => '蛞蝓',
     'title' => '標題',
     'order_by' => '訂購依據',
     'order' => '訂單',
@@ -55,7 +55,7 @@ return [
     'confirm_delete_all_msg' => '您真的要刪除所有記錄嗎？',
     'cancel' => '刪除',
     'template' => '範本',
-    'email' => 'Email',
+    'email' => '电子邮件',
     'phone' => '電話',
     'last_login' => '上次登入',
     'shortcode' => '短碼',

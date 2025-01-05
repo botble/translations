@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'sessions' => 'Sessions',
+    'sessions' => '会议',
     'visitors' => '來訪者',
     'pageviews' => '瀏覽量',
     'bounce_rate' => '彈出率',
@@ -14,7 +14,7 @@ return [
     'start_date_can_not_before_end_date' => '開始日期：start_date 不能晚於結束日期：end_date',
     'not_set_up' => '小工具尚未設定',
     'settings' => [
-        'title' => 'Google Analytics',
+        'title' => '谷歌分析',
         'description' => 'Google Analytics 的設定憑證',
         'analytics_property_id' => 'GA4 的媒體資源 ID',
         'analytics_property_id_description' => 'Google Analytics 媒體資源 ID (GA4)',

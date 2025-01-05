@@ -15,7 +15,7 @@ return [
     'cannot_delete' => '頁面無法刪除',
     'deleted' => '頁面已刪除',
     'pages' => '頁面',
-    'menu' => 'Pages',
+    'menu' => '页数',
     'menu_name' => '頁面',
     'edit_this_page' => '編輯本頁',
     'total_pages' => '總頁數',

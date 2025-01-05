@@ -18,4 +18,7 @@ return [
         'enable_blog_post_schema_description' => '了解更多：https://schema.org/Article',
         'schema_type' => '模式類型',
     ],
+    'blog_posts' => '博客文章',
+    'blog_categories' => '博客类别',
+    'blog_tags' => '博客标签',
 ];

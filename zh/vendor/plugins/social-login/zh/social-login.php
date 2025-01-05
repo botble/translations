@@ -16,6 +16,8 @@ return [
             'app_id' => '應用程式 ID',
             'app_secret' => '應用程式密鑰',
             'helper' => '請前往 https://console.developers.google.com/apis/dashboard 創建新的應用程式並更新應用程式 ID 和應用程式密鑰。回呼 URL 為',
+            'use_google_button' => '使用谷歌按钮',
+            'use_google_button_helper' => '如果启用此选项，将使用 Google 按钮而不是默认按钮。',
         ],
         'github' => [
             'enable' => '啟用 GitHub 登錄',
@@ -43,9 +45,9 @@ return [
     ],
     'socials' => [
         'facebook' => 'Facebook',
-        'google' => 'Google',
+        'google' => '谷歌',
         'github' => 'GitHub',
-        'linkedin' => 'Linkedin',
+        'linkedin' => '领英',
         'linkedin-openid' => 'Linkedin OpenID 連接',
     ],
     'menu' => '社交登錄',

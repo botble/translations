@@ -30,7 +30,7 @@ return [
     'default_locale' => '預設語言包？',
     'actions' => '操作',
     'choose_language' => '新增語言',
-    'add_new_language' => 'Add new language',
+    'add_new_language' => '添加新语言',
     'select_language' => '選擇語言',
     'flag' => '國旗',
     'folder_is_not_writeable' => '無法寫入檔案！資料夾無法寫入。請更改權限使其可寫入！',

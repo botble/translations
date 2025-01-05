@@ -11,4 +11,6 @@ return [
     'available_data_help' => '位置資料源自我們的 GitHub 儲存庫：:link。要貢獻並在此處反映您的更新，請提交拉取請求。',
     'import' => '進口',
     'upload_file_placeholder' => '將檔案拖放到此處或點擊上傳',
+    'skip_existing_records' => '跳过现有记录',
+    'skip_existing_records_description' => '它将按名称验证数据库中是否已存在国家、州或城市，并跳过导入已存在的任何记录。',
 ];

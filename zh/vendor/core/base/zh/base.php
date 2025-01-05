@@ -17,7 +17,7 @@ return [
         'date_time' => '目前日期時間',
         'date_year' => '本年度',
         'settings' => '設定值',
-        'email_css' => 'Email CSS',
+        'email_css' => '电子邮件CSS',
         'variable' => '多變的',
         'preview' => '預覽',
         'icon_variables' => '圖標變量',

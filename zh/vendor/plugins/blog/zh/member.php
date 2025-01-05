@@ -7,4 +7,5 @@ return [
     'published_posts' => '發表的帖子',
     'posts' => '貼文',
     'write_post' => '發表貼文',
+    'dashboard' => '仪表板',
 ];

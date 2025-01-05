@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'name' => 'Sanctum Token',
-    'create' => 'New Sanctum Token',
+    'name' => '圣所令牌',
+    'create' => '新圣域令牌',
     'abilities' => '能力',
-    'last_used_at' => '上次使用於',
-    'generated_message' => '這是您新的個人存取權令牌，該令牌僅顯示 1 次，請確保您已複製它。',
+    'last_used_at' => '上次使用于',
+    'generated_message' => '这是您新的个人访问令牌，该令牌仅显示 1 次，请确保您已复制它。',
 ];

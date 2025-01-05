@@ -18,6 +18,7 @@ return [
         'banned' => '該帳戶已被禁止登入。',
         'logout_success' => '登出成功！',
         'dont_have_account' => '您還沒有該系統帳號，請聯絡管理員以取得更多資訊！',
+        'email' => '电子邮件',
     ],
     'forgot_password' => [
         'title' => '忘記密碼!',
@@ -27,7 +28,7 @@ return [
     'reset' => [
         'new_password' => '新密碼',
         'password_confirmation' => '確認新密碼',
-        'email' => 'Email',
+        'email' => '电子邮件',
         'title' => '重設您的密碼',
         'update' => '更新',
         'wrong_token' => '該連結無效或已過期。請再次嘗試使用重置表單。',
@@ -68,6 +69,14 @@ return [
         'email' => [
             'title' => '前十字韌帶',
             'description' => 'ACL 電子郵件設定',
+            'templates' => [
+                'password_reminder' => [
+                    'title' => '重置密码',
+                    'description' => '请求重置密码时向用户发送电子邮件',
+                    'subject' => '重置密码',
+                    'reset_link' => '重置密码链接',
+                ],
+            ],
         ],
     ],
 ];

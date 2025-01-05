@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'settings' => 'API 設定',
-    'settings_description' => '查看並更新您的 API 設定',
-    'save_settings' => '儲存設定',
-    'setting_title' => 'API 設定',
-    'setting_description' => '設定 API',
-    'api_enabled' => '啟用 API 了嗎？',
+    'settings' => 'API设置',
+    'settings_description' => '查看和更新​​您的 API 设置',
+    'save_settings' => '保存设置',
+    'setting_title' => 'API设置',
+    'setting_description' => 'API 设置',
+    'api_enabled' => '启用 API 了吗？',
 ];

@@ -14,4 +14,5 @@ return [
     'enum' => [
         'validate_message' => '您輸入的 :attribute 值無效。',
     ],
+    'delete_failed_message' => '删除失败，未找到项目。',
 ];

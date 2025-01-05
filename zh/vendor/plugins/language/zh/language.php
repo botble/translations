@@ -58,6 +58,7 @@ return [
     'delete_confirmation_message' => '您真的要刪除該語言嗎？它還會刪除該語言的所有項目並且無法恢復！',
     'added_already' => '該語言已新增！',
     'language_auto_detect_user_language' => '自動偵測使用者語言？',
+    'language_auto_detect_user_language_helper' => '如果启用，系统将尝试根据浏览器语言检测用户语言。',
     'setup_site_language' => '要設定網站語言，請前往：連結頁面。或前往 :appearance_link 設定管理語言。',
     'no_languages' => '您的網站沒有語言！',
     'update' => '更新',

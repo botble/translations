@@ -42,4 +42,5 @@ return [
     'search' => '搜尋...',
     'copied' => '已複製',
     'copy' => '複製',
+    'clear' => '清除',
 ];

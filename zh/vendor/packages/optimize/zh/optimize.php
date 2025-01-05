@@ -10,7 +10,7 @@ return [
     'collapse_white_space_description' => '此過濾器透過刪除不必要的空格來減少 HTML 檔案中傳輸的位元組數。',
     'elide_attributes' => '刪除屬性',
     'elide_attributes_description' => '當指定值等於該屬性的預設值時，此篩選器會透過從標記中刪除屬性來減少 HTML 檔案的傳輸大小。這可以節省一定數量的字節，並且可以透過規範化受影響的標籤來使文件更具可壓縮性。',
-    'inline_css' => 'Inline CSS',
+    'inline_css' => '内联CSS',
     'inline_css_description' => '該過濾器透過將 CSS 移動到標題，將標籤的內聯「樣式」屬性轉換為類別。',
     'insert_dns_prefetch' => '插入 DNS 預取',
     'insert_dns_prefetch_description' => '此過濾器在 HEAD 中註入標籤，以使瀏覽器能夠進行 DNS 預取。',
