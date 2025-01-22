@@ -1,20 +1,9 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Password Reset Language Lines
-|--------------------------------------------------------------------------
-|
-| The following language lines are the default lines which match reasons
-| that are given by the password broker for a password update attempt
-| has failed, such as for an invalid token or invalid new password.
-|
-*/
-
 return [
-    'reset'     => '密碼重設已完成！',
-    'sent'      => '密碼重設電郵經已寄出！',
-    'throttled' => '請稍候再試。',
-    'token'     => '密碼重設碼不正確。',
-    'user'      => '找不到該電郵地址所對應的用戶。',
+    'reset' => '你的密碼已經重設！',
+    'sent' => '我們已經發送了你的密碼重設連結！',
+    'throttled' => '請等候再重試。',
+    'token' => '這個密碼重設令牌無效。',
+    'user' => '我們找不到使用該電子郵件地址的用戶。',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'failed' => '使用者名稱或密碼錯誤。',
-    'password' => '密碼不正確。',
-    'throttle' => '登入嘗試次數過多。請在 :seconds 秒後重試。',
+    'failed' => '这些凭据与我们的记录不匹配。',
+    'password' => '提供的密码不正确。',
+    'throttle' => '尝试登录次数过多。请在:seconds秒后再试。',
 ];

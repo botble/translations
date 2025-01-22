@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'detail' => '基礎資料',
+    'detail' => '细节',
     'file' => '文件',
-    'record_note' => '記錄筆記',
-    'revision' => '修訂歷史',
+    'record_note' => '记录备注',
+    'revision' => '修订历史',
 ];

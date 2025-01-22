@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'name' => '廣告',
+    'create' => '新廣告',
+    'edit' => '編輯廣告',
+    'location' => '位置',
+    'location_helper' => '位置用於在網站上顯示廣告，它在主題中註冊。您可以使用此位置在網站上顯示廣告。',
+    'url' => '網址',
+    'expired_at' => '過期於',
+    'expired_at_helper' => '廣告將在此日期後自動禁用。如果廣告類型是Google Adsense，則永遠不會過期。',
+    'key' => '鑰匙',
+    'shortcode' => '短碼',
+    'clicked' => '點擊',
+    'not_set' => '未設定',
+    'adblock_warning' => '如果你正在使用Adblock瀏覽器擴展，你需要先在你的网站上禁用這個擴展。如果它在你的网站上啟用，可能會阻止你的廣告！<br />提示：圖片名稱不應包含一些廣告關鍵字（廣告、促銷...）',
+    'select_ad' => '選擇廣告',
+    'open_in_new_tab' => '在新標籤中打開？',
+    'ads_type' => '廣告類型',
+    'custom_ad' => '自訂廣告',
+    'google_adsense_slot_id' => 'Google AdSense 槽位 ID',
+    'settings' => [
+        'title' => '廣告設定',
+        'description' => '管理廣告設置',
+        'google_adsense_auto_ads_snippet' => 'Google AdSense 自動廣告片段',
+        'google_adsense_auto_ads_snippet_helper' => '你可以從 :link 獲取這段代碼，去廣告 → 獲取代碼 → 複製代碼片段並粘貼在這裡。',
+        'google_adsense_unit_ads_client_id' => 'Google AdSense 單元廣告客戶 ID',
+        'google_adsense_unit_ads_client_id_helper' => '你可以從 :link 獲取這段代碼，去廣告 → 單位廣告 → 獲取代碼 → 複製客戶端 ID 並粘貼在這裡。',
+        'google_adsense_unit_ads_where_to_get_client_id' => '在哪裡可以獲得 Google AdSense 客戶 ID？',
+        'google_adsense_unit_ads_guide_to_get_client_id' => '當你獲得單位廣告的代碼片段時，你可以看到這個屬性 <code>data-ad-client="ca-pub-123456789"</code>，<code>ca-pub-123456789</code> 是單位廣告的客戶端 ID。',
+        'google_adsense_unit_ads_guide_example_snippet' => 'Google AdSense 單元廣告片段示例:',
+    ],
+];

@@ -2,19 +2,19 @@
 
 return [
     'form' => [
-        'name_placeholder' => '標籤名稱（最多 120 個字元）',
-        'name' => '名稱',
+        'name_placeholder' => '标签名称（最多120个字符）',
+        'name' => '名称',
         'description' => '描述',
-        'description_placeholder' => '標籤的簡短描述（最多 400 個字元）',
-        'categories' => '類別',
+        'description_placeholder' => '标签的简短描述（最多400个字符）',
+        'categories' => '类别',
     ],
     'notices' => [
-        'no_select' => '請至少選擇一個標籤來執行此操作！',
+        'no_select' => '请至少选择一个标签以继续',
     ],
-    'create' => '建立新標籤',
-    'cannot_delete' => '標籤無法刪除',
-    'deleted' => '標籤已刪除',
-    'menu' => '標籤',
-    'edit_this_tag' => '編輯此標籤',
-    'menu_name' => '標籤',
+    'create' => '创建新标签',
+    'cannot_delete' => '标签无法删除',
+    'deleted' => '标签已删除',
+    'menu' => '标签',
+    'edit_this_tag' => '编辑此标签',
+    'menu_name' => '标签',
 ];

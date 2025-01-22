@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'drag_drop_info' => '在左側拖放以變更類別的順序或上級類別。',
-    'expand_all' => '全部展開',
-    'collapse_all' => '全部折疊',
-    'empty_text' => '未找到類別',
-    'delete_button' => '刪除',
+    'drag_drop_info' => '在左侧拖放以更改类别的顺序或父级。',
+    'expand_all' => '展开全部',
+    'collapse_all' => '收起全部',
+    'empty_text' => '未找到类别。',
+    'delete_button' => '删除',
     'delete_modal' => [
-        'title' => '刪除類別',
-        'message' => '您確定要刪除該類別嗎？',
+        'title' => '删除类别',
+        'message' => '您确定要删除此类别吗？',
     ],
 ];

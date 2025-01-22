@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'shortcode' => '簡碼',
+    'shortcode' => '短代码',
     'use' => '使用',
-    'ui-blocks' => 'UI 區塊',
-    'search' => '搜尋...',
-    'no_shortcode_found' => '未找到簡碼。',
+    'ui-blocks' => 'UI块',
+    'search' => '搜索...',
+    'no_shortcode_found' => '未找到短代码。',
 ];

@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'create' => '建立新類別',
-    'menu' => '類別',
-    'edit_this_category' => '編輯本段分類',
-    'menu_name' => '類別',
-    'none' => '沒有',
-    'total_posts' => '貼文總數：總計',
+    'create' => '创建新类别',
+    'menu' => '类别',
+    'edit_this_category' => '编辑此类别',
+    'menu_name' => '类别',
+    'none' => '无',
+    'total_posts' => '总帖子数：:total',
 ];

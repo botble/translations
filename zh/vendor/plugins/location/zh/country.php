@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'name' => '國家',
-    'description' => '管理所在國家/地區',
-    'create' => '新國家',
-    'nationality' => '國籍',
-    'code' => '國家 ISO 代碼',
-    'code_placeholder' => 'ISO 國家代碼，大寫。例如：美國。',
-    'code_helper' => '從此處查找國家/地區 ISO 代碼：https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes',
+    'name' => '国家',
+    'description' => '管理位置国家',
+    'create' => '新国家',
+    'nationality' => '国籍',
+    'code' => '国家ISO代码',
+    'code_placeholder' => 'ISO国家代码，使用大写字母。例如：US。',
+    'code_helper' => '从这里查找国家ISO代码：https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes',
 ];

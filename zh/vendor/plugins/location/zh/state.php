@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'name' => '縣',
-    'description' => '管理位置狀態',
-    'create' => '新狀態',
-    'country' => '國家',
-    'select_country' => '選擇一個國家...',
-    'state' => '狀態',
+    'name' => '州',
+    'description' => '管理位置状态',
+    'create' => '新状态',
+    'country' => '国家',
+    'select_country' => '选择一个国家...',
+    'state' => '州',
 ];
