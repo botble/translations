@@ -1,9 +1,10 @@
 <?php
 
 return [
-    'draft_properties' => 'Draft Properties',
-    'pending_properties' => 'Pending Properties',
-    'published_properties' => 'Published Properties',
-    'properties' => 'Properties',
-    'write_property' => 'Write a property',
+    'draft_properties' => 'Entwurf von Eigenschaften',
+    'pending_properties' => 'Ausstehende Eigenschaften',
+    'published_properties' => 'Veröffentlichte Eigenschaften',
+    'properties' => 'Eigenschaften',
+    'write_property' => 'Schreiben Sie eine Eigenschaft',
+    'images' => 'Images (maximum :max images)',
 ];

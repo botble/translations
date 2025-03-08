@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'form'          => [
-        'name'                    => 'Name',
-        'name_placeholder'        => 'Tag\'s name (Maximum 120 characters)',
-        'description'             => 'Description',
+    'form' => [
+        'name' => 'Name',
+        'name_placeholder' => 'Tag\'s name (Maximum 120 characters)',
+        'description' => 'Beschreibung',
         'description_placeholder' => 'Short description for tag (Maximum 400 characters)',
-        'categories'              => 'Categories',
+        'categories' => 'Kategorien',
     ],
-    'notices'       => [
+    'notices' => [
         'no_select' => 'Please select at least one tag to take this action!',
     ],
-    'create'        => 'Create new tag',
-    'edit'          => 'Edit tag',
-    'cannot_delete' => 'Tag could not be deleted',
-    'deleted'       => 'Tag deleted',
-    'menu'          => 'Tags',
-    'edit_this_tag' => 'Edit this tag',
-    'menu_name'     => 'Tags',
+    'create' => 'Create new tag',
+    'cannot_delete' => 'Tag konnte nicht gelöscht werden',
+    'deleted' => 'Tag gelöscht',
+    'menu' => 'Tags',
+    'edit_this_tag' => 'Bearbeiten Sie dieses Tag',
+    'menu_name' => 'Tags',
+    'edit' => 'Edit tag',
 ];

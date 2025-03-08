@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'choose_file' => 'Datei wählen',
+    'choose_file_description' => 'Choose file with mimes: :types.',
+    'import_success_message' => 'Erfolgreich importiert.',
+    'import_failed_message' => 'Import fehlgeschlagen, bitte überprüfen Sie die Fehler unten!',
+    'row' => 'Reihe',
+    'attribute' => 'Attribut',
+    'errors' => 'Fehler',
+    'failures' => 'Fehler',
+    'results' => 'Result: :success success(es), :failed failure(s)',
+    'rules' => 'Regeln',
+    'column' => 'Spalte',
+    'template' => 'Beispielvorlage',
+    'download_csv_file' => 'Laden Sie die CSV -Datei herunter',
+    'download_excel_file' => 'Download Excel -Datei',
+    'downloading' => 'Herunterladen',
+    'uploading' => 'Hochladen ...',
+    'validating' => 'Validieren ...',
+    'importing' => 'Importieren ...',
+    'importing_message' => 'Importing form :from to :to',
+    'validating_message' => 'Validating form :from to :to',
+    'total_rows' => 'You have imported :total rows successfully!',
+    'imported_successfully' => 'Ihre Eigenschaften wurden erfolgreich importiert!',
+];

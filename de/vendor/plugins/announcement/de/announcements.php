@@ -1,0 +1,51 @@
+<?php
+
+return [
+    'name' => 'Ankündigungen',
+    'enums' => [
+        'announce_placement' => [
+            'top' => 'Spitze',
+            'bottom' => 'Unten fixiert',
+            'popup' => 'Popup',
+            'theme' => 'Thema integriert',
+        ],
+        'text_alignment' => [
+            'start' => 'Start',
+            'center' => 'Center',
+        ],
+    ],
+    'validation' => [
+        'font_size' => 'Die Schriftgröße muss ein gültiger CSS -Schriftstellungswert sein.',
+        'text_color' => 'Die Textfarbe muss ein gültiger Sechskantfarbwert sein.',
+    ],
+    'create' => 'Neue Ankündigung erstellen',
+    'add_new' => 'Neu hinzuzufügen',
+    'settings' => [
+        'name' => 'Bekanntmachung',
+        'description' => 'Ankündigungseinstellungen verwalten',
+    ],
+    'background_color' => 'Hintergrundfarbe',
+    'font_size' => 'Schriftgröße',
+    'font_size_help' => 'Lassen Sie leer, um die Standardeinstellung zu verwenden. Beispiel: 1rem, 1em, 12px, ...',
+    'text_color' => 'Textfarbe',
+    'start_date' => 'Startdatum',
+    'end_date' => 'Enddatum',
+    'has_action' => 'Hat Aktion',
+    'action_label' => 'Aktionslabel',
+    'action_url' => 'Aktion URL',
+    'action_open_new_tab' => 'Offen in neuer Registerkarte',
+    'dismissible_label' => 'Erlauben Sie dem Benutzer, die Ankündigung abzulehnen',
+    'placement' => 'Platzierung',
+    'text_alignment' => 'Textausrichtung',
+    'is_active' => 'Ist aktiv',
+    'max_width' => 'Maximale Breite',
+    'max_width_help' => 'Lassen Sie leer, um den Standardwert zu verwenden. Beispiel: 100%, 500px, ...',
+    'max_width_unit' => 'Maximale Breite Einheit',
+    'font_size_unit' => 'Schriftgröße Einheit',
+    'autoplay_label' => 'Autoplay',
+    'autoplay_delay_label' => 'Autoplay -Verzögerung',
+    'autoplay_delay_help' => 'Die Verzögerung zwischen jeder Ankündigung in Millisekunden. Lassen Sie leer, um den Standardwert (5000) zu verwenden.',
+    'lazy_loading' => 'Faules Laden',
+    'lazy_loading_description' => 'Aktivieren Sie diese Option, um die Ladegeschwindigkeit der Seite zu verbessern',
+    'hide_on_mobile' => 'Verstecken Sie sich auf dem Handy',
+];

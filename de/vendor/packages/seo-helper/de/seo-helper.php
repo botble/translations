@@ -1,9 +1,13 @@
 <?php
 
 return [
-    'meta_box_header'     => 'Search Engine Optimize',
-    'edit_seo_meta'       => 'Edit SEO meta',
-    'default_description' => 'Setup meta title & description to make your site easy to discovered on search engines such as Google',
-    'seo_title'           => 'SEO Title',
-    'seo_description'     => 'SEO description',
+    'meta_box_header' => 'Suchmaschinenoptimierung',
+    'edit_seo_meta' => 'SEO -Meta bearbeiten',
+    'default_description' => 'Setup Meta -Titel und -beschreibung einrichten, um Ihre Website in Suchmaschinen wie Google leicht zu entdecken',
+    'seo_title' => 'SEO -Titel',
+    'seo_description' => 'SEO -Beschreibung',
+    'seo_image' => 'SEO -Bild',
+    'allow_index' => 'Erlauben Sie Suchmaschinen, diese Seite zu indizieren',
+    'index' => 'Index',
+    'noindex' => 'Kein Index',
 ];

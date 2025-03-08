@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'name' => 'Gutscheine',
+    'create' => 'Neue Gutscheine',
+    'edit' => 'Gutschein bearbeiten ": Name"',
+    'intro' => [
+        'button_text' => 'Gutschein erstellen',
+        'title' => 'Coupons Code verwalten',
+        'description' => 'Erstellen und verwalten Sie Coupons Code für Ihre Kunden.',
+    ],
+    'types' => [
+        'percentage' => 'Prozentsatz',
+        'fixed' => 'Behoben',
+    ],
+    'type' => 'Typ',
+    'created_message' => 'Coupon wurde erfolgreich erstellt.',
+    'expires_date' => 'Läuft aus. Datum',
+    'expires_time' => 'Läuft die Zeit ab',
+    'never_expired' => 'Nie abgelaufen?',
+    'save_button' => 'Speichern',
+    'coupon_code' => 'Gutscheincode',
+    'coupon_code_placeholder' => 'Geben Sie den Gutscheincode ein',
+    'generate_code_button' => 'Code generieren',
+    'value' => 'Wert',
+    'value_placeholder' => 'Geben Sie den Gutscheinwert ein',
+    'value_off' => ':value off',
+    'total_used' => 'Gebraucht',
+    'expired' => 'Abgelaufen',
+    'active' => 'Aktiv',
+    'unlimited' => 'Unbegrenzter Gutschein?',
+    'quantity' => 'Menge',
+    'quantity_placeholder' => 'Geben Sie die Anzahl des Gutscheins ein',
+    'discount_amount' => 'Rabattbetrag',
+    'total' => 'Gesamt',
+    'toggle_coupon_form_text' => 'Sie haben einen Gutscheincode?',
+    'apply_coupon_code' => 'Anwenden',
+];
