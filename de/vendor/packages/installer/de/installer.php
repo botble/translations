@@ -1,12 +1,6 @@
 <?php
 
 return [
-
-    /**
-     *
-     * Gemeinsame Übersetzungen.
-     *
-     */
     'title' => 'Installation',
     'next' => 'Nächster Schritt',
     'back' => 'Zurück',
@@ -15,12 +9,6 @@ return [
     'forms' => [
         'errorTitle' => 'Folgende Fehler sind aufgetreten:',
     ],
-
-    /**
-     *
-     * Übersetzungen für die Startseite.
-     *
-     */
     'welcome' => [
         'pageTitle' => 'Installation - Schritt 1: Willkommen',
         'title' => 'Willkommen',
@@ -28,32 +16,14 @@ return [
         'language' => 'Sprache',
         'next' => 'Los geht\'s',
     ],
-
-    /**
-     *
-     * Übersetzungen für die Anforderungsseite.
-     *
-     */
     'requirements' => [
         'pageTitle' => 'Installation - Schritt 2: Serveranforderungen',
         'title' => 'Serveranforderungen',
         'next' => 'Berechtigungen überprüfen',
     ],
-
-    /**
-     *
-     * Übersetzungen für die Berechtigungsseite.
-     *
-     */
     'permissions' => [
         'next' => 'Umgebung konfigurieren',
     ],
-
-    /**
-     *
-     * Übersetzungen für die Umgebungsseite.
-     *
-     */
     'environment' => [
         'wizard' => [
             'pageTitle' => 'Installation - Schritt 3: Umgebungseinstellungen',
@@ -65,8 +35,8 @@ return [
                 'app_url_label' => 'URL',
                 'app_url_placeholder' => 'URL',
                 'db_connection_label' => 'Datenbankverbindung',
-                'db_connection_label_mysql' => 'MySQL',
-                'db_connection_label_sqlite' => 'SQLite',
+                'db_connection_label_mysql' => 'Mysql',
+                'db_connection_label_sqlite' => 'Sqlite',
                 'db_connection_label_pgsql' => 'PostgreSQL',
                 'db_host_label' => 'Datenbankhost',
                 'db_host_placeholder' => 'Datenbankhost',
@@ -83,8 +53,8 @@ return [
                 ],
                 'db_host_helper' => 'Wenn Sie Laravel Sail verwenden, ändern Sie einfach DB_HOST zu DB_HOST=mysql. Bei einigen Hosting-Diensten kann DB_HOST auch localhost anstelle von 127.0.0.1 sein.',
                 'db_connections' => [
-                    'mysql' => 'MySQL',
-                    'sqlite' => 'SQLite',
+                    'mysql' => 'Mysql',
+                    'sqlite' => 'Sqlite',
                     'pgsql' => 'PostgreSQL',
                 ],
             ],
@@ -92,10 +62,10 @@ return [
         'success' => 'Ihre .env-Dateieinstellungen wurden gespeichert.',
         'errors' => 'Die .env-Datei konnte nicht gespeichert werden. Bitte erstellen Sie sie manuell.',
     ],
-
-    /**
-     * Seite zum Erstellen eines Kontos.
-     */
+    'theme' => [
+        'title' => 'Wählen Sie Thema',
+        'message' => 'Wählen Sie ein Thema, um das Erscheinungsbild Ihrer Website zu personalisieren. Diese Auswahl importiert auch Beispieldaten, die auf das ausgewählte Thema zugeschnitten sind.',
+    ],
     'createAccount' => [
         'pageTitle' => 'Installation - Schritt 4: Konto erstellen',
         'title' => 'Konto erstellen',
@@ -109,25 +79,18 @@ return [
             'create' => 'Erstellen',
         ],
     ],
-
-    /**
-     * Lizenzseite.
-     */
-
     'license' => [
         'pageTitle' => 'Installation - Schritt 5: Lizenz aktivieren',
         'title' => 'Lizenz aktivieren',
         'skip' => 'Jetzt überspringen',
     ],
-
     'install' => 'Installieren',
-
     'final' => [
         'pageTitle' => 'Installation abgeschlossen',
         'title' => 'Fertig',
         'message' => 'Die Anwendung wurde erfolgreich installiert.',
         'exit' => 'Zum Administrations-Dashboard gehen',
     ],
-
     'install_success' => 'Erfolgreich installiert!',
+    'install_step_title' => 'Installation - Step :step: :title',
 ];

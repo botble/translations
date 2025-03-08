@@ -2,32 +2,33 @@
 
 return [
     'cache_management' => 'Cache management',
-    'cache_commands' => 'Clear cache commands',
+    'cache_management_description' => 'Löschen Sie den Cache, um Ihre Website auf dem neuesten Stand zu machen.',
+    'cache_commands' => 'Cache -Befehle löschen',
     'commands' => [
         'clear_cms_cache' => [
-            'title' => 'Clear all CMS cache',
-            'description' => 'Clear CMS caching: database caching, static blocks... Run this command when you don\'t see the changes after updating data.',
-            'success_msg' => 'Cache cleaned',
+            'title' => 'Löschen Sie alle CMS -Cache',
+            'description' => 'CSMS -Caching löschen: Datenbank -Caching, statische Blöcke ... Führen Sie diesen Befehl aus, wenn Sie die Änderungen nach dem Aktualisieren von Daten nicht sehen.',
+            'success_msg' => 'Cache gereinigt',
         ],
         'refresh_compiled_views' => [
-            'title' => 'Refresh compiled views',
-            'description' => 'Clear compiled views to make views up to date.',
-            'success_msg' => 'Cache view refreshed',
+            'title' => 'Aktualisieren Sie kompilierte Ansichten',
+            'description' => 'Klare kompilierte Ansichten, um die Ansichten auf dem neuesten Stand zu machen.',
+            'success_msg' => 'Cache -Ansicht aktualisiert',
         ],
         'clear_config_cache' => [
-            'title' => 'Clear config cache',
-            'description' => 'You might need to refresh the config caching when you change something on production environment.',
-            'success_msg' => 'Config cache cleaned',
+            'title' => 'Konfigurationscache löschen',
+            'description' => 'Möglicherweise müssen Sie das Konfigurationsdaching aktualisieren, wenn Sie etwas in der Produktionsumgebung ändern.',
+            'success_msg' => 'Konfigurationscache gereinigt',
         ],
         'clear_route_cache' => [
-            'title' => 'Clear route cache',
-            'description' => 'Clear cache routing.',
-            'success_msg' => 'The route cache has been cleaned',
+            'title' => 'Routencache löschen',
+            'description' => 'Cache -Routing löschen.',
+            'success_msg' => 'Der Routencache wurde gereinigt',
         ],
         'clear_log' => [
-            'title' => 'Clear log',
-            'description' => 'Clear system log files',
-            'success_msg' => 'The system log has been cleaned',
+            'title' => 'Klares Protokoll',
+            'description' => 'Systemprotokolldateien löschen',
+            'success_msg' => 'Das Systemprotokoll wurde gereinigt',
         ],
     ],
 ];
