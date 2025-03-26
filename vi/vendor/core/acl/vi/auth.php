@@ -55,7 +55,7 @@ return [
     ],
     'password_confirmation' => 'Xác nhận mật khẩu',
     'failed' => 'Không thành công',
-    'throttle' => 'ga',
+    'throttle' => 'Quá nhiều yêu cầu. Vui lòng thử lại sau :seconds giây.',
     'not_member' => 'Chưa là thành viên?',
     'register_now' => 'Đăng ký ngay',
     'lost_your_password' => 'Quên mật khẩu?',

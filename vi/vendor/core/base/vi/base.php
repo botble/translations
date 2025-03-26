@@ -23,11 +23,11 @@ return [
         'preview' => 'Xem trước',
         'icon_variables' => 'Biến biểu tượng',
         'usage' => 'Cách sử dụng:',
-        'icon_variable_usage_description' => 'You can copy variable :variable and paste:',
+        'icon_variable_usage_description' => 'Bạn có thể sao chép biến :variable và dán:',
         'add_new_icons' => 'Thêm biểu tượng mới:',
-        'add_more_icon_description' => 'You can add more icons by uploading them (supporting PNG, JPEG, JPG, and GIF formats) to the following path: :path',
+        'add_more_icon_description' => 'Bạn có thể thêm nhiều biểu tượng hơn bằng cách tải chúng lên (hỗ trợ định dạng PNG, JPEG, JPG và GIF) vào đường dẫn sau: :path',
         'missing_icons' => 'Thiếu các biểu tượng',
-        'missing_icons_description' => 'The following icons are missing in the path: :to, please copy all icons file from :from to :to.',
+        'missing_icons_description' => 'Các biểu tượng sau đang thiếu trong đường dẫn: :to, vui lòng sao chép tất cả các tệp biểu tượng từ :from sang :to.',
         'twig' => [
             'tag' => [
                 'apply' => 'Thẻ áp dụng cho phép bạn áp dụng các bộ lọc Twig',
@@ -48,9 +48,9 @@ return [
     'tools' => 'Công cụ',
     'close' => 'Đóng',
     'panel' => [
-        'others' => 'Người khác',
+        'others' => 'Khác',
         'system' => 'Hệ thống',
-        'manage_description' => 'Manage :name',
+        'manage_description' => 'Quản lý :name',
     ],
     'global_search' => [
         'title' => 'Tìm kiếm',
@@ -62,10 +62,10 @@ return [
         'to_close' => 'đóng',
     ],
     'validation' => [
-        'email_in_blacklist' => 'The :attribute is in blacklist. Please use another email address.',
-        'domain' => 'The :attribute must be a valid domain.',
+        'email_in_blacklist' => 'Email :attribute nằm trong danh sách đen. Vui lòng sử dụng địa chỉ email khác.',
+        'domain' => 'Tên miền :attribute phải hợp lệ.',
     ],
-    'showing_records' => 'Showing :from to :to of :total records',
+    'showing_records' => 'Hiển thị từ :from đến :to trong tổng số :total bản ghi',
     'copy' => 'Sao chép',
     'copied' => 'Đã sao chép',
 ];
