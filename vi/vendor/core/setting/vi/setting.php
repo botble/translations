@@ -95,8 +95,8 @@ return [
         ],
         'language' => 'Ngôn ngữ trong bảng quản trị',
         'theme_mode' => 'Chế độ chủ đề',
-        'dark' => 'Tối tăm',
-        'light' => 'Ánh sáng',
+        'dark' => 'Tối',
+        'light' => 'Sáng',
     ],
     'datatable' => [
         'title' => 'Bảng Dữ Liệu',

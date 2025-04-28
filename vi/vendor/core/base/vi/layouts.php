@@ -18,7 +18,7 @@ return [
     'search' => 'Tìm kiếm',
     'add_new' => 'Thêm mới',
     'n_a' => 'không áp dụng',
-    'page_loaded_in_time' => 'Page loaded in :time seconds',
+    'page_loaded_in_time' => 'Trang được tải trong :time giây',
     'view_website' => 'Xem trang ngoài',
     'tools' => 'Công cụ',
     'page_loaded_time' => 'Trang tải xong trong',
