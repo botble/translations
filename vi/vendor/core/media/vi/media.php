@@ -125,7 +125,7 @@ return [
         'actions_list' => [
             'basic' => [
                 'preview' => 'Xem trước',
-                'crop' => 'Mùa vụ',
+                'crop' => 'Cắt ảnh',
             ],
             'file' => [
                 'copy_link' => 'Sao chép đường dẫn',
