@@ -132,7 +132,7 @@ return [
                 'rename' => 'Đổi tên',
                 'make_copy' => 'Nhân bản',
                 'copy_indirect_link' => 'Sao chép liên kết gián tiếp',
-                'alt_text' => 'văn bản ALT',
+                'alt_text' => 'Văn bản thay thế (Alt)',
                 'share' => 'Chia sẻ',
             ],
             'user' => [
