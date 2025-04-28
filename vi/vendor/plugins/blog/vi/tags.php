@@ -3,16 +3,18 @@
 return [
     'form' => [
         'name' => 'Tên',
-        'name_placeholder' => 'Tên thẻ (Tối đa 120 ký tự)',
+        'name_placeholder' => 'Tên thẻ (tối đa 120 ký tự)',
         'description' => 'Mô tả',
-        'description_placeholder' => 'Mô tả ngắn cho thẻ (Tối đa 400 ký tự)',
+        'description_placeholder' => 'Mô tả ngắn cho thẻ (tối đa 400 ký tự)',
         'categories' => 'Danh mục',
     ],
+    'notices' => [
+        'no_select' => 'Vui lòng chọn ít nhất một thẻ để tiếp tục',
+    ],
     'create' => 'Tạo thẻ mới',
-    'edit' => 'Sửa thẻ',
     'cannot_delete' => 'Không thể xóa thẻ',
-    'deleted' => 'Thẻ đã được xóa',
+    'deleted' => 'Đã xóa thẻ',
     'menu' => 'Thẻ',
-    'edit_this_tag' => 'Sửa thẻ này',
+    'edit_this_tag' => 'Chỉnh sửa thẻ này',
     'menu_name' => 'Thẻ',
 ];

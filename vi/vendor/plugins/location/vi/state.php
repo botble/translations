@@ -1,11 +1,10 @@
 <?php
 
 return [
-    'name' => 'Tỉnh/thành phố',
-    'description' => 'Quản lý trạng thái vị trí',
-    'create' => 'Thêm tỉnh/thành phố',
+    'name' => 'Tỉnh/Thành phố',
+    'description' => 'Quản lý tỉnh/thành phố',
+    'create' => 'Tỉnh/Thành phố mới',
     'country' => 'Quốc gia',
-    'select_country' => 'Lựa chọn quốc gia...',
-    'state' => 'Tỉnh/thành phố',
-    'edit' => 'Sửa tỉnh/thành phố',
+    'select_country' => 'Chọn quốc gia...',
+    'state' => 'Tỉnh/Thành phố',
 ];

@@ -6,12 +6,13 @@ return [
     'delete_success_message' => 'Xóa thành công',
     'success_header' => 'Thành công!',
     'error_header' => 'Lỗi!',
-    'no_select' => 'Chọn ít nhất 1 trường để thực hiện hành động này!',
-    'processing_request' => 'Hệ thống đang xử lý yêu cầu.',
+    'no_select' => 'Vui lòng chọn ít nhất một bản ghi để thực hiện hành động này!',
+    'processing_request' => 'Chúng tôi đang xử lý yêu cầu của bạn.',
     'error' => 'Lỗi!',
     'success' => 'Thành công!',
     'info' => 'Thông tin!',
     'enum' => [
-        'validate_message' => 'Giá trị của :attribute không hợp lệ',
+        'validate_message' => 'Giá trị :attribute bạn đã nhập không hợp lệ.',
     ],
+    'delete_failed_message' => 'Xóa thất bại, không tìm thấy mục.',
 ];

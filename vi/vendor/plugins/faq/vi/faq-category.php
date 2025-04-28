@@ -2,6 +2,5 @@
 
 return [
     'name' => 'Danh mục',
-    'create' => 'Thêm danh mục',
-    'edit' => 'Sửa danh mục',
+    'create' => 'Danh mục mới',
 ];
