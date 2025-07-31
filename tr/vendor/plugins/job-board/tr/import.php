@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'name' => 'İthalat İşleri',
+    'choose_file' => 'Dosya seçin',
+    'choose_file_description' => 'mimes: :types içeren dosyayı seçin.',
+    'import_success_message' => 'Başarıyla içe aktarıldı.',
+    'import_failed_message' => 'İçe aktarma başarısız oldu, lütfen aşağıdaki hataları kontrol edin!',
+    'row' => 'Sıra',
+    'attribute' => 'Bağlanmak',
+    'errors' => 'Hatalar',
+    'failures' => 'Başarısızlıklar',
+    'results' => 'Sonuç: :başarılı başarı(lar), :başarısız başarısızlık(lar)',
+    'rules' => 'Tüzük',
+    'column' => 'Kolon',
+    'template' => 'Örnek şablon',
+    'download_csv_file' => 'CSV dosyasını indirin',
+    'download_excel_file' => 'Excel dosyasını indir',
+    'downloading' => 'İndiriliyor',
+    'uploading' => 'Yükleniyor...',
+    'validating' => 'Doğrulanıyor...',
+    'importing' => 'İthalat...',
+    'importing_message' => ':from\'dan :to\'ya formu içe aktarılıyor',
+    'validating_message' => ':from to :to formunun doğrulanması',
+    'total_rows' => 'Toplam satır sayısını başarıyla içe aktardınız!',
+    'update_existing_jobs' => 'Mevcut işleri güncelle',
+    'update_existing_jobs_description' => 'İşaretlendiğinde, yeni işler oluşturmak yerine aynı kimliğe veya benzersiz kimliğe sahip mevcut işler güncellenir.',
+    'unique_id_exists' => 'Benzersiz ID :id\'li iş zaten mevcut. Güncellemek için Mevcut işleri güncelle seçeneğini etkinleştirin.',
+    'id_exists' => ':id ID\'li iş zaten mevcut. Güncellemek için Mevcut işleri güncelle seçeneğini etkinleştirin.',
+    'company' => [
+        'name' => 'İthalat Şirketleri',
+    ],
+];

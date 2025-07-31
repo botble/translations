@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'Konum Dışa Aktarıcı',
+    'name' => 'Konum İhracatçısı',
 ];

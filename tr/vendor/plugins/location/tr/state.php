@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'name' => 'İller',
+    'name' => 'Devletler',
     'description' => 'Konum durumlarını yönet',
-    'create' => 'Yeni İl',
+    'create' => 'Yeni durum',
     'country' => 'Ülke',
-    'select_country' => 'Ülke Seçiniz...',
-    'state' => 'İl',
+    'select_country' => 'Bir ülke seçin...',
+    'state' => 'Durum',
     'edit' => 'İli düzenle',
 ];

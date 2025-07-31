@@ -1,17 +1,18 @@
 <?php
 
 return [
-    'create_success_message' => 'Kayıt Başarıyla Eklendi!',
-    'update_success_message' => 'Değişiklikler Başarıyla Uygulandı!',
-    'delete_success_message' => 'Kayıt Başarıyla Silindi!',
-    'success_header' => 'Başarılı!',
+    'create_success_message' => 'Başarıyla oluşturuldu',
+    'update_success_message' => 'Başarıyla güncellendi',
+    'delete_success_message' => 'Başarıyla silindi',
+    'success_header' => 'Başarı!',
     'error_header' => 'Hata!',
-    'no_select' => 'Bu eylemi gerçekleştirebilmek için en az bir kayıt seçin!',
-    'processing_request' => 'İşleniyor, lütfen bekleyin...',
+    'no_select' => 'Bu işlemi gerçekleştirmek için lütfen en az bir kayıt seçin!',
+    'processing_request' => 'Talebiniz işleme alınıyor.',
     'error' => 'Hata!',
-    'success' => 'Başarılı!',
+    'success' => 'Başarı!',
     'info' => 'Bilgi!',
     'enum' => [
-        'validate_message' => 'Girdiğiniz :attribute geçersiz.',
+        'validate_message' => 'Girdiğiniz :attribute değeri geçersiz.',
     ],
+    'delete_failed_message' => 'Silinemedi, öğe bulunamadı.',
 ];

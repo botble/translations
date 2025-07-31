@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'name' => 'Kuponlar',
+    'intro' => [
+        'button_text' => 'Kupon oluştur',
+        'title' => 'Kupon kodunu yönet',
+        'description' => 'Müşterileriniz için kupon kodu oluşturun ve yönetin.',
+    ],
+    'types' => [
+        'percentage' => 'Yüzde',
+        'fixed' => 'Sabit',
+    ],
+    'type' => 'Tip',
+    'created_message' => 'Kupon başarıyla oluşturuldu.',
+    'expires_date' => 'Son kullanma tarihi',
+    'expires_time' => 'Son kullanma tarihi',
+    'never_expired' => 'Hiçbir zaman sona ermedi',
+    'save_button' => 'Kaydet',
+    'coupon_code' => 'Kupon kodu',
+    'coupon_code_placeholder' => 'Kupon kodunu girin',
+    'generate_code_button' => 'Kod üret',
+    'value' => 'Değer',
+    'value_placeholder' => 'Kupon değerini girin',
+    'value_off' => ':değer kapalı',
+    'total_used' => 'Kullanılmış',
+    'expired' => 'Günü geçmiş',
+    'active' => 'Aktif',
+    'unlimited' => 'Sınırsız kupon',
+    'quantity' => 'Miktar',
+    'quantity_placeholder' => 'Kupon numarasını giriniz',
+    'discount_amount' => 'İndirim tutarı',
+    'total' => 'Toplam',
+    'toggle_coupon_form_text' => 'Kupon kodunuz var mı?',
+    'apply_coupon_code' => 'Uygula',
+];

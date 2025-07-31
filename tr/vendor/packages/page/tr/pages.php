@@ -1,28 +1,28 @@
 <?php
 
 return [
-    'create' => 'Yeni Sayfa Yarat',
+    'create' => 'Yeni sayfa oluştur',
     'form' => [
-        'name' => 'Ad',
-        'name_placeholder' => 'Sayfanın adı (En fazla 120 karakter)',
-        'content' => 'İçereik',
-        'note' => 'Not İçeriği',
+        'name' => 'İsim',
+        'name_placeholder' => 'Sayfanın adı (Maksimum 120 karakter)',
+        'content' => 'İçerik',
+        'note' => 'Not içeriği',
     ],
     'notices' => [
-        'no_select' => 'Bu eylemi gerçekleştirmek için lütfen en az bir kayıt seçin!',
-        'update_success_message' => 'Başarıyla Güncellendi',
+        'no_select' => 'Bu işlemi gerçekleştirmek için lütfen en az bir kayıt seçin!',
+        'update_success_message' => 'Güncelleme başarıyla gerçekleştirildi',
     ],
-    'cannot_delete' => 'Sayfa Silinemedi',
-    'deleted' => 'Sayfa Silindi',
+    'cannot_delete' => 'Sayfa silinemedi',
+    'deleted' => 'Sayfa silindi',
     'pages' => 'Sayfalar',
     'menu' => 'Sayfalar',
     'menu_name' => 'Sayfalar',
-    'edit_this_page' => 'Sayfayı Düzenle',
-    'total_pages' => 'Toplam Sayfalar',
+    'edit_this_page' => 'Bu sayfayı düzenle',
+    'total_pages' => 'Toplam sayfa sayısı',
     'front_page' => 'Ön Sayfa',
     'theme_options' => [
         'title' => 'Sayfa',
-        'your_home_page_display' => 'Ana sayfanız görüntülenir',
+        'your_home_page_display' => 'Ana sayfanız görüntüleniyor',
     ],
     'edit' => 'Sayfayı Düzenle',
     'settings' => [
