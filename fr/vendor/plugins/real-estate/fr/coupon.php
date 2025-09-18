@@ -1,0 +1,38 @@
+<?php
+
+return [
+    'name' => 'Coupons',
+    'create' => 'Nouveaux Coupons',
+    'edit' => 'Modifier le coupon ":name"',
+    'intro' => [
+        'button_text' => 'Créer un coupon',
+        'title' => 'Gérer les codes de coupons',
+        'description' => 'Créer et gérer les codes de coupons pour vos clients.',
+    ],
+    'types' => [
+        'percentage' => 'Pourcentage',
+        'fixed' => 'Fixe',
+    ],
+    'type' => 'Type',
+    'created_message' => 'Le coupon a été créé avec succès.',
+    'expires_date' => 'Date d\'expiration',
+    'expires_time' => 'Heure d\'expiration',
+    'never_expired' => 'N\'expire jamais ?',
+    'save_button' => 'Enregistrer',
+    'coupon_code' => 'Code de coupon',
+    'coupon_code_placeholder' => 'Entrez le code de coupon',
+    'generate_code_button' => 'Générer le code',
+    'value' => 'Valeur',
+    'value_placeholder' => 'Entrez la valeur du coupon',
+    'value_off' => ':value de réduction',
+    'total_used' => 'Utilisé',
+    'expired' => 'Expiré',
+    'active' => 'Actif',
+    'unlimited' => 'Coupon illimité ?',
+    'quantity' => 'Quantité',
+    'quantity_placeholder' => 'Entrez le nombre de coupons',
+    'discount_amount' => 'Montant de la remise',
+    'total' => 'Total',
+    'toggle_coupon_form_text' => 'Vous avez un code de coupon ?',
+    'apply_coupon_code' => 'Appliquer',
+];
