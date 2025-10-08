@@ -18,7 +18,7 @@ return [
     'file' => 'Der Inhalt muss eine Datei sein.',
     'numeric' => 'Das muss eine Zahl sein.',
     'string' => 'Das muss ein String sein.',
-    'boolean' => 'Dieses Feld muss entweder '\'true'\' oder '\'false'\' sein.',
+    'boolean' => 'Dieses Feld muss entweder \'true\' oder \'false\' sein.',
     'can' => 'Dieses Feld enthält einen nicht autorisierten Wert.',
     'confirmed' => 'Die Bestätigung stimmt nicht überein.',
     'contains' => 'Diesem Feld fehlt ein erforderlicher Wert.',

@@ -18,7 +18,7 @@ return [
     'file' => 'Šis laukas turi būti failas.',
     'numeric' => 'Šio lauko reikšmė turi būti skaičius.',
     'string' => 'Šis laukas turi būti tekstinis.',
-    'boolean' => 'Šio lauko reikšmė turi būti '\'taip'\' arba '\'ne'\'.',
+    'boolean' => 'Šio lauko reikšmė turi būti \'taip\' arba \'ne\'.',
     'can' => 'Šiame lauke yra neleistina reikšmė.',
     'confirmed' => 'Šio lauko patvirtinimas nesutampa.',
     'contains' => 'Šiame lauke trūksta būtinos vertės.',

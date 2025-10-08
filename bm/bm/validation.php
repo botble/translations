@@ -127,7 +127,7 @@ return [
     'timezone' => 'Nin foro in ka kan ka kɛ waatibolodacogo bɛnnen ye.',
     'ulid' => 'Nin foro in ka kan ka kɛ ULID ye min bɛ se ka kɛ.',
     'unique' => 'O foro in minɛna kaban.',
-    'uploaded' => 'O foro in ma Se ka '\'yɔrɔ Labɛn.',
+    'uploaded' => 'O foro in ma Se ka \'yɔrɔ Labɛn.',
     'uppercase' => 'O foro in ka kan ka kɛ ni sɛbɛnnibolo belebelebaw ye.',
     'url' => 'Nin foro in ka kan ka kɛ URL ye min bɛ se ka kɛ.',
     'uuid' => 'Nin foro in ka kan ka kɛ UUID ye min bɛ se ka kɛ.',

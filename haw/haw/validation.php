@@ -77,7 +77,7 @@ return [
     'file' => 'Pono kēia kahua he faila.',
     'numeric' => 'He helu pono keia kahua.',
     'string' => 'Pono kēia kahua he kaula.',
-    'max_digits' => ''\'A'\'ole pono e '\'oi aku ma mua o :max mau huahelu.',
+    'max_digits' => '\'A\'ole pono e \'oi aku ma mua o :max mau huahelu.',
     'mimes' => 'Pono kēia kahua he faila o ke ʻano: :values.',
     'mimetypes' => 'Pono kēia kahua he faila o ke ʻano: :values.',
     'array' => 'Pono kēia kahua i kahi laha.',

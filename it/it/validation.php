@@ -53,7 +53,7 @@ return [
     'numeric' => 'Deve essere un numero.',
     'string' => 'Deve essere una stringa.',
     'hex_color' => 'Questo campo deve essere un colore esadecimale valido.',
-    'image' => 'Deve essere un'\'immagine.',
+    'image' => 'Deve essere un\'immagine.',
     'in' => 'Valore non valido.',
     'in_array' => 'Non esiste in :other.',
     'in_array_keys' => 'Questo campo deve contenere almeno una delle seguenti chiavi: :values.',

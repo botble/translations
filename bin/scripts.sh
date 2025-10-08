@@ -69,8 +69,8 @@ get_json_value() {
 
 # Function to escape single quotes for PHP
 escape_php_string() {
-    # Replace single quotes with escaped single quotes
-    echo "$1" | sed "s/'/'\\\\'/g"
+    # Replace single quotes with backslash-escaped single quotes for PHP
+    echo "$1" | sed "s/'/\\\'/g"
 }
 
 # Function to generate PHP array file from JSON
@@ -116,8 +116,8 @@ generate_php_from_json() {
                 local value=$(echo "$merged_json" | jq -r --arg k "$key" '.[$k] // empty' 2>/dev/null)
 
                 if [ -n "$value" ]; then
-                    # Escape single quotes in the value
-                    local escaped_value=$(echo "$value" | sed "s/'/'\\\\'/g")
+                    # Escape single quotes in the value for PHP
+                    local escaped_value=$(echo "$value" | sed "s/'/\\\'/g")
                     echo "    '$key' => '$escaped_value',"
                 fi
             fi
