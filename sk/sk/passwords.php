@@ -1,20 +1,10 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Password Reset Language Lines
-|--------------------------------------------------------------------------
-|
-| The following language lines are the default lines which match reasons
-| that are given by the password broker for a password update attempt
-| has failed, such as for an invalid token or invalid new password.
-|
-*/
-
 return [
-    'reset'     => 'Heslo bolo zmenené!',
-    'sent'      => 'Pripomienka k zmene hesla bola odoslaná!',
+    'reset' => 'Heslo bolo resetované!',
+    'sent' => 'Odkaz na obnovenie hesla sme Vám poslali emailom.',
     'throttled' => 'Pred ďalším pokusom chvíľu počkajte.',
-    'token'     => 'Klúč pre obnovu hesla je neplatný.',
-    'user'      => 'Nepodarilo sa nájsť používateľa s touto e-mailovou adresou.',
+    'token' => 'Tento token na obnovenie hesla je neplatný.',
+    'user' => 'Nepodarilo sa nájsť používateľa s touto emailovou adresou.',
 ];
+

@@ -7,3 +7,4 @@ return [
     'token' => 'Parola sıfırlama kodu geçersiz.',
     'user' => 'Bu e-posta adresi ile kayıtlı bir üye bulunamadı.',
 ];
+

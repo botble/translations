@@ -7,3 +7,4 @@ return [
     'token' => 'Este código de recuperação da palavra-passe é inválido.',
     'user' => 'Não existe nenhum utilizador com o e-mail indicado.',
 ];
+

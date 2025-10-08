@@ -7,3 +7,4 @@ return [
     'token' => 'Mã khôi phục mật khẩu không hợp lệ.',
     'user' => 'Không tìm thấy người dùng với địa chỉ email này.',
 ];
+
